@@ -1,0 +1,44 @@
+-start(base)
+-base(base2)
+Backup
+Box
+Bright
+Deposit
+Dispense
+Drop
+Docu
+Document
+File
+Handy
+Jump
+Media
+One
+Safe
+Speedy
+Stuff
+Sugar
+Titan
+-base2(stop,stop,stop,stop,ext)
+ Box
+ Cloud
+ Connect
+ Drive
+ Fast
+ Fire
+ Keep
+ Save
+ Store
+ Sync
+ Util
+ Utility
+-ext(stop)
++
+ 360
+ 365
+ Lite
+ Online
+ Plus
+ Pro
+ Professional
+ Ultimate
+ Unlimited

@@ -121,6 +121,28 @@
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
+			<Name>Templates</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Vector graphics</Name>
+			<Category>2D</Category>
+			<Description>Lines, boxes and circles.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
 			<Name>Charts</Name>
 			<Category>2D</Category>
 			<Unlock>1986</Unlock>
@@ -133,17 +155,6 @@
 			<Dependency Software="Office Software">GUI</Dependency>
             <Dependency Software="Office Software">Data tabulation</Dependency>
             <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
-		</Feature>
-		<Feature Vital="TRUE">
-			<Name>Vector graphics</Name>
-			<Category>2D</Category>
-			<Description>Lines, boxes and circles.</Description>
-			<DevTime>4</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
-			<Dependency Software="Office Software">GUI</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Animations</Name>
@@ -168,17 +179,6 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Operating System">8-bit audio</Dependency>
             <SoftwareCategory Category="Presentations">0</SoftwareCategory>
-		</Feature>
-		<Feature Vital="TRUE">
-			<Name>Templates</Name>
-			<Category>2D</Category>
-			<Description></Description>
-			<DevTime>2</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>4</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
-			<Dependency Software="Office Software">GUI</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Clipart</Name>
@@ -214,8 +214,8 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Server>0.001</Server>
 			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Export to CSV</Name>

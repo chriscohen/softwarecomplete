@@ -66,7 +66,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Operating System">3D rendering</Dependency>
+			<Dependency Software="3D Editor">3D rendering</Dependency>
 		</Feature>
         <Feature Vital="TRUE" From="3D rendering">
 			<Name>Textures</Name>

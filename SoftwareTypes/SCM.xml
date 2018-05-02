@@ -122,6 +122,7 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="SCM">Distributed SCM</Dependency>
+            <Dependency Software="Website">File uploads</Dependency>
         </Feature>
     </Features>
 </SoftwareType>

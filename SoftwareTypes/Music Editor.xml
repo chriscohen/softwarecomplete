@@ -138,8 +138,8 @@
 			<Usability>3</Usability>
 			<Stability>2</Stability>
 			<CodeArt>0.5</CodeArt>
-            <Server>0.01</Server>
             <Dependency Software="Music Editor">Music library</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
 		</Feature>
         <Feature Vital="TRUE">
             <Name>Cloud save</Name>
@@ -151,7 +151,7 @@
             <Usability>3</Usability>
             <Stability>4</Stability>
             <CodeArt>1</CodeArt>
-            <Server>0.02</Server>
+            <Dependency Software="Website">File uploads</Dependency>
         </Feature>
 		<Feature Vital="TRUE">
             <Name>VST instruments</Name>

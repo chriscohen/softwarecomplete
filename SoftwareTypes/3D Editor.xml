@@ -275,8 +275,8 @@
             <Usability>3</Usability>
             <Stability>3</Stability>
             <CodeArt>0.5</CodeArt>
-            <Server>0.01</Server>
             <Dependency Software="3D Editor">Stock library</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
         </Feature>
 	</Features>
 </SoftwareType>
