@@ -704,7 +704,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-            <Dependency Software="Operating System">Peripherals</Dependency>
             <SoftwareCategory Category="Phone">2010</SoftwareCategory>
             <SoftwareCategory Category="Watch">2013</SoftwareCategory>
 		</Feature>
