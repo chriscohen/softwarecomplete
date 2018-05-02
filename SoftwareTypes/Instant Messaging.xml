@@ -151,6 +151,7 @@
 			<CodeArt>0.8</CodeArt>
             <Server>0.002</Server>
             <Dependency Software="Operating System">Video playback</Dependency>
+			<Dependency Software="Operating System">Webcam support</Dependency>
             <Dependency Software="Video Editor">Video compression</Dependency>
 		</Feature>
         <Feature>
@@ -177,6 +178,20 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Instant Messaging">Encryption</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Social sharing</Name>
+			<Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Unlock>2008</Unlock>
+			<Description>Allows files to be transferred securely between users.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.9</CodeArt>
+            <Dependency Software="Instant Messaging">GUI</Dependency>
+			<Dependency Software="Website">3rd party sharing</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>
