@@ -24,10 +24,10 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
-            <!--<Dependency Software="Operating System">GUI</Dependency>
-            <Dependency Software="2D Editor">Graphic design</Dependency>-->
+            <Dependency Software="Operating System">GUI</Dependency>
+            <Dependency Software="2D Editor">Graphic design</Dependency>
         </Feature>
-        <!--<Feature Vital="TRUE">
+        <Feature Vital="TRUE">
 			<Name>File management</Name>
 			<Description>Allow users to open, edit, and save different types of files.</Description>
 			<Category>System</Category>
@@ -183,9 +183,250 @@
             <CodeArt>1</CodeArt>
             <Dependency Software="SCM">Revision history</Dependency>
             <Dependency Software="IDE">File management</Dependency>
-        </Feature>-->
+        </Feature>
         <!-- LANGUAGES START -->
-
+        <Feature Research="Language support">
+            <Name>C</Name>
+            <Unlock>1980</Unlock>
+            <Description>Add C support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>C++</Name>
+            <Unlock>1983</Unlock>
+            <Description>Add C++ support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Objective-C</Name>
+            <Unlock>1983</Unlock>
+            <Description>Add Objective-C support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Perl</Name>
+            <Unlock>1987</Unlock>
+            <Description>Add Perl support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Python</Name>
+            <Unlock>1989</Unlock>
+            <Description>Add Python support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>HTML</Name>
+            <Unlock>1990</Unlock>
+            <Description>Add HTML support to the IDE.</Description>
+            <Category>Web</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Visual Basic</Name>
+            <Unlock>1991</Unlock>
+            <Description>Add Visual Basic support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Lua</Name>
+            <Unlock>1993</Unlock>
+            <Description>Add Lua support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Java</Name>
+            <Unlock>1995</Unlock>
+            <Description>Add Java support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>Ruby</Name>
+            <Unlock>1995</Unlock>
+            <Description>Add Ruby support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>PHP</Name>
+            <Unlock>1995</Unlock>
+            <Description>Add PHP support to the IDE.</Description>
+            <Category>Web</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>JavaScript</Name>
+            <Unlock>1995</Unlock>
+            <Description>Add JavaScript support to the IDE.</Description>
+            <Category>Web</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>CSS</Name>
+            <Unlock>1996</Unlock>
+            <Description>Cascading Style Sheets allow visual styles to be separated from HTML code.</Description>
+            <Category>Web</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>ActionScript</Name>
+            <Unlock>1998</Unlock>
+            <Description>Add ActionScript support to the IDE.</Description>
+            <Category>Web</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>C#</Name>
+            <Unlock>2000</Unlock>
+            <Description>Add C# support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>.NET Framework</Name>
+            <Unlock>2002</Unlock>
+            <Description>Add .NET Framework support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>.NET Framework 2.0</Name>
+            <Unlock>2005</Unlock>
+            <Description>Add .NET Framework 2.0 support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>.NET Framework 3.0</Name>
+            <Unlock>2006</Unlock>
+            <Description>Add .NET Framework 3.0 support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>SCSS</Name>
+            <Unlock>2006</Unlock>
+            <Description>Syntactically Awesome Style Sheets is an improvement upon CSS and allows for variables, nested structures and other features.</Description>
+            <Category>Web</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>.NET Framework 4.0</Name>
+            <Unlock>2010</Unlock>
+            <Description>Add .NET Framework 4.0 support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>TypeScript</Name>
+            <Unlock>2012</Unlock>
+            <Description>Add TypeScript support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>.NET Framework 4.7</Name>
+            <Unlock>2017</Unlock>
+            <Description>Add .NET Framework 4.7 support to the IDE.</Description>
+            <Category>System</Category>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
         <!-- LANGUAGES END -->
     </Features>
 </SoftwareType>
