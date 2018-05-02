@@ -211,6 +211,47 @@
             <Dependency Software="Website">Blog posting</Dependency>
             <SoftwareCategory Category="Blog">0</SoftwareCategory>
         </Feature>
+        <Feature>
+            <Name>WYSIWYG editor</Name>
+            <Category>Web</Category>
+            <Description>Adds a "what you see is what you get" editor for text formatting on-screen while writing.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.9</CodeArt>
+            <Dependency Software="Website">Blog posting</Dependency>
+            <Dependency Software="IDE">JavaScript</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Embed audio clips</Name>
+            <Category>Web</Category>
+            <Description>Allows audio clips to be embedded into blog posts.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+            <Dependency Software="Website">Blog posting</Dependency>
+            <Dependency Software="Audio Tool">Cloud save</Dependency>
+            <Dependency Software="Audio Tool">Audio compression</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Embed video clips</Name>
+            <Category>Web</Category>
+            <Description>Allows video clips to be embedded into blog posts.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+            <Dependency Software="Website">Blog posting</Dependency>
+            <Dependency Software="Video Editor">Cloud save</Dependency>
+            <Dependency Software="Video Editor">Video compression</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
         <!-- BLOG END -->
         <!-- VIDEO START -->
         <Feature Forced="TRUE">
@@ -298,7 +339,7 @@
         <Feature Forced="TRUE">
 			<Name>Music playback</Name>
 			<Category>Audio</Category>
-            <ArtCategory>2D</ArtCategory>
+            <ArtCategory>Web</ArtCategory>
 			<Description>Users can play back music from the site.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -338,8 +379,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Music ratings</Name>
-			<Category>System</Category>
-            <ArtCategory>2D</ArtCategory>
+			<Category>Web</Category>
 			<Description>Users can add ratings for music.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -352,8 +392,7 @@
 		</Feature>
         <Feature From="Music ratings" Vital="TRUE">
 			<Name>Music reviews</Name>
-			<Category>System</Category>
-            <ArtCategory>2D</ArtCategory>
+			<Category>Web</Category>
 			<Description>Users can add reviews and ratings for music.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -367,8 +406,7 @@
         <!-- DATING START -->
         <Feature Forced="TRUE">
             <Name>Dating profiles</Name>
-            <Category>System</Category>
-            <ArtCategory>2D</ArtCategory>
+            <Category>Web</Category>
             <Description>Allow users to create and share profiles.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
@@ -438,7 +476,7 @@
         <!-- SOCIAL NETWORK START -->
         <Feature Forced="TRUE">
             <Name>Social profiles</Name>
-            <Category>System</Category>
+            <Category>Web</Category>
             <ArtCategory>2D</ArtCategory>
             <Description>Users can create and share profile information.</Description>
             <DevTime>2</DevTime>
@@ -452,7 +490,7 @@
         </Feature>
         <Feature Vital="TRUE">
             <Name>Friend requests</Name>
-            <Category>System</Category>
+            <Category>Web</Category>
             <Description>Users can befriend others.</Description>
             <DevTime>1</DevTime>
             <Innovation>1</Innovation>
@@ -506,6 +544,19 @@
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
             <Dependency Software="Website">Social timeline</Dependency>
+            <SoftwareCategory Category="Social Network">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Privacy settings</Name>
+            <Category>Algorithm</Category>
+            <Unlock>2012</Unlock>
+            <Description>Allow users fine-grained control about what others can see on their profiles.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>2</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Website">Friend requests</Dependency>
             <SoftwareCategory Category="Social Network">0</SoftwareCategory>
         </Feature>
         <!-- SOCIAL NETWORK END-->
