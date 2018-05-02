@@ -1,0 +1,215 @@
+<SoftwareType>
+	<Name>Cryptography</Name>
+	<Category>Cryptography</Category>
+	<Description>Secure data locally or during transmission using encryption.</Description>
+    <Unlock>1990</Unlock>
+	<Random>0.5</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.7</Retention>
+	<IdealPrice>100</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Iterative>0.75</Iterative>
+	<NameGenerator>Cryptography</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Cryptography library</Name>
+			<Category>Algorithm</Category>
+			<Description>Base library for providing cryptography to other applications.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Cryptography support</Dependency>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>MD2</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1989</Unlock>
+			<Description>A hashing function producing a 128-bit hash value.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>MD4</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1990</Unlock>
+			<Description>A hashing function producing a 128-bit hash value, based on MD2.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>RIPEMD</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1990</Unlock>
+			<Description>A cryptographic hashing function with a 128-bit digest.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>IDEA</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1991</Unlock>
+			<Description>The International Data Encryption Algorithm is a symmetric-key block cipher based on DES.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>MD5</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1992</Unlock>
+			<Description>A hashing function producing a 128-bit hash value, based on MD4.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>Blowfish</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1993</Unlock>
+			<Description>A symmetric-key block cipher.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>SHA-1</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1995</Unlock>
+			<Description>Secure Hash Algorithm 1 is a cryptographic hash function.</Description>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>RIPEMD-320</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1996</Unlock>
+			<Description>A cryptographic hashing function extending upon RIPEMD, with a 320-bit digest.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE" Research="Cryptography library">
+			<Name>3DES</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1998</Unlock>
+			<Description>3DES (Triple DES) is a symmertric-key block cipher.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>AES</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1998</Unlock>
+			<Description>Advanced Encryption Standard is a substitution-permutation network cipher.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>Twofish</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1998</Unlock>
+			<Description>A symmetric-key block cipher based on Blowfish.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>SHA-2</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2001</Unlock>
+			<Description>Secure Hash Algorithm 2 is a cryptographic hash library based on SHA-1.</Description>
+			<DevTime>9</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>Whirlpool</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2003</Unlock>
+			<Description>A cryptographic hash function with a digest size of 512 bits.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>MD6</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2008</Unlock>
+			<Description>A cryptographic hashing function, based on MD5.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>BLAKE</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2008</Unlock>
+			<Description>A cryptographic hashing function, based on the ChaCha cipher.</Description>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>BLAKE2</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2012</Unlock>
+			<Description>A cryptographic hashing function improving upon BLAKE.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" Research="Cryptography library">
+			<Name>SHA-3</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2015</Unlock>
+			<Description>Secure Hash Algorithm 3 is a cryptographic hash library based on SHA-2.</Description>
+			<DevTime>13</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

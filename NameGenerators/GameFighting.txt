@@ -1,0 +1,60 @@
+-start(base1,base2,base3)
+-base1(nounPlurals)
+King of
+Streets of
+Roads of
+Towns of
+Cities of
+Martial
+Kung Fu
+Spirits of
+Fists of
+Arms of
+Face of
+-base2(descriptors)
+Street
+Martial
+Kung Fu
+Oriental
+Dojo
+Armed
+Big Bad
+Angry
+-base3(status)
+Death or
+Redemption or
+Revenge or
+Last Words of
+Final Words of
+Endure the
+Suffer the
+End the
+-nounPlurals(stop)
+ Dragon Spirit
+ Dragon Warrior
+ Punishing
+ Brawling
+ Fighting
+ the World
+ Shock
+ Aggression
+ Ghosts
+ Death
+ Assault
+-descriptors(stop)
+ Rage
+ Warrior
+ Brawler
+ Combatant
+ Militant
+ Killer
+ Mauler
+ Assault
+ Punisher
+-status(stop)
+ Dying
+ Crippling
+ Pain
+ Surrender
+ Punishment
+ Torture

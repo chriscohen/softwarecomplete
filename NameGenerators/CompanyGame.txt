@@ -1,0 +1,256 @@
+-start(base)
+-base(ext)
+2K
+3D
+Accolade
+Aces
+Actiview
+Adventure
+Amazon
+Appy
+Arena
+Artificial
+Atlus
+Atomic
+Attic
+Avalanche
+Aventurine
+Backbone
+Bauhaus
+Beenox
+Behaviour
+Big
+Biowear
+Bitmap
+Black
+Black Rock
+Black Shell
+Black Wing
+BlueByte
+Blu-ray Project
+Boss
+Boss Key
+BreakAway
+Bugbear
+Bullfrog
+Bungie
+CD Project
+Certain
+Climax
+Cloud
+Clover
+Coding Masters
+Colossal
+Compulsion
+Creative
+Criterion
+Cryptic
+Crystal
+Cyan
+Cyber
+Dambuster
+Deadline
+Demiurge
+Digital Xtra
+Digital Illusions
+Digital Reality
+Double Helix
+DVD Project
+Ego
+Eidork
+Electronic
+Elemental
+Ensemble
+Epic
+Epicenter
+Eugen
+Evolution
+Farsight
+Feelgood
+Firefly
+FirstStar
+Flying Wing
+Fox
+Frictional
+Frogware
+From
+Frontier
+Frozen
+Future
+Galactic
+Galaxy
+Gearbox
+Genki
+Grasshopper
+Gravity
+Gremlin
+Griptonite
+Guerilla
+Gust
+Halfbrick
+Harebrained
+Harmonica
+Hero
+High Moon
+High Voltage
+Hothead
+Human Head
+Humongous
+Hyperion
+id
+Ideas
+Idol
+Illusion
+Imperium
+Incredible
+Infinite
+Infiniti
+Infinity
+Innerloop
+Insomniac
+Interceptor
+Interplay
+Introversion
+IO
+Ion
+Iron
+Ironsights
+Irrational
+Juice
+Jupiter
+Kairo
+Kalypso
+King
+Krome
+Kroteam
+Kuma
+Kush
+Larian
+Legacy
+Legend
+Lionhead
+Liquid
+Llama
+Looking Glass
+Mach-5
+Magenta
+Marvelous
+Massive
+Masthead
+Mean
+Mercury
+Metropolis
+Midway
+Milestone
+Molecular
+Monolith
+Mythical
+Nearsight
+Nerve
+NextLevel
+Ninja
+Nordeus
+Nova
+Obsidian
+Odd
+Omega
+Origin
+Outrage
+Overkill
+Pangea
+Papaya
+Paradox
+Parallax
+Pandemic
+Penguin
+Piranha
+Pivotal
+Pixel
+Playfish
+Platinum
+Pophat
+Pyro
+Pyromaniac
+Radical
+Rare
+Raven
+Reality
+Rebellion
+Red
+Red Storm
+Reflection
+Relic
+Remedy
+Respawn
+Revolution
+Riot
+Robot
+Rock Star
+Rocksteady
+Runic
+Sensible
+Serious
+Sierra
+Silicon
+Sledgehammer
+Snail
+Snowblind
+Snowstorm
+Spectrum
+Spellbound
+Splash Damage
+Stainless
+Starbreeze
+Stardust
+Storm
+Sucker
+Tango
+Telltale
+Tequila
+Trapdoor
+Transmission
+Travller
+Tripwire
+Typhoon
+Unique
+United
+Valve
+Vanilla
+Vicarious
+Voxel
+Warhorse
+Westwood
+Wildfire
+YoobiSoft
+Zombie
+-ext(stop)
+ Associates
+ Assembly
+ Arts
+ Bytes
+ Cell
+ Corporation
+ Creations
+ Developments
+ Dynamics
+ Entertainment
+ Entertainment Software
+ Foundation
+ Game Studios
+ Game Worlds
+ Games
+ Gameworks
+ Industries
+ Interactive
+ Labs
+ Media
+Net
+ Productions
+ Realms
+ Soft
+ Software
+ Sports
+ Studios
+ System Works
+ Systems
+ Worlds

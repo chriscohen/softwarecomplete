@@ -1,0 +1,698 @@
+<SoftwareType>
+	<Name>Operating System</Name>
+	<Category>Computing</Category>
+	<Description>The Operating System is the largest piece of software in Software Inc.
+Most software needs an Operating System to run on. When people stop buying a line of Operating Systems, they will also stop buying software for them.</Description>
+	<Random>0</Random>
+    <OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<IdealPrice>200</IdealPrice>
+	<NameGenerator>OS</NameGenerator>
+	<Categories>
+		<Category Name="Computer">
+			<Description>For the desk.</Description>
+			<Popularity>0.95</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>1</Iterative>
+            <NameGenerator>OperatingSystemComputer</NameGenerator>
+		</Category>
+		<Category Name="Console">
+			<Description>For the TV.</Description>
+			<Popularity>0.75</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>1</Iterative>
+            <NameGenerator>OperatingSystemConsole</NameGenerator>
+		</Category>
+		<Category Name="Phone">
+			<Description>For the pocket.</Description>
+			<Popularity>1</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>1995</Unlock>
+            <NameGenerator>OperatingSystemPhone</NameGenerator>
+		</Category>
+        <Category Name="Watch">
+			<Description>For the wrist.</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.6</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>2013</Unlock>
+            <NameGenerator>OperatingSystemWatch</NameGenerator>
+		</Category>
+        <Category Name="Smart Home">
+			<Description>For the modern home.</Description>
+			<Popularity>0.75</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.8</TimeScale>
+			<Iterative>1</Iterative>
+			<Unlock>2015</Unlock>
+            <NameGenerator>OperatingSystemSmartHome</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Terminal</Name>
+			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
+			<Category>System</Category>
+			<DevTime>4</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>GUI</Name>
+			<Category>2D</Category>
+			<Unlock>1975</Unlock>
+			<Description>The Graphical User Interface allow users to actually visualize what they are doing. No longer will they be bound to inputting one line at a time.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Font management</Name>
+			<Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Unlock>1979</Unlock>
+			<Description>Manage and install fonts on the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.4</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE" Research="GUI">
+			<Name>PDF support</Name>
+			<Category>2D</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Unlock>1993</Unlock>
+			<Description>Native support for the PDF file format.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>3D rendering</Name>
+			<Category>3D</Category>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+			<SoftwareCategory Category="Computer">1983</SoftwareCategory>
+			<SoftwareCategory Category="Console">1983</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Keyboard</Name>
+			<Description>Allow the user to interact with the operating system via keyboard.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+		</Feature>
+        <Feature Forced="TRUE">
+			<Name>Button input</Name>
+			<Description>Allow the user to interact with the operating system via watch buttons.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Mouse</Name>
+            <Unlock>1982</Unlock>
+			<Description>Allow the user to interact with the operating system via mouse.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Peripherals</Name>
+			<Description>Allow extra devices to be connected to the operating system.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>USB 1</Name>
+            <Unlock>1996</Unlock>
+			<Description>Allows a Universal Serial Bus connection.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature From="USB 1">
+			<Name>USB 2</Name>
+            <Unlock>2000</Unlock>
+			<Description>Successor to the USB 1 standard.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">USB 1</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature From="USB 2">
+			<Name>USB 3</Name>
+            <Unlock>2008</Unlock>
+			<Description>Successor to the USB 2 standard.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">USB 2</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature From="USB 3" Vital="TRUE">
+			<Name>USB Type-C</Name>
+            <Unlock>2014</Unlock>
+			<Description>A connector for USB that works both ways up.</Description>
+			<Category>System</Category>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">USB 3</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature Forced="TRUE">
+			<Name>Watch bluetooth</Name>
+			<Description>The watch can connect to other devices by bluetooth.</Description>
+			<Category>Network</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Watch">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Bluetooth</Name>
+			<Description>The OS can connect to other devices by bluetooth.</Description>
+			<Category>Network</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+			<SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Printing</Name>
+			<Description>The OS can send a document to a connected printer.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+			<SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>USB printing</Name>
+			<Description>The OS can send a document via USB to a connected printer.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Printing</Dependency>
+			<SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+        <Feature From="Printing" Vital="TRUE">
+			<Name>Wireless printing</Name>
+			<Description>The OS can send a document via WiFi to a printer.</Description>
+			<Category>Network</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Wireless networking</Dependency>
+			<SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Touch</Name>
+			<Unlock>2000</Unlock>
+			<Description>Allows interaction with the system via touch screen.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Multithreading</Name>
+			<Category>System</Category>
+			<Description>Multithreading allows the Operating System to run mulitple threads at the same time by continually switching between them intelligently, speeding up applications.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">0</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Multitasking</Name>
+			<Category>System</Category>
+			<Description>Let users have several applications open at any one time.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">2000</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
+			<Dependency Software="Operating System">Multithreading</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Networking</Name>
+			<Category>Network</Category>
+			<Description>Connect to other computers on a local network or the internet.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Computer">1985</SoftwareCategory>
+			<SoftwareCategory Category="Console">1985</SoftwareCategory>
+			<SoftwareCategory Category="Phone">1997</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
+		</Feature>
+        <Feature From="Networking" Vital="TRUE">
+			<Name>Wireless networking</Name>
+            <Unlock>1997</Unlock>
+			<Category>Network</Category>
+			<Description>Connect to the internet using WiFi.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Auto-update</Name>
+			<Unlock>1991</Unlock>
+			<Description>Keep bugs and malware out by automatically updating with security patches.</Description>
+			<Category>Network</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.0001</Server>
+            <Dependency Software="Operating System">File management</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>64-bit</Name>
+			<Category>System</Category>
+			<Description>Doubles the size of bits per register, allowing for bigger numbers, more memory, larger files, etc.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Computer">1993</SoftwareCategory>
+			<SoftwareCategory Category="Console">1995</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>PC speaker</Name>
+			<Description>For all your beeping needs.</Description>
+			<Category>Audio</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+		<Feature From="PC speaker" Vital="TRUE">
+			<Name>8-bit audio</Name>
+			<Category>Audio</Category>
+			<Unlock>1984</Unlock>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+		<Feature From="8-bit audio" Vital="TRUE">
+			<Name>16-bit audio</Name>
+			<Category>Audio</Category>
+			<Unlock>1988</Unlock>
+			<Description>Audio with 16 bits per channel.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+        <Feature From="16-bit audio" Vital="TRUE">
+			<Name>24-bit audio</Name>
+			<Category>Audio</Category>
+			<Unlock>1990</Unlock>
+			<Description>Audio with 24 bits per channel.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Video playback</Name>
+			<Category>2D</Category>
+			<Unlock>1987</Unlock>
+			<Description>Native support for playing back video.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <Dependency Software="Operating System">8-bit audio</Dependency>
+            <Dependency Software="Operating System">GUI</Dependency>
+            <SoftwareCategory Category="Computer">1987</SoftwareCategory>
+            <SoftwareCategory Category="Console">1987</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Line input</Name>
+			<Category>Audio</Category>
+			<Unlock>1984</Unlock>
+			<Description>Allows microphones or other audio input devices to be connected.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <Dependency Software="Operating System">8-bit audio</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE" Research="8-bit audio">
+			<Name>MIDI input</Name>
+			<Category>Audio</Category>
+			<Unlock>1984</Unlock>
+			<Description>Allows MIDI instruments to be connected.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Controller input</Name>
+			<Category>System</Category>
+			<Description>Allows game controllers to be connected.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Joystick input</Name>
+			<Category>System</Category>
+			<Description>Allows joysticks to be connected.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Steering wheel input</Name>
+			<Category>System</Category>
+			<Unlock>1985</Unlock>
+			<Description>Allows steering wheels to be connected.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>App store support</Name>
+			<Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Unlock>2006</Unlock>
+			<Description>Allows app stores to function on a device or phone.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.7</CodeArt>
+            <Dependency Software="Operating System">Wireless networking</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Game store support</Name>
+            <Unlock>2006</Unlock>
+			<Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Description>Allows games to be digitally downloaded via a store on the console.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.7</CodeArt>
+            <Dependency Software="Operating System">Networking</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>SMS</Name>
+			<Category>Network</Category>
+			<Unlock>1995</Unlock>
+			<Description>The short messaging service allows users to send text messages up to 160 characters.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Cryptography support</Name>
+			<Category>Algorithm</Category>
+			<Unlock>1990</Unlock>
+			<Description>Allows use of cryptographic functions to store or transmit data securely.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+		</Feature>
+        <Feature>
+			<Name>File management</Name>
+			<Category>System</Category>
+			<Unlock>1970</Unlock>
+			<Description>Files can be loaded and saved to various devices.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Floppy disk support</Name>
+			<Category>System</Category>
+			<Unlock>1975</Unlock>
+			<Description>Floppy disk drives can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">1975</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>CD-ROM support</Name>
+			<Category>System</Category>
+			<Unlock>1989</Unlock>
+			<Description>CD-ROM drives can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">1989</SoftwareCategory>
+            <SoftwareCategory Category="Console">1989</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE" From="CD-ROM support">
+			<Name>DVD-ROM support</Name>
+			<Category>System</Category>
+			<Unlock>1997</Unlock>
+			<Description>DVD-ROM drives can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <SoftwareCategory Category="Computer">1997</SoftwareCategory>
+            <SoftwareCategory Category="Console">2002</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE" From="DVD-ROM support">
+			<Name>Blu-ray support</Name>
+			<Category>System</Category>
+			<Unlock>2006</Unlock>
+			<Description>Blu-ray drives can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <SoftwareCategory Category="Computer">2006</SoftwareCategory>
+            <SoftwareCategory Category="Console">2006</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Hard disk support</Name>
+			<Category>System</Category>
+			<Unlock>1981</Unlock>
+			<Description>Hard disk drives can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">1981</SoftwareCategory>
+            <SoftwareCategory Category="Console">1995</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Memory card support</Name>
+			<Category>System</Category>
+			<Unlock>1995</Unlock>
+			<Description>Memory cards can be connected to the system.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <Dependency Software="Operating System">Peripherals</Dependency>
+            <SoftwareCategory Category="Computer">1995</SoftwareCategory>
+            <SoftwareCategory Category="Console">1995</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+		</Feature>
+        <Feature Forced="TRUE">
+			<Name>Internal storage</Name>
+			<Category>System</Category>
+			<Unlock>1995</Unlock>
+			<Description>Read/write solid state memory within the device.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

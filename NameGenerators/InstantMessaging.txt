@@ -1,0 +1,43 @@
+-base(base2,base2,ext)
+iSeek
+Eazy
+EZ
+X
+Internet
+We
+My
+Power
+Global
+Sky
+Team
+Wire
+Egika
+Empathic
+Mumbler
+-base2(stop,stop,ext)
+ Duo
+Speak
+Spy
+Beam
+ Messenger
+ Chat
+ Talk
+ Viewer
+ Hangouts
+Phone
+Fone
+Com
+Ring
+ Communicator
+ Exchange
+ X-change
+ Call
+ Caller
+ Client
+-ext(stop)
+ Pro
+ Lite
+ Professional
+ Premium
+ Plus
++

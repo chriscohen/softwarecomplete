@@ -1,0 +1,379 @@
+-start(base,base,base,ubernut,deeban,fez,bluehat,osy,window,acorn,pear,cpm,mpm,flex,dec,imb,os2,icl,navel,bsd)
+-base(ext)
+Solaris
+Sabre
+Venom
+Snakebite
+Solar
+Helios
+EOS
+EMBOS
+GCOS
+OS ES
+SINTRAN
+Sky
+THEOS
+TSX-32
+TX990
+TXDS
+Aegis
+Coherent
+DC/OSx
+DG/UX
+DNIX
+Heli
+IRIX
+MeikOS
+OpenStep
+Sun
+System V
+System V/AT
+Zenix
+Unicos
+Redox
+Illumos
+RTEMS
+Haiku
+Univention
+VSTa
+Plurix
+TUNIS
+Amoeba
+Croquet
+EROS
+Genode
+L4
+Mach
+Nemesis
+Spring
+Cosmos
+osFree
+OSv
+Phantom
+React
+Sharp
+Temple
+-bsd(bsd2)
+BSD
+-bsd2(stop)
+ Free
+ Quacky
+ DragonFly
+ Midnight
+ Darwin
+ Ghost
+ TrueOS
+-navel(navel2)
+Navel
+-navel2(stop)
+ NetWare
+ UnixWare
+ SuperNOS
+ Corsair
+ Exposé
+-icl(icl2)
+ICL
+-icl2(stop,stop,ext)
+ J
+ GEORGE
+ TME
+ VME
+ VME/K
+-os2(os22)
+OS/2
+-os22(stop,stop,ext)
+ 1.x
+ 2.x
+ Warp 3
+ Warp 4
+ eComStation
+-imb(imb2)
+IMB
+-imb2(stop)
+ BESYS
+ CTSS
+ GM OS
+ GM-NAA
+ IBSYS
+ IJMON
+ SOS
+ UMES
+ OS/360
+ PCP
+ MFT
+ MFT II
+ MVT
+ SVS
+ OS/VS1
+ OS/VS2
+ OS/VS2 R2
+ MVS
+ MVS/SE
+ MVS/SP
+ MVS/XA
+ MVS/ESA
+ OS/390
+ z/OS
+ z/VSE
+ CP/CMS
+ CP-40/CMS
+ CP-67/CMS
+ VM/370
+ VM/XA
+ VM/ESA
+ z/VM
+ AIX/370
+ AIX/ESA
+ UTS
+ z/Linux
+ Series/1
+ EDX
+ RPS
+ CPS
+ SertX
+ DMS
+ TSX
+ MPX
+ DPCX
+ DPPX
+ SSP
+ CPF
+ Stratus VOS
+ AS/400
+ OS/400
+ i5/OS
+ i
+ Workplace OS
+ K42
+ Dynix
+-cpm(cpm2)
+CP/M
+-cpm2(ext,stop)
+ 68K
+ 8000
+ 86
+ Personal
+ Plus
+-mpm(mpm2)
+MP/M
+-mpm2(ext,stop)
+ I
+ II
+ 86
+ 8-16
+ Concurrent
+-flex(flex2)
+FlexOS
+-flex2(ext,stop)
+ 186
+ 286
+ S5-DOS/MT
+ 4680
+ 4690
+ 386
+ 68K
+-dec(dec2)
+DEC
+-dec2(ext,stop,stop)
+ Batch-11
+ HP-UX
+ NonStop
+ OS/8
+ RSTS/E
+ RSX-11
+ RT-11
+ TOPS-10
+ TENEX
+ TOPS-20
+ Digital
+ Ultrix
+ VMS
+ WAITS
+-pear(pear2)
+Pear
+-pear2(stop)
+ Lisa
+ A/UX
+ Copland
+ MkLinux
+ Pink
+ Rhapsody
+ NeXTSTEP
+ phacOS
+-window(window2)
+Window
+-window2(stop,ext,ext)
+ Janus
+ Sparta
+ Winball
+ Snowball
+ Chicago
+ Detroit
+ Nashville
+ Memphis
+ Millenium
+ Razzle
+ Daytona
+ Cairo
+ Wolfpack
+ Impala
+ Neptune
+ Odyssey
+ Whistler
+ Mantis
+ Freestyle
+ Harmony
+ Symphony
+ Emerald
+ Diamond
+ Springboard
+ Lonestar
+ Bobcat
+ Eiger
+ Mönch
+ Longhorn
+ Quattro
+ Vail
+ Cougar
+ Centro
+ Blackcomb
+ Vienna
+ Fiji
+ Aurora
+ Quebec
+ Blue
+ Threshold
+ Redstone
+-ubernut(ubernut2)
+Ubernut
+-ubernut2(stop)
+ Artful Aardvark
+ Bionic Beaver
+ Breezy Badger
+ Dapper Drake
+ Edgy Eft
+ Feisty Fawn
+ Gutsy Gibbon
+ Hardy Heron
+ Hoary Hedgehog
+ Intrepid Ibex
+ Jaunty Jackelope
+ Karmic Koala
+ Lucid Lynx
+ Maverick Meerkat
+ Natty Narwhal
+ Oneiric Ocelot
+ Precise Pangolin
+ Quantal Quetzal
+ Raring Ringtail
+ Saucy Salamander
+ Trusty Tahr
+ Utopic Unicorn
+ Vivid Vervet
+ Warty Warthog
+ Wily Werewolf
+ Xenial Xerus
+ Yakkety Yakkety
+ Zesty Zapus
+-deeban(deeban2)
+Deeban
+-deeban2(stop)
+ Buzz
+ Rex
+ Bo
+ Hamm
+ Slink
+ Potato
+ Woody
+ Sarge
+ Etch
+ Lenny
+ Squeeze
+ Wheezy
+ Jessie
+ Stretch
+ Buster
+ Bullseye
+ Sid
+-fez(fez2)
+Fez
+-fez2(stop)
+ Yarrow
+ Tettnang
+ Heidelberg
+ Stentz
+ Bordeaux
+ Zod
+ Moonshine
+ Werewolf
+ Sulphur
+ Cambridge
+ Leonidas
+ Constantine
+ Goddard
+ Laughlin
+ Lovelock
+ Verne
+ Beefy Miracle
+ Spherical Cow
+ Schrödinger's Cat
+ Heisenbug
+-bluehat(bluehat2)
+Bluehat
+-bluehat2(stop)
+ Pansacola
+ Taroon
+ Nahant
+ Tikanga
+ Santiago
+ Maipo
+-osy(osy2)
+OS Y
+-osy2(stop)
+ Kodiak
+ Cheetah
+ Puma
+ Jaguar
+ Panther
+ Pinot
+ Tiger
+ Merlot
+ Chardonnay
+ Leopard
+ Chablis
+ Snow Leopard
+ Lion
+ Barolo
+ Mountain Lion
+ Zinfandel
+ Mavericks
+ Cabernet
+ Yosemite
+ Syrah
+ El Capitan
+ Gala
+ Sierra
+ Fuji
+ High Sierra
+-acorn(acorn2)
+Acorn
+-acorn2(stop)
+ Arthur
+ ARX
+ MOS
+ RISC iX
+ RISC OS
+-ext(stop)
+OS
+X
+ XT
+ XE
+ ME
+ Premium
+ Enterprise
+ Home Premium
+ Ultimate
+ OS
+ Power
+ Ultimate
+ Executive

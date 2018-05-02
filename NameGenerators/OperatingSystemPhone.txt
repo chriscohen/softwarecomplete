@@ -1,0 +1,98 @@
+-start(base,base,base,window,yos,droid)
+-base(ext)
+Robot
+Cyborg
+-window(window2)
+Window
+-window2(stop)
+ Pegasus
+ Alder
+ Birch
+ Cedar
+ Talisker
+ Jameson
+ McKendric
+ Macallan
+ Yamazaki
+ Chelan
+ Rapier
+ Merlin
+ Ozone
+ Magneto
+ Crossbow
+ Titanium
+ Maldives
+ Photon
+ Mango
+ Apollo
+ Midori
+ Red Dog
+ Singularity
+ Tahiti
+ Tokyo
+ Zurich
+-yos(yos2)
+yOS
+-yos2(stop)
+ Alpine
+ Heavenly
+ Little Bear
+ Snowbird
+ Oktoberfest
+ Big Bear
+ Sugarbowl
+ Timberline
+ Kirkwood
+ Northstar
+ Wildcat
+ Apex
+ Baker
+ Jasper
+ Phoenix
+ Durango
+ Telluride
+ Hoodoo
+ Sundance
+ Brighton
+ Innsbruck
+ Sochi
+ Okemo
+ OkemoTaos
+ OkemoZurs
+ Stowe
+ Copper
+ Monarch
+ Boulder
+ Castlerock
+ Eagle
+ Whitetail
+ Butler
+ Corry
+ Erie
+ Tigris
+ Newton
+-droid(droid2)
+Droid
+-droid2(stop)
+ Petit Four
+ Cupcake
+ Donut
+ Eclair
+ Froyo
+ Gingerbread
+ Honeycomb
+ Ice Cream Sandwich
+ Jelly Bean
+ KitKat
+ Lollipop
+ Marshmallow
+ Nougat
+ Oreo
+-ext(stop)
+ CE
+ M
+OS
+ X
+ OS
+ Power
+ Ultimate

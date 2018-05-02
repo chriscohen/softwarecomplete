@@ -1,0 +1,34 @@
+-start(prefix,base)
+-prefix(base)
+Super 
+Mega 
+Ultra 
+Play
+Game
+Arcade
+X
+Y
+Z
+-base(suffix,suffix,ext)
+Box
+Box
+Console
+Station
+Cube
+Drive
+Dock
+Switch
+Wee
+-ext(stop,suffix,suffix)
+ Deluxe
+ 32
+ 64
+ DS
+ 3DS
+ 360
+ One
+ OneX
+ OneS
+ U
+-suffix(stop)
+ OS

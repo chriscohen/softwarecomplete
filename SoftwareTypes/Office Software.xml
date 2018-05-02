@@ -1,0 +1,329 @@
+<SoftwareType>
+	<Name>Office Software</Name>
+	<Category>Productivity</Category>
+	<Description></Description>
+	<Random>0.2</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.4</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Iterative>1</Iterative>
+	<IdealPrice>100</IdealPrice>
+	<NameGenerator>Office</NameGenerator>
+    <Categories>
+        <Category Name="Word processor">
+			<Description>Write documents.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.6</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>OfficeWordProcessor</NameGenerator>
+		</Category>
+        <Category Name="Spreadsheets">
+			<Description>Store data in tabular formats and draw graphs.</Description>
+			<Popularity>0.7</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.7</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>OfficeSpreadsheets</NameGenerator>
+		</Category>
+        <Category Name="Presentations">
+			<Description>Create slideshows and other presentations.</Description>
+			<Popularity>0.6</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>OfficePresentations</NameGenerator>
+		</Category>
+    </Categories>
+	<Features>
+        <Feature Forced="TRUE">
+            <Name>Word processing</Name>
+            <Category>System</Category>
+            <Description>The basic functionality of a word processor.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+            <SoftwareCategory Category="Word processor">0</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Data tabulation</Name>
+            <Category>System</Category>
+            <Description>The basic functionality of spreadsheets.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+            <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+        </Feature>
+        <Feature Forced="TRUE">
+            <Name>Presentations</Name>
+            <Category>System</Category>
+            <Description>The basic functionality of a word processor.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+			<Name>Copy/paste</Name>
+			<Category>System</Category>
+			<Description>Copy an area of an image and paste it elsewhere.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+            <Name>Undo/redo</Name>
+            <Category>System</Category>
+            <Description>The ability to immediately undo a change.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+        </Feature>
+		<Feature>
+			<Name>GUI</Name>
+			<Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Description>A basic graphical interface for this software.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Spellcheck</Name>
+			<Category>Algorithm</Category>
+			<Unlock>1993</Unlock>
+			<Description>Ensure spelling is correct.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Charts</Name>
+			<Category>2D</Category>
+			<Unlock>1986</Unlock>
+			<Description>Draw graphs and charts with spreadsheet data.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+            <Dependency Software="Office Software">Data tabulation</Dependency>
+            <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Vector graphics</Name>
+			<Category>2D</Category>
+			<Description>Lines, boxes and circles.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Animations</Name>
+			<Category>2D</Category>
+			<Description>Allow animations on presentation slides.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Sound effects</Name>
+			<Category>Audio</Category>
+			<Description>Add audio to a presentation.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">8-bit audio</Dependency>
+            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Templates</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Clipart</Name>
+			<Category>2D</Category>
+			<Description>Allow the insertion of stock imagery.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+            <SoftwareCategory Category="Word processor">0</SoftwareCategory>
+            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Scripting</Name>
+			<Category>System</Category>
+			<Description>Because you can never satisfy everyone</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">Data tabulation</Dependency>
+            <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Online backup</Name>
+			<Category>Network</Category>
+			<Description>Save files online instead of locally.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.001</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Export to CSV</Name>
+			<Category>System</Category>
+			<Description>Save files in CSV format.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Export to PDF</Name>
+			<Category>System</Category>
+			<Description>Save files in PDF format.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">PDF support</Dependency>
+			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Export to JPEG</Name>
+			<Category>System</Category>
+			<Description>Save slides in JPEG format.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">JPEG format</Dependency>
+			<SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Export to PNG</Name>
+			<Category>System</Category>
+			<Description>Save slides in PNG format.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">PNG format</Dependency>
+			<SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Insert videos</Name>
+			<Category>2D</Category>
+			<Description>Import a video into the document.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Video playback</Dependency>
+			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
+            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Math functions</Name>
+			<Category>Algorithm</Category>
+			<Description>Calculate spreadsheet data using math functions.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">Data tabulation</Dependency>
+			<SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+		</Feature>
+        <Feature>
+			<Name>Character map</Name>
+			<Category>System</Category>
+			<Description>Insert hard-to-type symbols using a character palette.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Voice dictation</Name>
+			<Category>Audio</Category>
+			<Description>Insert words by speaking them into a microphone.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <Dependency Software="Operating System">Line input</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Font styles</Name>
+			<Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+			<Description>Choose from a selection of fonts, styles, and colors.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.4</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <Dependency Software="Operating System">Font management</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

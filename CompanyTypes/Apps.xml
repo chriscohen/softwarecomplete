@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Apps</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>4</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="App">1</Type>
+        <Type Software="Website">1</Type>
+	</Types>
+</CompanyType>

@@ -1,0 +1,146 @@
+<SoftwareType>
+	<Name>Database</Name>
+	<Category>Database</Category>
+	<Description>Storage of large amounts of data with indexing and fast retrieval.</Description>
+	<Random>0.8</Random>
+    <Popularity>0.75</Popularity>
+    <Retention>0.88</Retention>
+    <Iterative>0.9</Iterative>
+	<IdealPrice>125</IdealPrice>
+    <OSLimit>Computer</OSLimit>
+    <OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+    <NameGenerator>Database</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Data engine</Name>
+			<Category>Algorithm</Category>
+			<Description>Basic data storage and retrieval engine.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Hard disk support</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Indexing</Name>
+			<Category>Algorithm</Category>
+			<Description>Allow indexes for much faster data retrieval.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Remote connections</Name>
+			<Category>Network</Category>
+			<Description>Connect from anywhere, allowing applications to be on different servers than their data.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Secure connections</Name>
+			<Category>Algorithm</Category>
+			<Description>Make remote connections securely, by encrypting traffic.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptography library</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Master/slave</Name>
+			<Category>Network</Category>
+			<Description>Connect more than one database together to make a cluster.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Cloud support</Name>
+			<Category>Network</Category>
+			<Description>Databases can be stored off-premises on the cloud.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Server>0.001</Server>
+            <Dependency Software="Database">Master/slave</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Table-level locking</Name>
+			<Category>Algorithm</Category>
+			<Description>Entire tables can be locked, to prevent overwriting data while other data are being written.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE" From="Table-level locking">
+			<Name>Row-level locking</Name>
+			<Category>Algorithm</Category>
+			<Description>Table rows can be individually locked, to allow other rows to process data at the same time.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Client GUI</Name>
+			<Category>2D</Category>
+			<Description>Provide a GUI tool to allow data to be manipulated.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Image rendering</Dependency>
+		</Feature>
+        <Feature From="Master/slave">
+			<Name>Shards</Name>
+			<Category>Network</Category>
+			<Description>Databases are configured into shards allowing the best server to respond first.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature>
+			<Name>64-bit</Name>
+			<Category>Network</Category>
+			<Description>64-bit allows the storage of much higher integers, and much more precise floating point numbers.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">64-bit</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Machine learning</Name>
+            <Unlock>2011</Unlock>
+			<Category>Algorithm</Category>
+			<Description>The database learns from existing data to predict results.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

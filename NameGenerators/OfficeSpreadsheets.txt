@@ -1,0 +1,25 @@
+-start(pre,base,base,base,base)
+-pre(base)
+The 
+Ultra
+Open 
+-base(base2,ext,stop)
+Office
+Document
+Doc
+Desk
+Print
+Letter
+Publish
+-base2(ext,stop)
+Man
+Mate
+Writer
+Viewer
+ Manager
+-ext(stop)
+ Pro
+ Suite
+ Studio
+ Premium
+ Lite

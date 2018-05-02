@@ -1,0 +1,38 @@
+-start(base,base,base2)
+-base(ext)
+Adult
+Beautiful People
+Dating
+Compatible
+Love
+Romance
+Intimate
+Heart
+Hot
+-ext(stop)
+ Connections
+ Partners
+ Match
+ Harmony
+ Hunt
+.com
+ Tease
+ Search
+-base2(ext2)
+Love
+Romance
+Date
+e
+net
+Her
+Him
+Adult
+Heart
+-ext2(stop)
+Match
+Finder
+Hunter
+Connector
+Harmoniser
+Maker
+Searcher

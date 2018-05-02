@@ -1,0 +1,65 @@
+-start(pre,base,base,base,base)
+-pre(base)
+Power
+Flash
+Fresh
+Free
+x
+-base(base2,base2,ext)
+Pocket
+Net
+Atom
+Atomic
+Visual
+Integrated
+Language
+Programming
+Code
+Coding
+Uber
+Slick
+Ninja
+Py
+Source
+Byte
+Mono
+Pure
+Eiffel
+Blue
+Intelli
+Sharp
+-base2(stop,ext)
+Anywhere
+Beans
+Storm
+Hurricane
+Mine
+Tempest
+Monsoon
+Flood
+Studio
+Edit
+Editor
+Develop
+Developer
+Build
+Builder
+Blocks
+Create
+Creator
+Architect
+Kit
+-ext(stop)
+ Plus
+ Express
+ Code
+ Pro
+ Professional
+ Professional Edition
+ IDE
+ Environment
+ CE
+ CV
+ SDK
+ Lite
+++

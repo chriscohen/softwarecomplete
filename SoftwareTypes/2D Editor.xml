@@ -1,0 +1,429 @@
+<SoftwareType>
+    <Name>2D Editor</Name>
+    <Category>Graphics</Category>
+    <Description>Graphics software used to manipulate photos or 2D images.</Description>
+    <Unlock>1979</Unlock>
+    <Random>0.4</Random>
+    <Popularity>0.7</Popularity>
+    <Retention>0.8</Retention>
+    <Iterative>1</Iterative>
+    <OSSpecific>TRUE</OSSpecific>
+    <OSLimit>Computer</OSLimit>
+    <OneClient>FALSE</OneClient>
+    <InHouse>TRUE</InHouse>
+    <NameGenerator>ImageEditor</NameGenerator>
+    <IdealPrice>80</IdealPrice>
+    <Features>
+        <Feature Forced="TRUE">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>A basic user interface for the software.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+			<Name>Image rendering</Name>
+			<Description>Display an image on the screen.</Description>
+			<Category>2D</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">GUI</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Emoji design</Name>
+			<Description>Design and use emojis as part of the text of an application.</Description>
+            <Unlock>1999</Unlock>
+			<Category>2D</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image rendering</Dependency>
+            <Dependency Software="Operating System">Font management</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Pixel manipulation</Name>
+			<Category>2D</Category>
+			<Description>The ability to change a pixel individually.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Vector manipulation</Name>
+            <Unlock>1985</Unlock>
+			<Category>2D</Category>
+			<Description>Work with vectors rather than pixels.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE" From="Pixel manipulation">
+			<Name>Graphic design</Name>
+            <Unlock>1980</Unlock>
+			<Category>2D</Category>
+			<Description>Edit graphics as well as photos and sprites.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Copy/paste</Name>
+			<Category>System</Category>
+			<Description>Copy an area of an image and paste it elsewhere.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+            <Name>Undo/redo</Name>
+            <Category>System</Category>
+            <Description>The ability to immediately undo a change.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">GUI</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+			<Name>Image effects</Name>
+			<Unlock>1989</Unlock>
+			<Category>2D</Category>
+			<Description>Add useful effects to images at the press of a button.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>3D image effects</Name>
+			<Unlock>1991</Unlock>
+			<Category>3D</Category>
+			<Description>Process 2D images using 3D transformations.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="2D Editor">Image effects</Dependency>
+            <Dependency Software="Operating System">3D rendering</Dependency>
+		</Feature>
+        <Feature Forced="TRUE">
+            <Name>8-bit palette</Name>
+            <Category>2D</Category>
+            <Description>A palette of up to 256 colors.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="8-bit palette" Vital="TRUE">
+            <Name>16-bit palette</Name>
+            <Category>2D</Category>
+            <Description>A palette of up to 65536 colors.</Description>
+            <Unlock>1985</Unlock>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="16-bit palette" Vital="TRUE">
+            <Name>24-bit palette</Name>
+            <Category>2D</Category>
+            <Description>A palette of up to 16.7 million colors.</Description>
+            <Unlock>1986</Unlock>
+            <DevTime>3</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature From="24-bit palette" Vital="TRUE">
+            <Name>32-bit palette</Name>
+            <Category>2D</Category>
+            <Description>A palette of up to 16.7 million colors with transparency information.</Description>
+            <Unlock>1987</Unlock>
+            <DevTime>4</DevTime>
+            <Innovation>4</Innovation>
+            <Usability>4</Usability>
+            <Stability>4</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Alpha channel</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Alpha channel</Name>
+            <Category>Algorithm</Category>
+            <Description>The ability to add per-pixel transparency.</Description>
+            <Unlock>1991</Unlock>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">8-bit palette</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Image compression</Name>
+            <Category>Algorithm</Category>
+            <Unlock>1986</Unlock>
+            <Description>Save an image in a compressed format, taking up less space than otherwise needed.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>TIFF format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>1986</Unlock>
+            <Description>A 24-bit format geared for use in desktop publishing.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>GIF format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>1987</Unlock>
+            <Description>8-bit image format with transparency and dithering.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>JPEG format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>1992</Unlock>
+            <Description>16-bit lossy image format using block-based compression.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">24-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>PNG format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>1996</Unlock>
+            <Description>24- or 32-bit lossless image format with transparency.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">24-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>JPEG 2000 format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>2000</Unlock>
+            <Description>A new version of the JPEG format with spacial random access.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">24-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>WebP format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>2010</Unlock>
+            <Description>Lossy or lossless image format designed for the web.</Description>
+            <DevTime>5</DevTime>
+            <Innovation>4</Innovation>
+            <Usability>4</Usability>
+            <Stability>4</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">24-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>RGBE format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>2013</Unlock>
+            <Description>32-bit file format for storing HDR images.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>2</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">32-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Research="Image compression">
+            <Name>JPEG XT format</Name>
+            <Category>Algorithm</Category>
+            <Unlock>2015</Unlock>
+            <Description>Extension of the JPEG format that can store HDR information.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>3</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Image compression</Dependency>
+            <Dependency Software="2D Editor">32-bit palette</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+			<Name>Monochrome color space</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1983</Unlock>
+			<Description>Pixel information is stored as shades of grey.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>RGB color space</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1984</Unlock>
+			<Description>Pixel information is stored as red, green, blue values.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Monochrome color space</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>CMYK color space</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1984</Unlock>
+			<Description>Pixel information is stored as cyan, magenta, yellow, key values.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">Monochrome color space</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Printing</Name>
+			<Category>System</Category>
+            <Unlock>1984</Unlock>
+			<Description>Send an image to a printer.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="2D Editor">CMYK color space</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Stock library</Name>
+			<Category>2D</Category>
+			<Description>A library of images that can be used as a base for new artwork, or to embellish existing art.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+        <Feature>
+            <Name>Cloud stock library</Name>
+            <Category>2D</Category>
+            <Description>Like a stock library, but available online rather than installed with the software.</Description>
+            <Unlock>2004</Unlock>
+            <DevTime>5</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>3</Usability>
+            <Stability>3</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Server>0.01</Server>
+            <Dependency Software="2D Editor">Stock library</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Cloud save</Name>
+            <Category>Network</Category>
+            <Description>The ability to save images on the internet.</Description>
+            <Unlock>2004</Unlock>
+            <DevTime>3</DevTime>
+            <Innovation>4</Innovation>
+            <Usability>3</Usability>
+            <Stability>4</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.02</Server>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Text rendering</Name>
+            <Category>2D</Category>
+            <Description>Add text to an image.</Description>
+            <Unlock>1984</Unlock>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">GUI</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Text effects</Name>
+            <Category>2D</Category>
+            <Description>Apply image effects to text.</Description>
+            <Unlock>1989</Unlock>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Image effects</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Layers</Name>
+            <Category>2D</Category>
+            <Description>Separate parts of an image into layers for easier manipulation.</Description>
+            <Unlock>1988</Unlock>
+            <DevTime>3</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+        </Feature>
+    </Features>
+</SoftwareType>

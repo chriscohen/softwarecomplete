@@ -1,0 +1,191 @@
+<SoftwareType>
+    <Name>IDE</Name>
+    <Category>Console Operating Systems</Category>
+    <Description>An integrated development environment allows programmers to use a single tool to write and test all kinds of code.</Description>
+    <Unlock>1980</Unlock>
+    <Random>0.8</Random>
+    <Popularity>0.72</Popularity>
+    <Retention>0.81</Retention>
+    <Iterative>0.92</Iterative>
+    <OSSpecific>True</OSSpecific>
+    <OSLimit>Computer</OSLimit>
+    <OneClient>False</OneClient>
+    <InHouse>False</InHouse>
+    <NameGenerator>IDE</NameGenerator>
+    <IdealPrice>135</IdealPrice>
+    <Features>
+        <Feature Forced="TRUE">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>A basic user interface for the software.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <!--<Dependency Software="Operating System">GUI</Dependency>
+            <Dependency Software="2D Editor">Graphic design</Dependency>-->
+        </Feature>
+        <!--<Feature Vital="TRUE">
+			<Name>File management</Name>
+			<Description>Allow users to open, edit, and save different types of files.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">File management</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Code compilation</Name>
+			<Description>For compiled languages, the IDE will turn the raw code in binaries that can be executed.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="IDE">File management</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Project management</Name>
+            <Unlock>1983</Unlock>
+			<Description>Open an entire project of files, and manage them centrally.</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="IDE">File management</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Find and replace</Name>
+			<Description>Search within files and replace certain text with other text.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="IDE">File management</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Undo/redo</Name>
+			<Description>Undo a previous change or make the same change again.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Copy/paste</Name>
+			<Description>Copy a selection of text and paste it somewhere else.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature>
+			<Name>Code colors</Name>
+			<Description>Automatically make different sections of code different colors.</Description>
+			<Category>System</Category>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="IDE">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+            <Name>Language support</Name>
+            <Description>Allows the IDE to understand and help with different programming languages.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Autocomplete</Name>
+            <Unlock>1996</Unlock>
+            <Description>The IDE will suggest the phrase the programmer is intending to insert.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Code inspection</Name>
+            <Unlock>1985</Unlock>
+            <Description>The IDE can inspect the code for common problems and highlight them.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="IDE">Language support</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Code auto-generation</Name>
+            <Unlock>1992</Unlock>
+            <Description>Code can be generated automatically if there is a parent class or interface defined.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="IDE">Code inspection</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Stack tracing</Name>
+            <Unlock>1987</Unlock>
+            <Description>The IDE keeps track of the "stack" of functions and methods called, and can display this to the user.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="IDE">Code inspection</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Debugger integration</Name>
+            <Unlock>1989</Unlock>
+            <Description>A debugger can be used to pause code execution and find a bug in the code.</Description>
+            <Category>Algorithm</Category>
+            <DevTime>4</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="IDE">Stack tracing</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>SCM integration</Name>
+            <Description>The IDE can integrate directly with a SCM to aid developer efficiency.</Description>
+            <Category>System</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="SCM">Revision history</Dependency>
+            <Dependency Software="IDE">File management</Dependency>
+        </Feature>-->
+        <!-- LANGUAGES START -->
+
+        <!-- LANGUAGES END -->
+    </Features>
+</SoftwareType>

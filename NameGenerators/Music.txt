@@ -1,0 +1,26 @@
+-start(base,base,base,pre)
+-pre(base)
+The 
+-base(base2,base2,ext)
+Audio
+Wave
+Sound
+Amplitude
+Sine
+Audible
+Record
+Amp
+-base2(ext,stop,stop)
+Edit
+Maker
+Play
+Scape
+Pause
+Tune
+Stop
+Take
+Tools
+-ext(stop)
+ Pro
+ Studio
+ Shop

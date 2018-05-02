@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Gaming</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>5</Min>
+	<Max>10</Max>
+	<Types>
+		<Type Software="Game">1</Type>
+	</Types>
+    <NameGen>CompanyGame</NameGen>
+</CompanyType>

@@ -1,0 +1,53 @@
+-base(base2)
+Bit
+Git
+Knit
+Mono
+Clear
+Concurrent
+Mercury
+Source
+Code
+Star
+Visual
+Sub
+Surround
+Byte
+True
+Secure
+Iron
+Steel
+-base2(stop,stop,stop,stop,stop,ext)
+Base
+History
+City
+Integrity
+Version
+Manage
+Manager
+Ville
+ Co-operative
+ Co-op
+Keep
+Keeper
+Core
+Control
+Safe
+Vault
+Foundation
+Anywhere
+Concert
+Controller
+Vision
+ VCS
+ SCM
+ Versioning
+-ext(stop)
+ Online
+ System
+ Team
+ Team Services
+ Pro
+ Professional
+ Gold
+ Titanium

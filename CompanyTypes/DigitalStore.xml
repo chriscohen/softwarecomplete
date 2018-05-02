@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Digital Store</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>4</Max>
+	<Types>
+		<Type Software="Digital Store">1</Type>
+	</Types>
+</CompanyType>

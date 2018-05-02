@@ -1,0 +1,47 @@
+-start(base)
+-base(ext)
+Apollo
+Artemis
+Zeus
+MeSQL
+mSQL
+smSQL
+SQLite
+PregreSQL
+Marissa
+Alpha
+Comanche
+Data
+dBase
+FileMaker
+Ingres
+IMB
+Nexus
+SAP
+RDM
+-ext(suffix,stop)
+ 3000
+ 4000
+ 5000
+ Transactional
+ TRNSact
+ 8086
+ Advantage
+ IDMS
+ RDMS
+ Solution
+ Suite
+ Base
+ Azure
+ Studio
+ 2200
+-suffix(stop)
+ Lite
+ Pro
+ Professional
+ Server
+ Ultimate
+ PowerDB
+ UltraDB
+ Express
+ Engine

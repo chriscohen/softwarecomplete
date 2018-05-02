@@ -1,0 +1,310 @@
+<SoftwareType>
+	<Name>Audio Tool</Name>
+	<Category>Audio</Category>
+	<Description>The audio tool is for recording and mixing sound effects and music.</Description>
+    <Unlock>1984</Unlock>
+	<Random>0.1</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.5</Retention>
+	<IdealPrice>100</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>1</Iterative>
+	<NameGenerator>Audio</NameGenerator>
+	<Features>
+        <Feature Forced="TRUE">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>A basic user interface for the software.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+        </Feature>
+		<Feature Forced="TRUE">
+			<Name>Audio playback</Name>
+			<Category>Audio</Category>
+			<Description>Work with 8-bit audio.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">8-bit audio</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Multitrack</Name>
+			<Category>Algorithm</Category>
+			<Description>Allow recording and playback of more than one track at once.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Audio clean-up</Name>
+			<Category>Algorithm</Category>
+			<Description>Voice or sound input can be cleaned to remove noise or hiss.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Recording</Name>
+			<Category>Audio</Category>
+			<Description>Allow the recording of sound from a microphone or other input.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Line input</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Audio effects</Name>
+			<Category>Algorithm</Category>
+            <ArtCategory>Audio</ArtCategory>
+			<Description>Manipulate audio by applying effects like distortion.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Copy/paste</Name>
+			<Category>System</Category>
+			<Description>Copy an area of an image and paste it elsewhere.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Audio Tool">GUI</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+            <Name>Undo/redo</Name>
+            <Category>System</Category>
+            <Description>The ability to immediately undo a change.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Audio Tool">GUI</Dependency>
+        </Feature>
+		<Feature From="Audio playback">
+			<Name>16-bit audio</Name>
+			<Category>Audio</Category>
+			<Description>Work with 16-bit audio.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">16-bit audio</Dependency>
+		</Feature>
+		<Feature From="16-bit audio">
+			<Name>24-bit audio</Name>
+			<Category>Audio</Category>
+			<Description>Work with 24-bit audio.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">24-bit audio</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Sound library</Name>
+			<Category>Audio</Category>
+			<Description>A library of sounds provided with the software that can be dropped into a project.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Cloud sound library</Name>
+            <Unlock>2004</Unlock>
+			<Category>Network</Category>
+            <ArtCategory>Audio</ArtCategory>
+			<Description>A library of sounds available on the internet.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Server>0.01</Server>
+            <Dependency Software="Audio Tool">Sound library</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+            <Name>Cloud save</Name>
+            <Category>Network</Category>
+            <Description>The ability to save audio on the internet.</Description>
+            <Unlock>2004</Unlock>
+            <DevTime>3</DevTime>
+            <Innovation>4</Innovation>
+            <Usability>3</Usability>
+            <Stability>4</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.02</Server>
+        </Feature>
+		<Feature Vital="TRUE">
+			<Name>Audio compression</Name>
+			<Unlock>1988</Unlock>
+			<Description>Allows audio to be compressed to save disk space.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>G.722 format</Name>
+			<Unlock>1988</Unlock>
+			<Description>Early audio codec intended for voice.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>G.726 format</Name>
+			<Unlock>1990</Unlock>
+			<Description>Early audio codec expanding upon G.722.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>ATRAC format</Name>
+			<Unlock>1991</Unlock>
+			<Description>Early lossless audio codec.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>AC-3 format</Name>
+			<Unlock>1992</Unlock>
+			<Description>High-quality audio codec.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>G.728 format</Name>
+			<Unlock>1992</Unlock>
+			<Description>Early codec expanding upon G.726.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>MP2 format</Name>
+			<Unlock>1993</Unlock>
+			<Description>Predecessor to MP3 format.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>MP3 format</Name>
+			<Unlock>1994</Unlock>
+			<Description>Lossy high-quality audio format.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>10</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>AAC format</Name>
+			<Unlock>1997</Unlock>
+			<Description>Advanced digital codec.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>9</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>Vorbis format</Name>
+			<Unlock>2000</Unlock>
+			<Description>Advanced audio codec.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>11</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>FLAC format</Name>
+			<Unlock>2001</Unlock>
+			<Description>High quality lossless format.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>12</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>SVOPC format</Name>
+			<Unlock>2007</Unlock>
+			<Description>Advanced codec designed for voice compression.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>8</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+        <Feature Research="Audio compression">
+			<Name>Enhanced AC-3 format</Name>
+			<Unlock>2012</Unlock>
+			<Description>An enhanced version of the AC-3 codec.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>14</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

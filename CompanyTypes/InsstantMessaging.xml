@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Communications</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>4</Min>
+	<Max>8</Max>
+	<Types>
+		<Type Software="Instant Messaging">1</Type>
+	</Types>
+</CompanyType>

@@ -1,0 +1,163 @@
+-start(nospace,prefix,base,base,base,base,base)
+-nospace(nospace2)
+Astro
+Data
+Hyper
+Infini
+Info
+Intelli
+Master
+Media
+Meta
+Micro
+Monster
+Multi
+Nano
+Neuro
+Opti
+Uni
+Vari
+Virtu
+-nospace2(stop,suffix)
+Arts
+Cloud
+digital
+life
+media
+naut
+optic
+port
+prose
+soft
+structure
+sys
+tech
+vation
+wave
+-prefix(base)
+3D 
+Advanced 
+International 
+Open 
+-base(base2,base2,suffix)
+Advanced
+Anomaly
+Anthro
+Applied
+Artificial
+Ascent
+Augment
+Automated
+Autonomous
+Beyond
+Bluefin
+Boundless
+Business
+Cambridge
+Cogent
+Computer
+Cyber
+Digital
+Diversified
+Eagle
+Eagle Eye
+Embedded
+Freefly
+Freewave
+Everspark
+Gadget
+Gesture
+Holo
+Helion
+Helios
+Hillcrest
+Innovative
+Insight
+Lark
+Lattice
+Media
+Moderna
+Neuro
+Panopto
+Performance
+Precision
+Procore
+Rapid
+Research
+Riverbank
+Rubicon
+Securus
+Snowflake
+Solid
+Spectral
+Twin Creeks
+Valence
+Virtual
+Visual
+Vito
+Wellspring
+Wormhole
+Zoom
+-base2(stop,suffix)
+ Analytica
+ Arts
+ Biosciences
+ Biotica
+ Biotics
+ Capital
+ Computers
+ Computing
+ Connect
+ Corporation
+ Crowd
+ Education
+ Electromedia
+ Electronics
+ Engine
+ Financial
+ Flow
+ Frontier
+ Frontiers
+ Geophysical
+ Holographics
+ Insights
+ Laboratories
+ Labs
+ Logic
+ Logix
+ Logistics
+ Machines
+ Micro
+ Microdevices
+ Minds
+ Networks
+ Ocean
+Optics
+ Photonics
+ Robotics
+ Sciences
+ Scientific
+ Securities
+ Security
+ Solar
+ Solutions
+ Square
+ Systems
+ Technica
+ Technical
+Tech
+ Technologies
+Tek
+Tronix
+-suffix(stop)
+ Associates
+ China
+ Global
+ Inc
+ LLC
+ One
+ plc
+ UK
+ Universal
+ USA
+ Worldwide

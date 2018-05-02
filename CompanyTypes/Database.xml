@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Database</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>3</Min>
+	<Max>6</Max>
+	<Types>
+		<Type Software="Database">1</Type>
+	</Types>
+</CompanyType>
