@@ -45,6 +45,15 @@
 			<Iterative>0.05</Iterative>
 			<NameGenerator>AppSocialNetwork</NameGenerator>
 		</Category>
+        <Category Name="Fitness">
+			<Description>Track heart rate, weight, step count, and other fitness data.</Description>
+            <Unlock>2013</Unlock>
+			<Popularity>0.8</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>0.5</TimeScale>
+			<Iterative>0.05</Iterative>
+			<NameGenerator>AppFitness</NameGenerator>
+		</Category>
 	</Categories>
 	<Features>
 		<Feature Forced="TRUE">
@@ -68,6 +77,7 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Operating System">Touch</Dependency>
 		</Feature>
         <!-- VIDEO START -->
         <Feature Forced="TRUE">
@@ -307,6 +317,20 @@
             <Dependency Software="Website">Photo uploads</Dependency>
             <SoftwareCategory Category="Social Network">0</SoftwareCategory>
         </Feature>
+        <Feature Vital="TRUE">
+            <Name>Camera uploads</Name>
+            <Category>Network</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can upload and share photographs directly from the device camera.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0.9</CodeArt>
+            <Dependency Software="Website">Photo uploads</Dependency>
+            <Dependency Software="Operating System">Camera support</Dependency>
+            <SoftwareCategory Category="Social Network">0</SoftwareCategory>
+        </Feature>
         <Feature>
             <Name>3rd party sharing</Name>
             <Category>Network</Category>
@@ -320,5 +344,125 @@
             <SoftwareCategory Category="Social Network">0</SoftwareCategory>
         </Feature>
         <!-- SOCIAL NETWORK END -->
+        <!-- FITNESS START -->
+        <!-- FITNESS END -->
+        <Feature Forced="TRUE">
+            <Name>Fitness profile</Name>
+            <Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can create a profile to store fitness data.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Graphic design</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Fitness charts</Name>
+            <Category>2D</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Charts display fitness data over time.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="App">Fitness profile</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Fitness goals</Name>
+            <Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can set a goal for steps taken, weight, or other metrics, and aim to beat the goal.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.9</CodeArt>
+            <Dependency Software="App">Fitness profile</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Heart rate</Name>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can record and monitor heart rate.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Operating System">Heart rate monitoring</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Sleep monitoring</Name>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can monitor sleep patterns.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Operating System">Sleep monitoring</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Step count</Name>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can track how many steps taken per day.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Operating System">Step detection</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Weight on phone</Name>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can record weight using a third party bluetooth scale.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Operating System">Bluetooth</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Weight on watch</Name>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can record weight using a third party bluetooth scale.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Operating System">Watch bluetooth</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Social sharing</Name>
+            <Category>System</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can share goal achievements with others online.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0.9</CodeArt>
+            <Dependency Software="App">Fitness goals</Dependency>
+            <Dependency Software="Website">3rd party sharing</Dependency>
+            <SoftwareCategory Category="Fitness">0</SoftwareCategory>
+        </Feature>
 	</Features>
 </SoftwareType>
