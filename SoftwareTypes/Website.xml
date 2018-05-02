@@ -8,7 +8,7 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Categories>
-        <Category Name="Blogging">
+        <Category Name="Blog">
             <Description>Allow users to post and share their own blogs.</Description>
             <Unlock>2001</Unlock>
             <Popularity>0.6</Popularity>
@@ -171,6 +171,47 @@
             <Dependency Software="Cryptography">Cryptography library</Dependency>
             <Dependency Software="Database">Secure connections</Dependency>
 		</Feature>
+        <!-- BLOG START -->
+        <Feature Forced="TRUE">
+            <Name>Blog posting</Name>
+            <Category>Web</Category>
+            <Description>Users can write and save their own blog posts.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.65</CodeArt>
+            <Server>0.0001</Server>
+            <Dependency Software="2D Editor">Graphic design</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Draft mode</Name>
+            <Category>Web</Category>
+            <Description>Users can save but not yet publish a blog post, and return later.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.75</CodeArt>
+            <Server>0.0001</Server>
+            <Dependency Software="Website">Blog posting</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Blog comments</Name>
+            <Category>Web</Category>
+            <Description>Users can comment on others' blog posts.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.85</CodeArt>
+            <Server>0.0001</Server>
+            <Dependency Software="Website">Blog posting</Dependency>
+            <SoftwareCategory Category="Blog">0</SoftwareCategory>
+        </Feature>
+        <!-- BLOG END -->
         <!-- VIDEO START -->
         <Feature Forced="TRUE">
 			<Name>Video playback</Name>
