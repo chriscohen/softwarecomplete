@@ -1,64 +1,29 @@
--start(base,base,base,ubernut)
--base(ext)
-Gorilla
-Ubernut
-Deeban
-BlueHat
-Fez
-Tiger
-Lion
-Leopard
-Pen
-Solaris
-Longhorn
-Sabre
-Venom
-Snakebite
-Gen
-Solar
-Helios
-Window
--ubernut(ubernutext)
-Ubernut
--ubernutext(stop)
-Artful Aardvark
-Bionic Beaver
-Breezy Badger
-Dapper Drake
-Edgy Eft
-Feisty Fawn
-Gutsy Gibbon
-Hardy Heron
-Hoary Hedgehog
-Intrepid Ibex
-Jaunty Jackelope
-Karmic Koala
-Lucid Lynx
-Maverick Meerkat
-Natty Narwhal
-Oneiric Ocelot
-Precise Pangolin
-Quantal Quetzal
-Raring Ringtail
-Saucy Salamander
-Trusty Tahr
-Utopic Unicorn
-Vivid Vervet
-Warty Warthog
-Wily Werewolf
-Xenial Xerus
-Yakkety Yakkety
-Zesty Zapus
--ext(stop)
-XT
-XE
-ME
-Premium
-Enterprise
-Home Premium
-Ultimate
+-start(base)
+-base(base2)
+Arm
+Body
+Fingertip
+Fit
+Fitness
+Gear
+My
+Personal
+Touch
+Watch
+Wrist
+-base2(stop,stop,stop,ext)
+Bit
+Comp
+CPU
+Device
 OS
-X
- OS
+Wear
+-ext(stop)
  Power
+ Pro
  Ultimate
+ X
+ x
+ XT
+ Y
+ Z
