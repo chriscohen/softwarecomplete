@@ -198,6 +198,8 @@
 			<Dependency Software="Modding Tool">2D asset library</Dependency>
 			<Dependency Software="Modding Tool">3D asset library</Dependency>
 			<Dependency Software="Modding Tool">Audio asset library</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
 			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
@@ -211,6 +213,8 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>0.002</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
 			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
 		</Feature>
 		<!-- GAME END -->
@@ -353,6 +357,8 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>0.002</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
 			<SoftwareCategory Category="Game">0</SoftwareCategory>
 		</Feature>
 		<!-- GAME END -->
