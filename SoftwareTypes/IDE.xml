@@ -39,6 +39,19 @@
             <Dependency Software="Operating System">File management</Dependency>
 		</Feature>
         <Feature Vital="TRUE">
+            <Name>Database integration</Name>
+            <Category>System</Category>
+            <Unlock>1983</Unlock>
+            <Description>Allow interaction with a database directly from the IDE.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Database">Remote connections</Dependency>
+            <Dependency Software="IDE">GUI</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
 			<Name>Code compilation</Name>
 			<Description>For compiled languages, the IDE will turn the raw code in binaries that can be executed.</Description>
 			<Category>System</Category>
@@ -102,6 +115,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="IDE">GUI</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
 		</Feature>
         <Feature Vital="TRUE">
             <Name>Language support</Name>
