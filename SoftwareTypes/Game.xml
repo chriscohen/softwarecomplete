@@ -384,6 +384,50 @@
 			<Server>0.0003</Server>
 			<Dependency Software="Game Engine">Networking</Dependency>
 		</Feature>
+		<Feature Research="Game modes">
+			<Name>Deathmatch</Name>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<Description>A game mode where every player must kill every other player as quickly as possible.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Online multiplayer</Dependency>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="Game modes">
+			<Name>Capture the flag</Name>
+			<Category>System</Category>
+			<Unlock>1994</Unlock>
+			<Description>A game mode where players score points for capturing an enemy flag and returning it to home base.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Online multiplayer</Dependency>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="Game modes">
+			<Name>Control points</Name>
+			<Category>System</Category>
+			<Unlock>1997</Unlock>
+			<Description>A game mode where players must control specific areas of the map for a period of time in order to win.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Online multiplayer</Dependency>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
 		<Feature From="Online multiplayer">
 			<Name>Dedicated servers</Name>
 			<Category>Network</Category>
@@ -629,6 +673,25 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Health bar</Name>
+			<Category>2D</Category>
+			<Description>Player or unit health is measured using a depleting bar, and the player dies when it reaches zero.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+            <SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+            <SoftwareCategory Category="Horror">0</SoftwareCategory>
+            <SoftwareCategory Category="RTS">0</SoftwareCategory>
+            <SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+            <SoftwareCategory Category="MMO">0</SoftwareCategory>
+		</Feature>
         <Feature Vital="TRUE">
 			<Name>Digital store</Name>
 			<Category>Network</Category>
@@ -640,6 +703,27 @@
 			<Stability>0</Stability>
 			<CodeArt>0.95</CodeArt>
             <Dependency Software="Digital Store">Game downloads</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Game modes</Name>
+			<Unlock>1988</Unlock>
+			<Category>System</Category>
+			<Description>The same game can be played in different modes, with different sets of rules and victory conditions.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+            <SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
+            <SoftwareCategory Category="Horror">0</SoftwareCategory>
+            <SoftwareCategory Category="RTS">0</SoftwareCategory>
+            <SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE" Research="3D graphics">
 			<Name>Real weapons license</Name>
@@ -699,9 +783,11 @@
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
 			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
 			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
 			<SoftwareCategory Category="Horror">0</SoftwareCategory>
 			<SoftwareCategory Category="RTS">0</SoftwareCategory>
 			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -893,6 +979,62 @@
 			<SoftwareCategory Category="FPS">0</SoftwareCategory>
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
+		<Feature>
+			<Name>Leader bonuses</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Military leader units can have bonus effects on other, regular units.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.85</CodeArt>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="Health bar">
+			<Name>Regenerating health</Name>
+			<Unlock>2009</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Player health regenerates to maximum automatically instead of collecting a health pack.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Character classes</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Player characters are of different "class" from one another, allowing different abilities for different players.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">Character designer</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="Game modes">
+			<Name>Battle royale mode</Name>
+			<Unlock>2017</Unlock>
+			<Category>System</Category>
+			<Description>A game mode with a large number of players, and the last one to be eliminated is the winner.</Description>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
 		<!-- START FLIGHT SIMULATOR SPECIFIC -->
 		<Feature Vital="TRUE">
 			<Name>Flight physics</Name>
@@ -927,6 +1069,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0</CodeArt>
             <Dependency Software="Game">3D graphics</Dependency>
+			<Dependency Software="Game">Map</Dependency>
 			<SoftwareCategory Category="Flight Simulator">2002</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
@@ -1360,5 +1503,78 @@
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
 		<!-- END MMO SPECIFIC -->
+		<!-- START GRAND STRATEGY SPECIFIC -->
+		<Feature Vital="TRUE">
+			<Name>Grand map</Name>
+			<Category>2D</Category>
+			<Description>A map of the entire campaign.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game">Map</Dependency>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Real-time battles</Name>
+			<Category>3D</Category>
+			<Description>Battles are fought on a separate real-time battle map.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Character diplomacy</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Diplomatic options with other characters allow wars, imprisonment and other political repercussions.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.8</CodeArt>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Tactics management</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Players can prepare, store, and execute battle tactics.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.85</CodeArt>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Historical figures</Name>
+			<Category>2D</Category>
+			<Description>Figures from real-world history appear in the game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Trade routes</Name>
+			<Category>Algorithm</Category>
+			<Description>Trade routes can be established across the game map to allow distribution of in-game wealth.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Grand map</Dependency>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<!-- END GRAND STRATEGY SPECIFIC -->
 	</Features>
 </SoftwareType>

@@ -1,39 +1,176 @@
--start(base,base,base,pre)
--pre(base)
+-start(and1,base,base,base,pre,age1)
+-and1(and2)
+Axe
+Earth
+Bark
+Blade
+Cabal
+Cave
+Castles
+Druids
+Dungeon
+Forests
+Forts
+Ghouls
+Guns
+Hobos
+Orcs
+Runes
+Sand
+Shadows
+Slavers
+Snow
+Spells
+Sun
+Sword
+Warriors
+Wizards
+-and2(stop,stop,stop,ext)
+ and Beyond
+ and Blood
+ and Corruption
+ and Death
+ and Dragon
+ and Execution
+ and Goblins
+ and Magic
+ and Men
+ and Moon
+ and Murder
+ and Poison
+ and Ruin
+ and Sacrifice
+ and Sky
+ and Soul
+ and Suffering
+ and Undead
+-pre(base,base,base,base,number,age1,and1)
 The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
-Space
-Army
-Hell
-Team
-Battle
-Target
-War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
-World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
-Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
- Arena
- Rebirth
- Evolved
- Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+-age1(age2,age2,age2,agemid)
+Age of
+Assassins of
+City of
+Coming of
+Dark Age of
+Daughters of
+Deities of
+Dynasty of
+End of
+Face of
+Gods of
+Legend of
+Lords of
+Minions of
+Pirates of
+Punishers of
+Rage of
+Realm of
+Rise of
+Saviours of
+Sons of
+Tales of
+Warriors of
+World of
+-agemid(age2)
+ Aggressive
+ Burning
+ Final
+ Grim
+ Horrendous
+ Insurgent
+ Last
+ Resurrected
+ Terrible
+ Ugly
+ Unapologetic
+ Unending
+ Ungrateful
+ Unholy
+ Unrepentent
+ Veiled
+-age2(stop,stop,stop,ext)
+ Camelot
+ Champions
+ Corruption
+ Dawn
+ Death
+ Dragons
+ Earth
+ Empires
+ Evil
+ Fantasy
+ Fire
+ Heroes
+ Horror
+ Insanity
+ Juggernauts
+ Love
+ Madness
+ Murderers
+ Pirates
+ Poison
+ Scrolls
+ Storms
+ Sunset
+ Terror
+ Threats
+ Undead
+ Vampires
+ War
+ Warriors
+ Witches
+-number(base,age1)
+Eighth
+Eleventh
+Fifth
+Fourth
+Ninth
+Second
+Seventh
+Sixth
+Tenth
+Third
+-base(base2,base2,base2,ext)
+Anarchy
+Cabal
+Corrupted
+Dark
+Darkfall
+Darkness
+Dragon
+Elder
+Enslaved
+Evil
+Final
+Free
+Hurricane
+Hushed
+Last
+Neversummer
+Parallel
+Perfect
+Plane
+Planet
+Rage
+Secret
+Storm
+Supressed
+Twisted
+Unending
+-base2(stop,stop,stop,ext)
+ Adventure
+ Age
+ Call
+ Chronicle
+ Dynasty
+ Empire
+ Fantasy
+ Kingdom
+ Quest
+ Realms
+ Scrolls
+ Story
+ World
+-ext(stop)
+ Masters
+ Online
