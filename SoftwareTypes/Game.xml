@@ -72,6 +72,15 @@
 			<Iterative>0.95</Iterative>
 			<NameGenerator>GameRacing</NameGenerator>
 		</Category>
+		<Category Name="Flight Simulator">
+			<Description></Description>
+            <Unlock>1982</Unlock>
+			<Popularity>0.7</Popularity>
+			<Retention>0.9</Retention>
+			<TimeScale>1</TimeScale>
+			<Iterative>0.95</Iterative>
+			<NameGenerator>GameFlightSim</NameGenerator>
+		</Category>
         <Category Name="Puzzle">
 			<Description></Description>
             <Unlock>1978</Unlock>
@@ -162,7 +171,29 @@
 			<Dependency Software="Game Engine">3D rendering</Dependency>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
 		</Feature>
-        <Feature From="3D graphics">
+		<Feature From="3D graphics">
+			<Name>HD graphics</Name>
+			<Category>3D</Category>
+			<Description>Render up to 1920x1080.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game Engine">HD rendering</Dependency>
+		</Feature>
+		<Feature From="HD graphics">
+			<Name>UltraHD graphics</Name>
+			<Category>3D</Category>
+			<Description>Render up to 3840x2160, and give an option to scale the user interface to be larger.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Game Engine">UltraHD rendering</Dependency>
+		</Feature>
+        <Feature>
 			<Name>Textures</Name>
 			<Category>2D</Category>
 			<Description>Apply textures to the 3D objects in the world.</Description>
@@ -171,6 +202,7 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>0.6</CodeArt>
+			<Dependency Software="Game">3D graphics</Dependency>
 			<Dependency Software="Game Engine">3D rendering</Dependency>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
 		</Feature>
@@ -214,6 +246,7 @@
             <SoftwareCategory Category="Sports">0</SoftwareCategory>
             <SoftwareCategory Category="Space">0</SoftwareCategory>
             <SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
             <SoftwareCategory Category="Racing">0</SoftwareCategory>
             <SoftwareCategory Category="Horror">0</SoftwareCategory>
             <SoftwareCategory Category="RTS">0</SoftwareCategory>
@@ -384,6 +417,16 @@
 			<Stability>1</Stability>
 			<CodeArt>0</CodeArt>
 			<Dependency Software="Video Editor">Rendering</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
 		<Feature From="Cutscenes">
 			<Name>3D cutscenes</Name>
@@ -397,6 +440,16 @@
 			<Dependency Software="Game">3D graphics</Dependency>
 			<Dependency Software="3D Editor">Animation</Dependency>
             <Dependency Software="Video Editor">Rendering</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Motion capture</Name>
@@ -409,6 +462,16 @@
 			<CodeArt>0</CodeArt>
 			<Dependency Software="Game">3D graphics</Dependency>
 			<Dependency Software="3D Editor">Animation</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
         <Feature>
 			<Name>Joystick input</Name>
@@ -421,6 +484,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Joystick input</Dependency>
             <SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
             <SoftwareCategory Category="Space">0</SoftwareCategory>
             <SoftwareCategory Category="Fighting">0</SoftwareCategory>
 		</Feature>
@@ -493,6 +557,13 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.3</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Save game</Name>
@@ -559,5 +630,345 @@
 			<CodeArt>0.95</CodeArt>
             <Dependency Software="Digital Store">Game downloads</Dependency>
 		</Feature>
+		<Feature Vital="TRUE" Research="3D graphics">
+			<Name>Real weapons license</Name>
+			<Category>3D</Category>
+			<Description>Licenses with weapons manufacturers to put their weapons in the game.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+            <SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" Research="3D graphics">
+			<Name>Real military license</Name>
+			<Category>3D</Category>
+			<Description>Licenses with military manufacturers to put their military units in the game.</Description>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+            <SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<!-- START FLIGHT SIMULATOR SPECIFIC -->
+		<Feature Vital="TRUE">
+			<Name>Flight physics</Name>
+			<Category>Algorithm</Category>
+			<Description>Aircraft follow real-world flight models and behave more realistically.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game Engine">Flight physics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" Research="3D graphics">
+			<Name>Real aircraft license</Name>
+			<Category>3D</Category>
+			<Description>Licences with real-world companies to put their aircraft in the game.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>World map</Name>
+			<Category>3D</Category>
+			<Description>The entire globe is simulated and traversable by players.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+            <Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">2002</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>3D cockpit</Name>
+			<Category>3D</Category>
+			<Description>Aircraft cockpits are rendered in full 3D.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.2</CodeArt>
+            <Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>ATC simulation</Name>
+			<Category>Algorithm</Category>
+			<Description>Air traffic control is simulated within the game world.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game">8-bit audio</Dependency>
+			<Dependency Software="Game">AI</Dependency>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Cloud simulation</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Clouds appear in the workd and can move, affecting visibility and aircraft handling.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.35</CodeArt>
+            <Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">1995</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Wind simulation</Name>
+			<Category>Algorithm</Category>
+			<Description>Wind affects the aircraft controls and position.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Aerodynamics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">1996</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Weather simulation</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Weather like rain or snow is simulated in the game world.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Game">Cloud simulation</Dependency>
+			<Dependency Software="Game">Wind simulation</Dependency>
+			<SoftwareCategory Category="Flight Simulator">1997</SoftwareCategory>
+		</Feature>
+		<Feature From="Weather simulation">
+			<Name>Real-world weather</Name>
+			<Category>Network</Category>
+			<Description>Real-time weather is used to determine the weather in the game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Flight Simulator">2004</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Air combat</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Aircraft have weapons and can attack one another.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<SoftwareCategory Category="Flight Simulator">1985</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Realistic damage</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Aircraft damage is simulated according to laws of physics.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game Engine">Physics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<!-- END FLIGHT SIMULATOR SPECIFIC -->
+		<!-- START RACING SPECIFIC -->
+		<Feature Vital="TRUE" Research="3D graphics">
+			<Name>Real vehicle license</Name>
+			<Category>3D</Category>
+			<Description>Licenses with real vehicle manufacturers to put their vehicles in the game.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature Research="3D graphics">
+			<Name>Real tire license</Name>
+			<Category>3D</Category>
+			<Description>Licenses with real tire manufacturers to put their tires in the game.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" Research="3D graphics">
+			<Name>Real circuit license</Name>
+			<Category>3D</Category>
+			<Description>Licenses with real circuits to put their racing tracks in the game.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Damage simulation</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Realistically represent damage and its effect on vehicles.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game Engine">Physics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Handling model</Name>
+			<Category>Algorithm</Category>
+			<Description>Vehicle handling follows real-world aerodynamic principles.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Aerodynamics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Tire model</Name>
+			<Category>Algorithm</Category>
+			<Description>Tire wear, temperature, and type affect the handling of the vehicle.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Physics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Pit stop</Name>
+			<Category>Algorithm</Category>
+			<Description>Players can stop a vehicle in the pits and change tires or refuel.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Vehicle audio</Name>
+			<Category>Audio</Category>
+			<Description>Audio from real vehicles is recorded and simulated in the game.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.25</CodeArt>
+			<Dependency Software="Game">16-bit audio</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Flag rules</Name>
+			<Category>Algorithm</Category>
+			<Description>The rules of racing, like no overtaking, and false starts, are simulated.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>3D interior</Name>
+			<Category>3D</Category>
+			<Description>The cockpit and interior of the car are rendered fully in 3D with working gauges.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Online lap times</Name>
+			<Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Players can post lap times and view those of others online.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Racing">1996</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Online race leagues</Name>
+			<Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Players can join an online league to race with others in a season.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>0.0005</Server>
+			<Dependency Software="Game">Dedicated servers</Dependency>
+			<SoftwareCategory Category="Racing">2000</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Online safety rating</Name>
+			<Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Driving behaviour is tracked over multiple online races and shown as a rating to other players.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>0.0001</Server>
+			<Dependency Software="Game">Dedicated servers</Dependency>
+			<SoftwareCategory Category="Racing">2007</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Advanced AI drivers</Name>
+			<Category>Algorithm</Category>
+			<Description>AI drivers use real-world racing techniques to race the player.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">AI</Dependency>
+			<SoftwareCategory Category="Racing">2003</SoftwareCategory>
+		</Feature>
+		<!-- END RACING SPECIFIC -->
 	</Features>
 </SoftwareType>
