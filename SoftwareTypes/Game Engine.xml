@@ -246,13 +246,49 @@
 		<Feature Vital="TRUE">
 			<Name>Physics</Name>
 			<Unlock>1994</Unlock>
-			<Description></Description>
+			<Description>Make objects in the game behave like they do according to gravity and physics.</Description>
 			<Category>Algorithm</Category>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Mechanical simulation</Name>
+			<Unlock>1997</Unlock>
+			<Description>Simulate how parts of a fixed system interact with one another according to real-world physics.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Physics</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Aerodynamics</Name>
+			<Unlock>1996</Unlock>
+			<Description>Simulate the passing of air over a physical object such as a vehicle or aircraft.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Physics</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Flight physics</Name>
+			<Unlock>1999</Unlock>
+			<Description>Accurately simulate how aircraft move through the atmosphere.</Description>
+			<Category>Algorithm</Category>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Aerodynamics</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Scripting</Name>
@@ -285,6 +321,20 @@
 			<Usability>2</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Tree generation</Name>
+			<Unlock>1998</Unlock>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Trees can be procedurally generated based on a set of rules, to give a more realistic look.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game Engine">Textures</Dependency>
+			<Dependency Software="3D Editor">Skeletal animation</Dependency>
 		</Feature>
 	</Features>
 </SoftwareType>
