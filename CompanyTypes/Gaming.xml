@@ -1,8 +1,8 @@
 <CompanyType>
 	<Specialization>Gaming</Specialization>
-	<PerYear>0.3</PerYear>
-	<Min>5</Min>
-	<Max>10</Max>
+	<PerYear>0.4</PerYear>
+	<Min>10</Min>
+	<Max>20</Max>
 	<Types>
 		<Type Software="Game">1</Type>
 	</Types>
