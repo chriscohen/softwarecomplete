@@ -84,6 +84,31 @@
 			<Stability>1</Stability>
 			<CodeArt>0.8</CodeArt>
 		</Feature>
+        <Feature>
+			<Name>Wireframing</Name>
+            <Unlock>1985</Unlock>
+			<Category>2D</Category>
+			<Description>Prepare designs ahead of time by quickly using a wireframe.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="2D Editor">Graphic design</Dependency>
+		</Feature>
+        <Feature>
+			<Name>Prototyping</Name>
+            <Unlock>1992</Unlock>
+			<Category>2D</Category>
+			<Description>Create easily editable full versions of designs in a prototype style.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.4</CodeArt>
+            <Dependency Software="2D Editor">Wireframing</Dependency>
+            <Dependency Software="2D Editor">RGB color space</Dependency>
+		</Feature>
         <Feature Vital="TRUE">
 			<Name>Copy/paste</Name>
 			<Category>System</Category>
@@ -425,6 +450,18 @@
             <Usability>2</Usability>
             <Stability>1</Stability>
             <CodeArt>0.8</CodeArt>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>App design</Name>
+            <Category>2D</Category>
+            <Description>Design layouts for phone or watch apps.</Description>
+            <Unlock>2006</Unlock>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>3</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="2D Editor">Prototyping</Dependency>
         </Feature>
     </Features>
 </SoftwareType>

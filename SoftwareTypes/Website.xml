@@ -84,7 +84,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.2</CodeArt>
             <Server>0.0001</Server>
-            <Dependency Software="2D Editor">Graphic design</Dependency>
+            <Dependency Software="2D Editor">Prototyping</Dependency>
             <Dependency Software="IDE">HTML</Dependency>
 		</Feature>
         <Feature Vital="TRUE">
