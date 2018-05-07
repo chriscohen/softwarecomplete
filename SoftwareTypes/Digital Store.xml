@@ -232,6 +232,19 @@
             <Server>0.0001</Server>
 			<SoftwareCategory Category="Game store">0</SoftwareCategory>
 		</Feature>
+		<Feature>
+			<Name>Digital currency</Name>
+			<Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Virtual currency for specific games can be purchased online and used within those games.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.7</CodeArt>
+            <Server>0.0001</Server>
+			<SoftwareCategory Category="Game store">2010</SoftwareCategory>
+		</Feature>
 		<!-- GAME STORE END -->
 	</Features>
 </SoftwareType>
