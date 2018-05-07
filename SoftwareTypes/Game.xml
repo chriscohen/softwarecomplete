@@ -14,7 +14,7 @@
             <Unlock>1980</Unlock>
 			<Popularity>0.6</Popularity>
 			<Retention>0.7</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.7</TimeScale>
 			<Iterative>0.8</Iterative>
 			<NameGenerator>GameRPG</NameGenerator>
 		</Category>
@@ -23,7 +23,7 @@
             <Unlock>1980</Unlock>
 			<Popularity>0.6</Popularity>
 			<Retention>0.3</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.7</TimeScale>
 			<Iterative>0.8</Iterative>
 			<NameGenerator>GameAdventure</NameGenerator>
 		</Category>
@@ -32,7 +32,7 @@
 			<Description></Description>
 			<Popularity>0.4</Popularity>
 			<Retention>0.5</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.6</TimeScale>
 			<Iterative>0.7</Iterative>
 			<NameGenerator>GameSimulation</NameGenerator>
 		</Category>
@@ -68,7 +68,7 @@
             <Unlock>1985</Unlock>
 			<Popularity>0.3</Popularity>
 			<Retention>0.8</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.75</TimeScale>
 			<Iterative>0.95</Iterative>
 			<NameGenerator>GameRacing</NameGenerator>
 		</Category>
@@ -77,7 +77,7 @@
             <Unlock>1982</Unlock>
 			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.7</TimeScale>
 			<Iterative>0.95</Iterative>
 			<NameGenerator>GameFlightSim</NameGenerator>
 		</Category>
@@ -86,7 +86,7 @@
             <Unlock>1978</Unlock>
 			<Popularity>0.4</Popularity>
 			<Retention>0.4</Retention>
-			<TimeScale>0.6</TimeScale>
+			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
 			<NameGenerator>GamePuzzle</NameGenerator>
 		</Category>
@@ -104,7 +104,7 @@
             <Unlock>1987</Unlock>
 			<Popularity>0.6</Popularity>
 			<Retention>0.6</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.85</TimeScale>
 			<Iterative>0.95</Iterative>
 			<NameGenerator>GameRTS</NameGenerator>
 		</Category>
@@ -113,7 +113,7 @@
             <Unlock>1990</Unlock>
 			<Popularity>0.75</Popularity>
 			<Retention>0.3</Retention>
-			<TimeScale>1</TimeScale>
+			<TimeScale>0.9</TimeScale>
 			<Iterative>0.95</Iterative>
 			<NameGenerator>GameFPS</NameGenerator>
 		</Category>
@@ -123,7 +123,7 @@
 			<Popularity>0.35</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>1</TimeScale>
-			<Iterative>0.95</Iterative>
+			<Iterative>0.85</Iterative>
 			<NameGenerator>GameGrandStrategy</NameGenerator>
 		</Category>
         <Category Name="MMO">
@@ -151,7 +151,7 @@
 			<Name>2D graphics</Name>
 			<Category>2D</Category>
 			<Description>Render the screen in 2D using sprites.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
@@ -163,7 +163,7 @@
 			<Name>3D graphics</Name>
 			<Category>3D</Category>
 			<Description>Render the screen in 3D.</Description>
-			<DevTime>12</DevTime>
+			<DevTime>6</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
@@ -175,7 +175,7 @@
 			<Name>HD graphics</Name>
 			<Category>3D</Category>
 			<Description>Render up to 1920x1080.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -186,7 +186,7 @@
 			<Name>UltraHD graphics</Name>
 			<Category>3D</Category>
 			<Description>Render up to 3840x2160, and give an option to scale the user interface to be larger.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -208,7 +208,7 @@
 			<Name>Textures</Name>
 			<Category>2D</Category>
 			<Description>Apply textures to the 3D objects in the world.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -221,7 +221,7 @@
 			<Name>Lighting</Name>
 			<Category>3D</Category>
 			<Description>Render lights in the game world.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -233,7 +233,7 @@
 			<Name>VR</Name>
 			<Category>3D</Category>
 			<Description>Virtual reality.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -245,7 +245,7 @@
 			<Name>Physics</Name>
 			<Description>Simulation of real-world physics and gravity effects.</Description>
 			<Category>Algorithm</Category>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -269,7 +269,7 @@
 			<Name>PC speaker</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -280,7 +280,7 @@
 			<Name>8-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>3</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -291,7 +291,7 @@
 			<Name>16-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -302,7 +302,7 @@
 			<Name>24-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>5</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -313,7 +313,7 @@
 			<Name>Music</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -326,7 +326,7 @@
 			<Name>Dialog</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -340,7 +340,7 @@
 			<ArtCategory>2D</ArtCategory>
 			<Unlock>1997</Unlock>
 			<Description></Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -355,7 +355,7 @@
 			<Name>AI</Name>
 			<Category>Algorithm</Category>
 			<Description></Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -365,7 +365,7 @@
 			<Name>Local multiplayer</Name>
 			<Category>System</Category>
 			<Description>Multiplayer on the same computer.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -376,7 +376,7 @@
 			<Category>Network</Category>
 			<Unlock>1990</Unlock>
 			<Description>Multiplayer across the internet.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -433,7 +433,7 @@
 			<Category>Network</Category>
 			<Unlock>1990</Unlock>
 			<Description></Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -445,7 +445,7 @@
 			<Name>Mod support</Name>
 			<Category>System</Category>
 			<Description>Allows modification of game files to create extra levels, game mechanics and more.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -455,7 +455,7 @@
 			<Name>Touch support</Name>
 			<Category>System</Category>
 			<Description>Allows touch-based input.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -466,7 +466,7 @@
 			<Name>Cutscenes</Name>
 			<Category>2D</Category>
 			<Description></Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -487,7 +487,7 @@
 			<Name>3D cutscenes</Name>
 			<Category>3D</Category>
 			<Description>Reflect player choices in the story by rendering cutscenes in realtime</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -510,7 +510,7 @@
 			<Name>Motion capture</Name>
 			<Category>3D</Category>
 			<Description></Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -532,7 +532,7 @@
 			<Name>Joystick input</Name>
 			<Category>System</Category>
 			<Description>Allows a game to be controlled by a joystick.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -547,7 +547,7 @@
 			<Name>Controller input</Name>
 			<Category>System</Category>
 			<Description>Allows a game to be controlled by a game controller.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -558,7 +558,7 @@
 			<Name>Steering wheel input</Name>
 			<Category>System</Category>
 			<Description>Allows a racing game to be controlled by a steering wheel.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -571,7 +571,7 @@
             <Unlock>1998</Unlock>
 			<Category>Network</Category>
 			<Description>Patches will provide updates after release.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>5</Stability>
@@ -584,7 +584,7 @@
             <Unlock>2011</Unlock>
 			<Category>Algorithm</Category>
 			<Description>The game's AI will learn from players and adapt.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -596,7 +596,7 @@
 			<Category>System</Category>
 			<Unlock>1984</Unlock>
 			<Description>Allow scripts to control gameplay.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -607,7 +607,7 @@
 			<Category>2D</Category>
 			<Unlock>1984</Unlock>
 			<Description>Players can build their own characters from scratch.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -625,7 +625,7 @@
 			<Category>System</Category>
 			<Unlock>1984</Unlock>
 			<Description>Save a game to resume playing later.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -636,7 +636,7 @@
 			<Category>Network</Category>
 			<Unlock>2004</Unlock>
 			<Description>Save a game to the cloud instead of locally.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -651,7 +651,7 @@
             <ArtCategory>2D</ArtCategory>
 			<Unlock>1986</Unlock>
 			<Description>Game characters can gain levels by progressing in the game.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -667,7 +667,7 @@
 			<Name>Difficulty levels</Name>
 			<Category>System</Category>
 			<Description>Allow players to customise game difficulty.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -729,7 +729,7 @@
 			<Name>Real weapons license</Name>
 			<Category>3D</Category>
 			<Description>Licenses with weapons manufacturers to put their weapons in the game.</Description>
-			<DevTime>10</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
@@ -745,7 +745,7 @@
 			<Name>Real military license</Name>
 			<Category>3D</Category>
 			<Description>Licenses with military manufacturers to put their military units in the game.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -759,7 +759,7 @@
 			<Category>System</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>A match or session can be recorded and replayed to analyse or observe.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -775,7 +775,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Level map is uncovered as the player explores.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -796,7 +796,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>A small map appears in the corner of the screen to guide the player.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -815,7 +815,7 @@
 			<Unlock>2007</Unlock>
 			<Category>Algorithm</Category>
 			<Description>Parts of the game such as enemies or levels are generated by the computer rather than designed by a human.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -836,7 +836,7 @@
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Players can form a party with other game characters.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -854,7 +854,7 @@
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Players are given story-based quests to complete as objectives, and gain rewards.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -870,7 +870,7 @@
 			<Name>Quest dialog</Name>
 			<Category>Audio</Category>
 			<Description>Quests have voiced dialog lines.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -888,7 +888,7 @@
 			<Name>Quest generator</Name>
 			<Category>Algorithm</Category>
 			<Description>Extra quests are generated or varied by the computer, instead of being designed by a human.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -905,7 +905,7 @@
 			<Name>Multiple endings</Name>
 			<Category>System</Category>
 			<Description>The game's storyline can end in different ways depending on player choices.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>2</Stability>
@@ -922,7 +922,7 @@
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Player characters can maintain an inventory of items.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -940,7 +940,7 @@
 			<Category>Network</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>In-game items can be purchased with virtual currency, bought with real money.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -962,7 +962,7 @@
 			<Category>Network</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Players can exchange money for a random chance to get a specific item.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -997,7 +997,7 @@
 			<Unlock>2009</Unlock>
 			<Category>Algorithm</Category>
 			<Description>Player health regenerates to maximum automatically instead of collecting a health pack.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -1012,7 +1012,7 @@
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Player characters are of different "class" from one another, allowing different abilities for different players.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -1028,7 +1028,7 @@
 			<Unlock>2017</Unlock>
 			<Category>System</Category>
 			<Description>A game mode with a large number of players, and the last one to be eliminated is the winner.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -1040,7 +1040,7 @@
 			<Name>Flight physics</Name>
 			<Category>Algorithm</Category>
 			<Description>Aircraft follow real-world flight models and behave more realistically.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1052,7 +1052,7 @@
 			<Name>Real aircraft license</Name>
 			<Category>3D</Category>
 			<Description>Licences with real-world companies to put their aircraft in the game.</Description>
-			<DevTime>10</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
@@ -1063,7 +1063,7 @@
 			<Name>World map</Name>
 			<Category>3D</Category>
 			<Description>The entire globe is simulated and traversable by players.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1076,7 +1076,7 @@
 			<Name>3D cockpit</Name>
 			<Category>3D</Category>
 			<Description>Aircraft cockpits are rendered in full 3D.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1088,7 +1088,7 @@
 			<Name>ATC simulation</Name>
 			<Category>Algorithm</Category>
 			<Description>Air traffic control is simulated within the game world.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1102,7 +1102,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Clouds appear in the workd and can move, affecting visibility and aircraft handling.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1114,7 +1114,7 @@
 			<Name>Wind simulation</Name>
 			<Category>Algorithm</Category>
 			<Description>Wind affects the aircraft controls and position.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1127,7 +1127,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Weather like rain or snow is simulated in the game world.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1153,7 +1153,7 @@
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Aircraft have weapons and can attack one another.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1165,7 +1165,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Aircraft damage is simulated according to laws of physics.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1179,7 +1179,7 @@
 			<Name>Real vehicle license</Name>
 			<Category>3D</Category>
 			<Description>Licenses with real vehicle manufacturers to put their vehicles in the game.</Description>
-			<DevTime>10</DevTime>
+			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>0</Stability>
@@ -1190,7 +1190,7 @@
 			<Name>Real tire license</Name>
 			<Category>3D</Category>
 			<Description>Licenses with real tire manufacturers to put their tires in the game.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -1201,7 +1201,7 @@
 			<Name>Real circuit license</Name>
 			<Category>3D</Category>
 			<Description>Licenses with real circuits to put their racing tracks in the game.</Description>
-			<DevTime>10</DevTime>
+			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1213,7 +1213,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Realistically represent damage and its effect on vehicles.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1225,7 +1225,7 @@
 			<Name>Handling model</Name>
 			<Category>Algorithm</Category>
 			<Description>Vehicle handling follows real-world aerodynamic principles.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1237,7 +1237,7 @@
 			<Name>Tire model</Name>
 			<Category>Algorithm</Category>
 			<Description>Tire wear, temperature, and type affect the handling of the vehicle.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1249,7 +1249,7 @@
 			<Name>Pit stop</Name>
 			<Category>Algorithm</Category>
 			<Description>Players can stop a vehicle in the pits and change tires or refuel.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -1261,7 +1261,7 @@
 			<Name>Vehicle audio</Name>
 			<Category>Audio</Category>
 			<Description>Audio from real vehicles is recorded and simulated in the game.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1273,7 +1273,7 @@
 			<Name>Flag rules</Name>
 			<Category>Algorithm</Category>
 			<Description>The rules of racing, like no overtaking, and false starts, are simulated.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1284,7 +1284,7 @@
 			<Name>3D interior</Name>
 			<Category>3D</Category>
 			<Description>The cockpit and interior of the car are rendered fully in 3D with working gauges.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -1297,7 +1297,7 @@
 			<Category>Network</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Players can post lap times and view those of others online.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -1311,7 +1311,7 @@
 			<Category>Network</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Players can join an online league to race with others in a season.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1325,7 +1325,7 @@
 			<Category>Network</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>Driving behaviour is tracked over multiple online races and shown as a rating to other players.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -1338,7 +1338,7 @@
 			<Name>Advanced AI drivers</Name>
 			<Category>Algorithm</Category>
 			<Description>AI drivers use real-world racing techniques to race the player.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1353,7 +1353,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Description>The cockpit contains a radar to show the position of nearby spaceships in 3D space.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1365,7 +1365,7 @@
 			<Name>3D ship cockpit</Name>
 			<Category>3D</Category>
 			<Description>The cockpit is rendered in 3D with working instruments.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1377,7 +1377,7 @@
 			<Name>Orbital mechanics</Name>
 			<Category>Algorithm</Category>
 			<Description>The player ship is affected by gravity from planets and other spacial bodies.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1390,7 +1390,7 @@
 			<Category>System</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>The player can dock a ship at a space station.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -1402,7 +1402,7 @@
 			<Name>Space combat</Name>
 			<Category>System</Category>
 			<Description>Players can engage in combat with other spaceships.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1414,7 +1414,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Spaceships are damaged and react realistically.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1456,7 +1456,7 @@
 			<Name>Raid system</Name>
 			<Category>System</Category>
 			<Description>Players can attack a specific objective in a large group (a raid).</Description>
-			<DevTime>5</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1468,7 +1468,7 @@
 			<Name>Mounts</Name>
 			<Category>3D</Category>
 			<Description>Players can acquire a "mount" such as a horse or a car in order to travel across the game world more quickly.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1481,7 +1481,7 @@
 			<Category>3D</Category>
 			<ArtCategory>Audio</ArtCategory>
 			<Description>Limited-time special events occur during real-world holidays or other specific times in the game world.</Description>
-			<DevTime>7</DevTime>
+			<DevTime>5</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -1494,7 +1494,7 @@
 			<Name>Item sets</Name>
 			<Category>3D</Category>
 			<Description>Items can be part of a set, giving a special bonus when all pieces are obtained.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1508,7 +1508,7 @@
 			<Name>Grand map</Name>
 			<Category>2D</Category>
 			<Description>A map of the entire campaign.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -1520,7 +1520,7 @@
 			<Name>Real-time battles</Name>
 			<Category>3D</Category>
 			<Description>Battles are fought on a separate real-time battle map.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
