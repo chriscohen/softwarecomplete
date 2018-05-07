@@ -1,39 +1,140 @@
--start(base,base,base,pre)
--pre(base)
-The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
-Space
-Army
-Hell
-Team
-Battle
-Target
+-start(owner,baseAdjective,baseNoun,baseAdjective,baseNoun,simple,forSomeone)
+-owner(baseAdjective,baseNoun)
+Churchill's
+Custer's
+Gary's
+Jim's
+Mugabe's
+Napoleon's
+Sid's
+Stalin's
+Victoria's
+-forSomeone(adjective)
+For the
+For the Glory of the
+Glory of the
+In the Name of
+Pride of the
+Splendor of the
+Supremacy of the
+-baseAdjective(adjective)
+African
+American
+Arabic
+British
+Atlantic
+Chinese
+Communist
+Crusading
+Distant
+European
+Global
+Japanese
+Pacific
+Nuclear
+Stellar
+Super
+Supreme
+Total
+Universal
+-baseNoun(noun)
+Age of
+Arsenal of
+Battle of
+Birth of
+Clash of
+Fate of
+Hearts of
+March of
+Romance of
+Rise of
+Storm of
+World of
+-simple(stop,colon,ext)
+America
+Ancient Greece
+Arabia
+Civil War
+Communism
+Democracy
+Diplomacy
+Geopolitics
+Great War
+Imperialism
+Imperialist
+Persia
+Risk
+Rome
+Russia
 War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
-World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
-Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
- Arena
- Rebirth
- Evolved
- Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+World War
+-colon(baseNoun)
+: 
+-adjective(stop,stop,ext)
+ Commander
+ Conqueror
+ Crusader
+ Destroyer
+ Dictator
+ Emperor
+ Empire
+ Explorer
+ Extremist
+ King
+ Invader
+ Militant
+ Monarch
+ Oligarch
+ Overseer
+ Peacemaker
+ Power
+ Ruler
+ Subjugator
+ Superpower
+ Threat
+-noun(stop,stop,ext)
+ Africa
+ Aluminum
+ America
+ Ascension
+ China
+ Combat
+ Conflict
+ Conquest
+ Death
+ Discovery
+ Dominance
+ Europe
+ Exploration
+ Iron
+ Japan
+ Prussia
+ Power
+ Steel
+ Suffering
+ the Cold War
+ the Eagle
+ the East
+ the Empire
+ the New World
+ the Old World
+ the Rising Sun
+ the West
+ the World
+ Threat
+ Three Kingdoms
+ Two Kingdoms
+ War
+ Wars
+-ext(stop)
+ 1776
+ 1812
+ 1939
+ 1945
+ 1972
+ 1984
+ 2010
+ 2050
+ 2100
+ Gold
+ Ultimate
