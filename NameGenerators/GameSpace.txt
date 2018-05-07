@@ -1,39 +1,158 @@
--start(base,base,base,pre)
--pre(base)
-The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
+-start(pre,preNoun,preNoun,base,base,base,base,base,base)
+-pre(base,base,base,preNoun)
+Ace 
+Buzz Aldrin's 
+Final 
+Last 
+Neil Armstrong's 
+Project 
+Yuri Gagarin's 
+-preNoun(noun)
+Aces of 
+Battle of 
+Colonizing 
+End of 
+Enduring 
+Destination: 
+Dreams of 
+Journey to 
+Master of 
+Nightmare of 
+Suffering 
+Surviving 
+War of 
+-noun(stop,stop,stop,ext)
+Absolute Zero
+Alpha Centauri
+Jupiter
+Mars
+Mercury
+Neptune
+Orion
+Outer Space
+Pluto
+Saturn
 Space
-Army
-Hell
-Team
+Starpoint
+the Black Hole
+the Galaxy
+the Stars
+the Universe
+the Unknown
+the Vacuum
+the Void
+the Wormhole
+Venus
+Wolf 359
+-base(base2)
+Absolute
+Apollo
+Asteroid
+Codename
+Colony
 Battle
-Target
-War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
-World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
+Dangerous
 Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
- Arena
- Rebirth
- Evolved
- Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+Elite
+Forced
+Free
+Gravity
+Imperial
+Independence
+Interstellar
+Laser
+Lunar
+Mercenary
+Outer Space
+Photon
+Shattered
+Shuttle
+Solar
+Space
+Space
+Space
+Space
+Space Captain
+Star
+Star Captain
+Starlancer
+Starship
+Subzero
+Void
+-base2(stop,stop,stop,ext)
+ Allegiance
+ Alliance
+ Armada
+ Assault
+ Belt
+ Chronicles
+ Combat
+ Command
+ Conflict
+ Galactic
+ Glider
+ Incident
+ Lander
+Master
+ Orbiter
+ Prophecy
+ Quest
+ Radius
+ Reborn
+ Rangers
+ Scanner
+ Shock
+ Seeker
+ Simulator
+ Squadron
+ Tactician
+ Threat
+ Trader
+ Trek
+ Vengeance
+ Wars
+ Wraith
+-preColon(postColon)
+Death Squad:
+Death Laser:
+Jupiter:
+Shockwave:
+Spacefox:
+Solaris:
+Space:
+Space Trek:
+Starship:
+Star Destroyer:
+-postColon(endColon)
+ Beyond the
+ Further than the
+ Galactic
+ Into the
+ Shadow of the
+ Stars of
+ The
+ The Final
+ The Last
+ The Unending
+ Universal
+-endColon(stop)
+ Assault
+ Battle
+ Conflict
+ Curse
+ Exodus
+ Fight
+ Frontier
+ Future
+ Invasion
+ Judgment
+ Plague
+ Ranger
+ Unknown
+ War
+-ext(stop)
+ 3D
+ Arcade
+ Galactic
+ X
+ Zero
