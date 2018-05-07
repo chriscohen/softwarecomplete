@@ -1,64 +1,60 @@
--start(base,base,base,ubernut)
--base(ext)
-Gorilla
-Ubernut
-Deeban
-BlueHat
-Fez
-Tiger
-Lion
-Leopard
-Pen
-Solaris
-Longhorn
-Sabre
-Venom
-Snakebite
-Gen
-Solar
-Helios
-Window
--ubernut(ubernutext)
-Ubernut
--ubernutext(stop)
-Artful Aardvark
-Bionic Beaver
-Breezy Badger
-Dapper Drake
-Edgy Eft
-Feisty Fawn
-Gutsy Gibbon
-Hardy Heron
-Hoary Hedgehog
-Intrepid Ibex
-Jaunty Jackelope
-Karmic Koala
-Lucid Lynx
-Maverick Meerkat
-Natty Narwhal
-Oneiric Ocelot
-Precise Pangolin
-Quantal Quetzal
-Raring Ringtail
-Saucy Salamander
-Trusty Tahr
-Utopic Unicorn
-Vivid Vervet
-Warty Warthog
-Wily Werewolf
-Xenial Xerus
-Yakkety Yakkety
-Zesty Zapus
--ext(stop)
-XT
-XE
-ME
-Premium
-Enterprise
-Home Premium
-Ultimate
+-start(base,base,base,base,base,base,base,pre)
+-pre(base)
+Free
+my
+Open
+Project 
+-base(stop,stop,base2,base2,ext)
+Abi
+Alex
+Alyssa
+Alyx
+Amelia
+Cartana
+Cortina
+Emma
+Eve
+Glados
+Hal
+Jessica
+Lily
+Maddie
+Mia
+Micro
+Shodan
+Silver
+Skye
+Sofia
+Zoe
+-base2(stop)
+ AI
+ AllThings
+ at Home
+ Automate
+ Automatic
+ Echo
+ Eco
+ Home
+ Home
+ Home
+ Home Automate
+ Home Control
+ HomeLink
+ In-House
+Net
 OS
-X
- OS
- Power
- Ultimate
+ Seer
+ Smart
+ Smart Home
+ SmartThings
+ Wireless
+ WeGo
+ -ext(stop)
+  API
+  IO
+  Kit
+  Lite
+  MCE
+  Ultra
+  Universal
+  X
