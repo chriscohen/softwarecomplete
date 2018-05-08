@@ -3,7 +3,7 @@
 	<Category>Gaming</Category>
 	<Description>A tool to allow games or game engines to be modified.</Description>
 	<Random>0.6</Random>
-	<IdealPrice>80</IdealPrice>
+	<IdealPrice>20</IdealPrice>
 	<OSSpecific>True</OSSpecific>
 	<OSLimit>Computer</OSLimit>
 	<OneClient>False</OneClient>
@@ -12,7 +12,7 @@
 		<Category Name="Game">
 			<Description>Modding tool for games.</Description>
             <Unlock>1980</Unlock>
-			<Popularity>0.5</Popularity>
+			<Popularity>0.4</Popularity>
 			<Retention>0.4</Retention>
 			<TimeScale>0.7</TimeScale>
 			<Iterative>0.8</Iterative>
@@ -21,7 +21,7 @@
 		<Category Name="Game engine">
 			<Description>Modding tool for game engines.</Description>
             <Unlock>1982</Unlock>
-			<Popularity>0.7</Popularity>
+			<Popularity>0.6</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>1</TimeScale>
 			<Iterative>0.8</Iterative>
