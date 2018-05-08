@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Modding</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>3</Min>
+	<Max>7</Max>
+	<Types>
+		<Type Software="Modding Tool">1</Type>
+	</Types>
+</CompanyType>
