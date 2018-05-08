@@ -1,26 +1,79 @@
--start(base,base,base,pre)
--pre(base)
-The 
+-start(base)
 -base(base2,base2,ext)
-Audio
-Wave
-Sound
-Amplitude
-Sine
-Audible
-Record
-Amp
+2d
+3d
+4d
+Any
+Auto
+Base
+Crazy
+Easy
+Engine
+Ez
+File
+Fine
+Fire
+Graphic
+Graphical
+Herald
+Holo
+Hot
+Level
+Levelz
+Majestic
+Nexus
+Ninja
+noSkill
+Script
+Scriptz
+Simple
+Unreal
+Vicious
+Virtual
+Visual
+Vortex
+Wow
+Zing
 -base2(ext,stop,stop)
+Add
+Adder
+Alter
+Burn
+Changer
+Coffee
+Create
+Creator
+Disassembler
 Edit
-Maker
-Play
-Scape
-Pause
-Tune
-Stop
-Take
-Tools
+Editor
+Fix
+Fixer
+Force
+Hack
+Hacker
+Hackz
+Instigator
+Manipulator
+Mod
+Modz
+Modder
+Refresher
+Reworker
+Strike
+Tweak
+Tweaker
+Tweakz
 -ext(stop)
+ 2D
+ 3D
+ Elite
+ Full
+ l33t
+ GT
+ Master
+ on Fire
  Pro
+ Professional
  Studio
- Shop
+ Unlimited
+ X
