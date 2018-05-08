@@ -314,6 +314,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Multithreading</Name>
+			<Unlock>1989</Unlock>
 			<Category>System</Category>
 			<Description>Multithreading allows the Operating System to run mulitple threads at the same time by continually switching between them intelligently, speeding up applications.</Description>
 			<DevTime>3</DevTime>
@@ -329,6 +330,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Multitasking</Name>
+			<Unlock>1989</Unlock>
 			<Category>System</Category>
 			<Description>Let users have several applications open at any one time.</Description>
 			<DevTime>3</DevTime>
