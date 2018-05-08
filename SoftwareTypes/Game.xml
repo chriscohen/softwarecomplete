@@ -442,16 +442,6 @@
 			<Dependency Software="Game Engine">Networking</Dependency>
 		</Feature>
 		<Feature>
-			<Name>Mod support</Name>
-			<Category>System</Category>
-			<Description>Allows modification of game files to create extra levels, game mechanics and more.</Description>
-			<DevTime>1</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>2</Usability>
-			<Stability>0</Stability>
-			<CodeArt>1</CodeArt>
-		</Feature>
-		<Feature>
 			<Name>Touch support</Name>
 			<Category>System</Category>
 			<Description>Allows touch-based input.</Description>
@@ -715,14 +705,13 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-            <SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
 			<SoftwareCategory Category="Sports">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
 			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
-			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
-            <SoftwareCategory Category="Horror">0</SoftwareCategory>
-            <SoftwareCategory Category="RTS">0</SoftwareCategory>
-            <SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
 			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE" Research="3D graphics">
@@ -1576,5 +1565,149 @@
 			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 		</Feature>
 		<!-- END GRAND STRATEGY SPECIFIC -->
+		<!-- START MODDING FEATURES -->
+		<Feature>
+			<Name>Mod support</Name>
+			<Category>System</Category>
+			<Description>Allows modification of game files to create extra levels, game mechanics and more.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>UI editing</Name>
+			<Unlock>1992</Unlock>
+			<Category>2D</Category>
+			<Description>Allows user interface and HUD elements to be modified with a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Level editing</Name>
+			<Unlock>1985</Unlock>
+			<Category>2D</Category>
+			<Description>Allows editing of levels, or new levels, using a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Scenario editing</Name>
+			<Unlock>1990</Unlock>
+			<Category>System</Category>
+			<Description>Allows editing of scenarios, with different starting conditions or game rules, with a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">Game modes</Dependency>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Vehicle editing</Name>
+			<Unlock>1989</Unlock>
+			<Category>3D</Category>
+			<Description>Allows editing of vehicles in a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Circuit editing</Name>
+			<Unlock>1988</Unlock>
+			<Category>2D</Category>
+			<Description>Allows editing of racing circuits in a mod tool.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Aircraft editing</Name>
+			<Unlock>1993</Unlock>
+			<Category>3D</Category>
+			<Description>Allows editing of aircraft in a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Unit editing</Name>
+			<Unlock>1987</Unlock>
+			<Category>2D</Category>
+			<Description>Allows editing of military units in a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Puzzle editing</Name>
+			<Unlock>1986</Unlock>
+			<Category>2D</Category>
+			<Description>Allows editing of puzzles and creation of new puzzles in a mod tool.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Mod support</Dependency>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
+		</Feature>
+		<!-- END MODDING FEATURES -->
 	</Features>
 </SoftwareType>

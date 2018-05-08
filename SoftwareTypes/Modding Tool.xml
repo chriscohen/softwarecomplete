@@ -217,7 +217,7 @@
 			<Dependency Software="Website">File uploads</Dependency>
 			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
 		</Feature>
-		<!-- GAME END -->
+		<!-- GAME ENGINE END -->
 		<!-- GAME START -->
 		<Feature Forced="TRUE">
 			<Name>Text based</Name>
@@ -323,7 +323,7 @@
 			<SoftwareCategory Category="Game">0</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
-			<Name>2D level editing</Name>
+			<Name>2D level editor</Name>
 			<Category>2D</Category>
 			<Description>Edit levels or add new levels to the game.</Description>
 			<DevTime>2</DevTime>
@@ -331,11 +331,13 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Level editing</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
 			<SoftwareCategory Category="Game">0</SoftwareCategory>
 		</Feature>
-		<Feature From="2D level editing" Vital="TRUE">
-			<Name>3D level editing</Name>
+		<Feature From="2D level editor" Vital="TRUE">
+			<Name>3D level editor</Name>
 			<Category>3D</Category>
 			<Description>Edit 3D levels or add new 3D levels to the game.</Description>
 			<DevTime>2</DevTime>
@@ -343,6 +345,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Level editing</Dependency>
 			<Dependency Software="Game">3D graphics</Dependency>
 			<SoftwareCategory Category="Game">0</SoftwareCategory>
 		</Feature>
@@ -359,6 +362,103 @@
 			<Server>0.002</Server>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Website">File uploads</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Scenario editor</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Description>Allows users to edit or add scenarios in a game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.7</CodeArt>
+			<Dependency Software="Game">Scenario editing</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Vehicle editor</Name>
+			<Category>3D</Category>
+			<Description>Allows users to edit or add vehicles in a game.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Vehicle editing</Dependency>
+			<Dependency Software="Modding Tool">3D editing</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>2D circuit editor</Name>
+			<Category>2D</Category>
+			<Description>Allows users to edit or add 2D circuits in a game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Circuit editing</Dependency>
+			<Dependency Software="Modding Tool">GUI</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" From="2D circuit editor">
+			<Name>3D circuit editor</Name>
+			<Category>3D</Category>
+			<Description>Allows users to edit or add 3D circuits in a game.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Circuit editing</Dependency>
+			<Dependency Software="Modding Tool">3D editing</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Aircraft editor</Name>
+			<Category>3D</Category>
+			<Description>Allows users to edit or add aircraft in a game.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Aircraft editing</Dependency>
+			<Dependency Software="Modding Tool">3D editing</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Unit editor</Name>
+			<Category>3D</Category>
+			<Description>Allows users to edit or add military units in a game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Unit editing</Dependency>
+			<Dependency Software="Modding Tool">3D editing</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
+			<SoftwareCategory Category="Game">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Puzzle editor</Name>
+			<Category>2D</Category>
+			<Description>Allows users to edit or add puzzles in a game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Puzzle editing</Dependency>
+			<Dependency Software="Modding Tool">GUI</Dependency>
+			<Dependency Software="Modding Tool">Script mods</Dependency>
 			<SoftwareCategory Category="Game">0</SoftwareCategory>
 		</Feature>
 		<!-- GAME END -->
