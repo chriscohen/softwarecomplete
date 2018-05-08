@@ -1575,6 +1575,19 @@
 			<Usability>2</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="RPG">0</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
+			<SoftwareCategory Category="Sports">0</SoftwareCategory>
+			<SoftwareCategory Category="Space">0</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>UI editing</Name>
@@ -1586,7 +1599,6 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Game">Mod support</Dependency>
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
 			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
 			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
