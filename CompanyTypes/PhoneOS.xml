@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Phone Operating Systems</Specialization>
+	<PerYear>0.1</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="Operating System" Category="Phone">1</Type>
+	</Types>
+</CompanyType>

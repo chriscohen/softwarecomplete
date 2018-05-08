@@ -1,0 +1,12 @@
+<CompanyType>
+	<Specialization>Technical</Specialization>
+	<PerYear>0.3</PerYear>
+	<Min>3</Min>
+	<Max>6</Max>
+	<Types>
+        <Type Software="Cryptography">1</Type>
+        <Type Software="Database">1</Type>
+		<Type Software="IDE">1</Type>
+        <Type Software="SCM">1</Type>
+	</Types>
+</CompanyType>
