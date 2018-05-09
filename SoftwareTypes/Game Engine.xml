@@ -26,7 +26,7 @@
 			<Name>2D rendering</Name>
 			<Category>2D</Category>
 			<Description></Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>3</Stability>
@@ -37,7 +37,7 @@
 			<Name>Visual editor</Name>
 			<Category>2D</Category>
 			<Description>An editor that allows creation of games using a 2D interface.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
@@ -61,7 +61,7 @@
 			<Name>3D rendering</Name>
 			<Category>3D</Category>
 			<Description>Allows a game to be rendered in 3D.</Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -73,7 +73,7 @@
 			<Unlock>2001</Unlock>
 			<Category>3D</Category>
 			<Description>Allows a game to be rendered up to 1920x1080.</Description>
-			<DevTime>6</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -85,7 +85,7 @@
 			<Unlock>2010</Unlock>
 			<Category>3D</Category>
 			<Description>Allows a game to be rendered up to 3840x2160.</Description>
-			<DevTime>6</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -96,7 +96,7 @@
 			<Name>Textures</Name>
 			<Category>2D</Category>
 			<Description>Allows game objects to possess textures.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -107,7 +107,7 @@
 			<Name>3D assets</Name>
 			<Category>3D</Category>
 			<Description>Like 2D assets, but with an extra dimension</Description>
-			<DevTime>5</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -120,7 +120,7 @@
 			<Category>3D</Category>
 			<Unlock>2010</Unlock>
 			<Description>Virtual reality</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
@@ -131,7 +131,7 @@
 			<Category>3D</Category>
 			<Unlock>1989</Unlock>
 			<Description>Allows lights to be placed in 3D to show the scene.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -144,7 +144,7 @@
 			<Category>3D</Category>
 			<Unlock>1989</Unlock>
 			<Description>Allows lights to cast shadows in the game world.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -157,7 +157,7 @@
 			<Unlock>1997</Unlock>
 			<Category>3D</Category>
 			<Description>Render a game using voxels; small 3D cubes, rather than pixels.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -171,7 +171,7 @@
 			<Category>3D</Category>
 			<Unlock>1996</Unlock>
 			<Description>Allows materials to be rendered according to different lighting conditions.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -184,7 +184,7 @@
 			<Category>Algorithm</Category>
 			<Unlock>2007</Unlock>
 			<Description>Screen space ambient occlusion approximates occlusion of light behind objects in a 3D scene for a more realistic lighting effect.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -197,7 +197,7 @@
 			<Category>Algorithm</Category>
 			<Unlock>2001</Unlock>
 			<Description>Anti-aliasing reduces the jagged lines in 3D scenes caused by displaying angled shapes using square pixels.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -208,7 +208,7 @@
 			<Name>PC speaker</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -219,7 +219,7 @@
 			<Name>8-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -230,7 +230,7 @@
 			<Name>16-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -241,7 +241,7 @@
 			<Name>24-bit audio</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -264,7 +264,7 @@
 			<Name>8-bit music</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>3</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -287,7 +287,7 @@
 			<Name>HD music</Name>
 			<Category>Audio</Category>
 			<Description></Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -300,7 +300,7 @@
 			<Name>Networking</Name>
 			<Category>Network</Category>
 			<Description></Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -312,7 +312,7 @@
 			<Unlock>1994</Unlock>
 			<Description>Make objects in the game behave like they do according to gravity and physics.</Description>
 			<Category>Algorithm</Category>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
@@ -323,7 +323,7 @@
 			<Unlock>1997</Unlock>
 			<Description>Simulate how parts of a fixed system interact with one another according to real-world physics.</Description>
 			<Category>Algorithm</Category>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -335,7 +335,7 @@
 			<Unlock>1996</Unlock>
 			<Description>Simulate the passing of air over a physical object such as a vehicle or aircraft.</Description>
 			<Category>Algorithm</Category>
-			<DevTime>5</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -347,7 +347,7 @@
 			<Unlock>1999</Unlock>
 			<Description>Accurately simulate how aircraft move through the atmosphere.</Description>
 			<Category>Algorithm</Category>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -359,7 +359,7 @@
 			<Category>System</Category>
 			<Unlock>1984</Unlock>
 			<Description>Allow scripts to control gameplay, and unlocks the ability to mod a game.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -370,7 +370,7 @@
 			<Unlock>1991</Unlock>
 			<Description>Allows scripting without the use of a text editor.</Description>
 			<Category>2D</Category>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -380,7 +380,7 @@
 			<Name>Mod support</Name>
 			<Category>System</Category>
 			<Description>Allows modification of game engine files to create altered game mechanics or graphics.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
@@ -392,7 +392,7 @@
 			<Category>Algorithm</Category>
 			<ArtCategory>3D</ArtCategory>
 			<Description>Trees can be procedurally generated based on a set of rules, to give a more realistic look.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
