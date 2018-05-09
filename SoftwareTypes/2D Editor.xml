@@ -11,7 +11,7 @@
     <OSLimit>Computer</OSLimit>
     <OneClient>FALSE</OneClient>
     <InHouse>TRUE</InHouse>
-    <NameGenerator>ImageEditor</NameGenerator>
+    <NameGenerator>2DEditor</NameGenerator>
     <IdealPrice>80</IdealPrice>
     <Features>
         <Feature Forced="TRUE">
