@@ -345,7 +345,6 @@
         </Feature>
         <!-- SOCIAL NETWORK END -->
         <!-- FITNESS START -->
-        <!-- FITNESS END -->
         <Feature Forced="TRUE">
             <Name>Fitness profile</Name>
             <Category>System</Category>
@@ -464,5 +463,6 @@
             <Dependency Software="Website">3rd party sharing</Dependency>
             <SoftwareCategory Category="Fitness">0</SoftwareCategory>
         </Feature>
+        <!-- FITNESS END -->
 	</Features>
 </SoftwareType>
