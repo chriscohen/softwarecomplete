@@ -1,25 +1,57 @@
 -start(base)
 -base(base2,base2,ext)
-Picture
+Auto
+Cine
+Color
+Dark
+Design
+Digi
+Foto
 Image
-Photo
-Print
-Frame
 Ink
-Final
-Power
-Vector
+Light
+Neo
+Open
+Panorama
+Pencil
+Photo
+Pic
+Picture
+Portrait
+Raw
+Shot
+Shutter
+Tile
 -base2(stop,stop,ext)
+Canvas
 Edit
-Scape
-Maker
-Stop
- Styles
- Frames
-Point
-Cut
+Filter
+Graphic
+Magic
+Master
+Mechanic
+Paint
+Raster
+Room
+scape
+See
+Shop
+Sketch
+Store
+Table
+Tool
+View
+Zone
 -ext(stop)
- Pro
- Suite
- Studio
++
+ 2D
+ Developer
+ Elements
+ One
+ Plus
  Premium
+ Pro
+ Professional
+ Studio
+ Suite
+.NET

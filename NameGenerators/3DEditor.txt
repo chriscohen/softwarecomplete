@@ -1,0 +1,70 @@
+-start(base)
+-base(base2)
+Auto
+Blend
+Brice
+Cinema
+City
+Design
+Flux
+Form
+Hexa
+Iron
+Leopard
+Light
+Lion
+Milky
+Octo
+Open
+Pose
+Power
+Real
+Rhino
+Sculpt
+Seamless
+Self
+Shade
+Sketch
+Solid
+Space
+Sweet
+Swift
+Tiger
+Top
+Uni
+Vector
+X
+Z
+-base2(stop,stop,ext)
+123
+Animate
+Animator
+CAD
+desk
+Edit
+Editor
+Empire
+Engine
+Graphics
+Knife
+Model
+Modeller
+Room
+Shape
+Soft
+Spark
+Vertex
+Wave
+-ext(stop)
++
+.io
+ 3D
+ 4D
+ Community
+ Design
+ Plus
+ Pro
+ Professional
+ Studio
+ System
+ Ultimate
