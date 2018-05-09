@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Video Editing</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>5</Max>
+	<Types>
+		<Type Software="Video Editor">1</Type>
+	</Types>
+</CompanyType>

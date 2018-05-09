@@ -1,9 +1,10 @@
 <CompanyType>
 	<Specialization>Music</Specialization>
-	<PerYear>0.2</PerYear>
+	<PerYear>0.1</PerYear>
 	<Min>2</Min>
-	<Max>5</Max>
+	<Max>3</Max>
 	<Types>
-		<Type Software="Music Editor">1</Type>
+		<Type Software="App" Category="Music">1</Type>
+        <Type Software="Website" Category="Music">1</Type>
 	</Types>
 </CompanyType>

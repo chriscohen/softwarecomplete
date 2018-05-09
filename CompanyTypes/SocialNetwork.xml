@@ -1,0 +1,10 @@
+<CompanyType>
+	<Specialization>Social Networking</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>3</Max>
+	<Types>
+		<Type Software="App" Category="Social Network">1</Type>
+        <Type Software="Website" Category="Social Network">1</Type>
+	</Types>
+</CompanyType>
