@@ -230,6 +230,19 @@
 			<Dependency Software="3D Editor">Lighting</Dependency>
 		</Feature>
 		<Feature>
+			<Name>Voxels</Name>
+			<Category>3D</Category>
+			<Description>Render the game using voxels; small 3D cubes, rather than pixels.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game Engine">Voxels</Dependency>
+			<Dependency Software="Game">Lighting</Dependency>
+			<Dependency Software="Game">Textures</Dependency>
+		</Feature>
+		<Feature>
 			<Name>VR</Name>
 			<Category>3D</Category>
 			<Description>Virtual reality.</Description>
@@ -1024,6 +1037,143 @@
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="FPS">0</SoftwareCategory>
 		</Feature>
+		<!-- START SSAO FEATURES -->
+		<Feature Vital="TRUE">
+			<Name>SSAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2007</Unlock>
+			<Description>Screen space ambient occlusion approximates occlusion of light behind objects in a 3D scene for a more realistic lighting effect.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">SSAO</Dependency>
+            <Dependency Software="Game">Lighting</Dependency>
+		</Feature>
+		<Feature>
+			<Name>HDAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2008</Unlock>
+			<Description>High definition ambient occlusion is a higher definition variant of SSAO.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game Engine">HDAO</Dependency>
+			<Dependency Software="Game">SSAO</Dependency>
+		</Feature>
+		<Feature>
+			<Name>HBAO+</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2011</Unlock>
+			<Description>Horizon-based ambient occlusion is an advanced SSAO technique offering better visuals at a performance cost.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game Engine">HBAO+</Dependency>
+			<Dependency Software="Game">SSAO</Dependency>
+		</Feature>
+		<Feature>
+			<Name>ABAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2010</Unlock>
+			<Description>Angle-based ambient occlusion is an advanced SSAO technique.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game Engine">ABAO</Dependency>
+			<Dependency Software="Game">SSAO</Dependency>
+		</Feature>
+		<Feature>
+			<Name>VXAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2012</Unlock>
+			<Description>Voxel-accelerated ambient occlusion is a technique utilizing voxels for occlusion effects.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Game Engine">Voxels</Dependency>
+			<Dependency Software="Game">SSAO</Dependency>
+			<Dependency Software="Game">Voxels</Dependency>
+		</Feature>
+		<!-- END SSAO FEATURES -->
+		<!-- START AA FEATURES -->
+		<Feature Vital="TRUE">
+			<Name>Anti-aliasing</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2001</Unlock>
+			<Description>Anti-aliasing reduces the jagged lines in 3D scenes caused by displaying angled shapes using square pixels.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Anti-aliasing</Dependency>
+			<Dependency Software="Game">Lighting</Dependency>
+			<Dependency Software="Game">Textures</Dependency>
+			<Dependency Software="Game">3D graphics</Dependency>
+		</Feature>
+		<Feature>
+			<Name>MSAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2008</Unlock>
+			<Description>Multi-sample anti-aliasing is a less blurry form of anti-aliasing that uses polygon detection.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">MSAA</Dependency>
+			<Dependency Software="Game">Anti-aliasing</Dependency>
+		</Feature>
+		<Feature>
+			<Name>FXAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2010</Unlock>
+			<Description>Fast approximate anti-aliasing uses a blur filter to vastly reduce jagged lines at the cost of a slightly blurry image.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">FXAA</Dependency>
+			<Dependency Software="Game">Anti-aliasing</Dependency>
+		</Feature>
+		<Feature>
+			<Name>SMAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2011</Unlock>
+			<Description>Spacial anti-aliasing is an advanced anti-aliasing technique using polygon detection with a blurring effect.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">SMAA</Dependency>
+			<Dependency Software="Game">Anti-aliasing</Dependency>
+		</Feature>
+		<Feature>
+			<Name>TXAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2013</Unlock>
+			<Description>Temporal anti-aliasing is an advanced form of anti-aliasing with huge anti-jagged-line benefits at a significant performance cost.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">TXAA</Dependency>
+			<Dependency Software="Game">Anti-aliasing</Dependency>
+		</Feature>
+		<!-- END AA FEATURES -->
 		<!-- START FLIGHT SIMULATOR SPECIFIC -->
 		<Feature Vital="TRUE">
 			<Name>Flight physics</Name>

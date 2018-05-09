@@ -152,6 +152,20 @@
 			<Dependency Software="Game Engine">Lighting</Dependency>
             <Dependency Software="3D Editor">Shadows</Dependency>
 		</Feature>
+		<Feature>
+			<Name>Voxels</Name>
+			<Unlock>1997</Unlock>
+			<Category>3D</Category>
+			<Description>Render a game using voxels; small 3D cubes, rather than pixels.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="3D Editor">Voxel sculpting</Dependency>
+			<Dependency Software="Game Engine">Lighting</Dependency>
+			<Dependency Software="Game Engine">Textures</Dependency>
+		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Advanced shaders</Name>
 			<Category>3D</Category>
@@ -164,6 +178,31 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game Engine">3D rendering</Dependency>
             <Dependency Software="3D Editor">Shaders</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>SSAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2007</Unlock>
+			<Description>Screen space ambient occlusion approximates occlusion of light behind objects in a 3D scene for a more realistic lighting effect.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">Advanced shaders</Dependency>
+            <Dependency Software="3D Editor">Shaders</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Anti-aliasing</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2001</Unlock>
+			<Description>Anti-aliasing reduces the jagged lines in 3D scenes caused by displaying angled shapes using square pixels.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game Engine">3D rendering</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>PC speaker</Name>
@@ -361,5 +400,101 @@
 			<Dependency Software="Game Engine">Textures</Dependency>
 			<Dependency Software="3D Editor">Skeletal animation</Dependency>
 		</Feature>
+		<!-- START SSAO RESEARCH -->
+		<Feature Research="SSAO">
+			<Name>HDAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2008</Unlock>
+			<Description>High definition ambient occlusion is a higher definition variant of SSAO.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="3D Editor">Shaders</Dependency>
+		</Feature>
+		<Feature Research="SSAO">
+			<Name>HBAO+</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2011</Unlock>
+			<Description>Horizon-based ambient occlusion is an advanced SSAO technique offering better visuals at a performance cost.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="3D Editor">Shaders</Dependency>
+		</Feature>
+		<Feature Research="SSAO">
+			<Name>ABAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2010</Unlock>
+			<Description>Angle-based ambient occlusion is an advanced SSAO technique.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="3D Editor">Shaders</Dependency>
+		</Feature>
+		<Feature Research="SSAO">
+			<Name>VXAO</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2012</Unlock>
+			<Description>Voxel-accelerated ambient occlusion is a technique utilizing voxels for occlusion effects.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="3D Editor">Voxel sculpting</Dependency>
+		</Feature>
+		<!-- END SSAO RESEARCH -->
+		<!-- START AA RESEARCH -->
+		<Feature Research="Anti-aliasing">
+			<Name>MSAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2008</Unlock>
+			<Description>Multi-sample anti-aliasing is a less blurry form of anti-aliasing that uses polygon detection.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="Anti-aliasing">
+			<Name>FXAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2010</Unlock>
+			<Description>Fast approximate anti-aliasing uses a blur filter to vastly reduce jagged lines at the cost of a slightly blurry image.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="Anti-aliasing">
+			<Name>SMAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2011</Unlock>
+			<Description>Spacial anti-aliasing is an advanced anti-aliasing technique using polygon detection with a blurring effect.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Research="Anti-aliasing">
+			<Name>TXAA</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2013</Unlock>
+			<Description>Temporal anti-aliasing is an advanced form of anti-aliasing with huge anti-jagged-line benefits at a significant performance cost.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<!-- END AA RESEARCH -->
 	</Features>
 </SoftwareType>
