@@ -857,10 +857,6 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Voice recognition</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-			<SoftwareCategory Category="Console">0</SoftwareCategory>
-			<SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Watch">0</SoftwareCategory>
 			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
 		</Feature>
 		<!-- END SMART HOME SPECIFIC -->
