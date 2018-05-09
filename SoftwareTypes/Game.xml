@@ -147,6 +147,29 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Keyboard input</Name>
+			<Category>System</Category>
+			<Description>The player can use a keyboard to control the game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Keyboard</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Mouse input</Name>
+			<Category>System</Category>
+			<Description>The player can use a mouse to control the game.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<Dependency Software="Operating System">Mouse</Dependency>
+		</Feature>
 		<Feature From="Text-based" Vital="TRUE">
 			<Name>2D graphics</Name>
 			<Category>2D</Category>
@@ -546,6 +569,17 @@
             <SoftwareCategory Category="Space">0</SoftwareCategory>
             <SoftwareCategory Category="Fighting">0</SoftwareCategory>
 		</Feature>
+		<Feature>
+			<Name>Key rebinding</Name>
+			<Category>System</Category>
+			<Description>Keys can be rebound to the user's preference.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Keyboard input</Dependency>
+		</Feature>
         <Feature>
 			<Name>Controller input</Name>
 			<Category>System</Category>
@@ -557,7 +591,18 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Controller input</Dependency>
 		</Feature>
-        <Feature>
+		<Feature>
+			<Name>Controller remapping</Name>
+			<Category>System</Category>
+			<Description>Controller buttons can be remapped.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Controller input</Dependency>
+		</Feature>
+        <Feature Vitak="TRUE">
 			<Name>Steering wheel input</Name>
 			<Category>System</Category>
 			<Description>Allows a racing game to be controlled by a steering wheel.</Description>
@@ -567,6 +612,18 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Steering wheel input</Dependency>
+            <SoftwareCategory Category="Racing">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Force feedback</Name>
+			<Category>System</Category>
+			<Description>Racing a vehicle will provide resistance and movement from the steering wheel, corresponding to the road surface.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Steering wheel input</Dependency>
             <SoftwareCategory Category="Racing">0</SoftwareCategory>
 		</Feature>
         <Feature>

@@ -532,6 +532,19 @@ Most software needs an Operating System to run on. When people stop buying a lin
             <SoftwareCategory Category="Computer">0</SoftwareCategory>
             <SoftwareCategory Category="Console">0</SoftwareCategory>
 		</Feature>
+		<Feature Research="Steering wheel input">
+			<Name>Force feedback</Name>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<Description>Allows steering wheels to resist and move independently of the user.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Console">0</SoftwareCategory>
+		</Feature>
         <Feature>
 			<Name>App store support</Name>
 			<Category>System</Category>
