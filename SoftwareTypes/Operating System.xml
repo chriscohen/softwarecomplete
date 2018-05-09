@@ -844,18 +844,173 @@ Most software needs an Operating System to run on. When people stop buying a lin
             <SoftwareCategory Category="Watch">0</SoftwareCategory>
 			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
 		</Feature>
+		<Feature>
+			<Name>Accessibility</Name>
+			<Category>System</Category>
+			<Unlock>1988</Unlock>
+			<Description>Allow disabled or handicapped users to interact with the operating system.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">1995</SoftwareCategory>
+			<SoftwareCategory Category="Phone">1998</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Text scaling</Name>
+			<Category>2D</Category>
+			<Unlock>1989</Unlock>
+			<Description>Text in the user interface can be displayed much larger for the partially sighted.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.15</CodeArt>
+			<Dependency Software="Operating System">Accessibility</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">2001</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2001</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Screen reader</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>Audio</ArtCategory>
+			<Unlock>1992</Unlock>
+			<Description>Words and messages from the operating system can be read aloud for the deaf or hard of heading.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.3</CodeArt>
+			<Dependency Software="Operating System">Accessibility</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2002</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>On-screen keyboard</Name>
+			<Category>2D</Category>
+			<Unlock>1999</Unlock>
+			<Description>A virtual keyboard appears on the screen and can be used with the mouse alone.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">Accessibility</Dependency>
+            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+		</Feature>
 		<!-- START SMART HOME SPECIFIC -->
-		<Feature Vital="TRUE">
+		<Feature>
 			<Name>Light bulb support</Name>
 			<Category>System</Category>
 			<ArtCategory>2D</ArtCategory>
 			<Unlock>2015</Unlock>
-			<Description>Detect which person is speaking by training a voice model and detecting voice inflection and accent.</Description>
-			<DevTime>6</DevTime>
-			<Innovation>3</Innovation>
-			<Usability>3</Usability>
-			<Stability>2</Stability>
-			<CodeArt>1</CodeArt>
+			<Description>Smart light bulbs can be controlled via a smart home device.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Lock support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2016</Unlock>
+			<Description>Smart door locks can be controlled via a smart home device.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Garage door support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2017</Unlock>
+			<Description>Smart garage doors can be controlled via a smart home device.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Alarm support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2015</Unlock>
+			<Description>Smart smoke and carbon monoxide alarms can be controlled via a smart home device.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Robot vacuum support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2015</Unlock>
+			<Description>Robotic vacuum cleaners can be controlled via a smart home device.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Thermostat support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2015</Unlock>
+			<Description>Smart thermostats and climate controllers can be controlled via a smart home device.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Smart camera support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2015</Unlock>
+			<Description>Smart video and security cameras can be controlled via a smart home device.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="Operating System">Voice recognition</Dependency>
+			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Smart appliance support</Name>
+			<Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+			<Unlock>2018</Unlock>
+			<Description>Home appliances such as fridges and washing machines can be controlled via a smart home device.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.8</CodeArt>
 			<Dependency Software="Operating System">Voice recognition</Dependency>
 			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
 		</Feature>
