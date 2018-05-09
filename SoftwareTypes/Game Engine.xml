@@ -118,7 +118,7 @@
 		<Feature Research="3D rendering">
 			<Name>VR</Name>
 			<Category>3D</Category>
-			<Unlock>2010</Unlock>
+			<Unlock>2014</Unlock>
 			<Description>Virtual reality</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>

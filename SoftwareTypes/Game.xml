@@ -85,7 +85,7 @@
 			<Description></Description>
             <Unlock>1978</Unlock>
 			<Popularity>0.4</Popularity>
-			<Retention>0.4</Retention>
+			<Retention>0.6</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.5</Iterative>
 			<NameGenerator>GamePuzzle</NameGenerator>
@@ -295,6 +295,7 @@
             <SoftwareCategory Category="Fighting">0</SoftwareCategory>
 			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
             <SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
             <SoftwareCategory Category="Horror">0</SoftwareCategory>
             <SoftwareCategory Category="RTS">0</SoftwareCategory>
             <SoftwareCategory Category="FPS">0</SoftwareCategory>
@@ -1772,6 +1773,129 @@
 			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
 		</Feature>
 		<!-- END GRAND STRATEGY SPECIFIC -->
+		<!-- START PUZZLE SPECIFIC -->
+		<Feature Vital="TRUE">
+			<Name>Hint system</Name>
+			<Category>System</Category>
+			<Description>Players can get a hint for a puzzle if stuck.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Game">Text-based</Dependency>
+			<SoftwareCategory Category="Puzzle">1980</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Hidden objects</Name>
+			<Category>2D</Category>
+			<Description>The player must find items from a list that are hidden within an on-screen picture.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1980</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Reveal picture</Name>
+			<Category>2D</Category>
+			<Description>Players reveal a picture by removing pieces one at a time according to the puzzle logic.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1982</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Tile match</Name>
+			<Category>2D</Category>
+			<Description>Players must uncover two tiles at a time, in an attempt to find a matching set, until all sets are revealed.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1983</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Match three</Name>
+			<Category>2D</Category>
+			<Description>Players must attempt to swap objects on a grid in order to match three of the same type in a line.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1987</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Physics puzzles</Name>
+			<Category>Algorithm</Category>
+			<ArtCategory>3D</ArtCategory>
+			<Description>Physics-based puzzles such as liquid or building blocks must be overcome.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">Physics</Dependency>
+			<SoftwareCategory Category="Puzzle">1995</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Action puzzles</Name>
+			<Category>2D</Category>
+			<Description>Puzzles are time-based and require some dexterity to complete.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1989</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Word puzzles</Name>
+			<Category>System</Category>
+			<Description>Solving puzzles involves using language skills.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+			<Dependency Software="Game">2D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">1984</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Puzzle RPG</Name>
+			<Category>3D</Category>
+			<Description>Combine puzzles with a persistent quest and character levelling.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Game">3D graphics</Dependency>
+			<SoftwareCategory Category="Puzzle">2003</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>VR puzzles</Name>
+			<Category>3D</Category>
+			<Description>Players manipulate objects in virtual reality to solve puzzles.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.25</CodeArt>
+			<Dependency Software="Game">VR</Dependency>
+			<SoftwareCategory Category="Puzzle">2014</SoftwareCategory>
+		</Feature>
+		<!-- END PUZZLE SPECIFIC -->
 		<!-- START MODDING FEATURES -->
 		<Feature>
 			<Name>Mod support</Name>
