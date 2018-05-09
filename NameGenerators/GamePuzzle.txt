@@ -1,39 +1,150 @@
--start(base,base,base,pre)
+-start(pre,dr,base,base,base,base,base)
+-dr(andThe)
+Commissioner
+Detective
+Doctor
+Lady
+Missus
+Mister
+Prince
+Professor
+Reverend
+-andThe(andThe2)
+ Angry
+ Billy
+ Black
+ Brainz
+ Braun
+ Crazy
+ Eagle
+ Green
+ Italia
+ Jones
+ Layton
+ Misty
+ Mustard
+ Ned
+ Peacock
+ Repton
+ Robbie
+ Smith
+ Willy
+ Wright
+ Zed
+-andThe2(colon2)
+ and the
 -pre(base)
-The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
-Space
-Army
-Hell
-Team
-Battle
-Target
-War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
-World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
-Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
- Arena
- Rebirth
- Evolved
- Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+Big 
+Huge 
+Land of 
+Massive 
+Mega 
+Super 
+Tiny 
+Ultra 
+World of 
+-base(base2)
+Alchemy
+Alien
+Ball
+Block
+Cairo
+Candy
+Clock
+Column
+Curious
+Drop
+Fantastic
+Frozen
+Gyro
+Incredible
+Line
+Liquid
+Loop
+Magic
+Magical
+Marble
+Mine
+Mist
+Portal
+Puzzle
+Rainbow
+Sand
+Star
+Tactic
+Talos
+Time
+Water
+Wind
+Word
+-base2(stop,stop,stop,colon,ext)
+ Alert
+ Animal
+ Bobble
+ Box
+ Bros.
+ Brothers
+ Contraption
+ Cross
+ Crunch
+ Crush
+ Emergency
+ Fighter
+ Goo
+ Keeper
+ Link
+ Machine
+ Madness
+man
+mancer
+ Mania
+nauts
+nic
+ Panic
+ Paradise
+ Principle
+ Quest
+ Runner
+ Squeeze
+ Swap
+ Swapper
+ Sweep
+ Sweeper
+ Swirl
+ Web
+ Witness
+-ext(stop)
+ Attack
+ 3D
+ League
+ Legend
+ Saga
+ Turbo
+-colon(colon2)
+: Attack of
+: Battle of
+: Challenge of
+: Enigma of
+: Mystery of
+: Path of
+: Revenge of
+: Rise of
+-colon2(stop)
+ Bears
+ Bees
+ Clones
+ Droids
+ Galaxies
+ Robots
+ Rome
+ Space
+ the Century
+ the East
+ the Stars
+ the West
+ Time
+ Undead
+ Unicorns
+ Vampires
+ Vikings
+ Zombies
