@@ -1,5 +1,6 @@
 <CompanyType>
 	<Specialization>IDE</Specialization>
+	<Force>IDE,Default</Force>
 	<PerYear>0.2</PerYear>
 	<Min>2</Min>
 	<Max>5</Max>
