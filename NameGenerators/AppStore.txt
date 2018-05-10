@@ -1,26 +1,46 @@
--start(base,base,base,pre)
--pre(base)
-The 
--base(base2,base2,ext)
-Audio
-Wave
-Sound
-Amplitude
-Sine
-Audible
-Record
-Amp
--base2(ext,stop,stop)
-Edit
-Maker
-Play
-Scape
-Pause
-Tune
-Stop
-Take
-Tools
--ext(stop)
- Pro
- Studio
+-start(base)
+-base(base2,base2,base2,mid,mid)
+App
+Blueberry
+Digital
+Candy
+Droid
+Elgee
+Internet
+Kandee
+Meezilla
+Online
+Opera
+Pocket
+Portal
+Sonsung
+Symphony
+Ubernut
+Window
+-mid(base2)
+ Awesome
+ Cool
+ Device
+ Gadget
+ Hand
+ Handheld
+ Phone
+ Program
+ Software
+-base2(stop)
+ Bazaar
+ Catalog
+ Distributor
+ Downloader
+ Get
+ Land
+ Market
+ Marketplace
+ Place
+ Play
+ Shark
  Shop
+ Store
+ Trader
+ Workshop
+ World
