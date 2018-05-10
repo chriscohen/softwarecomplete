@@ -1,39 +1,154 @@
--start(base,base,base,pre)
+-start(base,base,base,base,base,pre)
 -pre(base)
-The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
-Space
-Army
-Hell
-Team
-Battle
-Target
-War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
-World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
-Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
+American 
+British 
+Castrol 
+Colin McRae 
+Honda 
+Japanese 
+Project 
+Richard Burns 
+Richard Petty 
+Sebastian Vettel
+V-
+Valentino Rossi: 
+Virtual 
+World of 
+-base(base2,base2,base2,middle)
+ATV
+Arcade
+Assetto
+Audi
+Auto
+Blur
+Buggy
+Burnout
+Carmageddon
+Car
+Combat
+Corvette
+Crazy
+Desire for Speed
+Destruction
+Dirt
+Dust
+Excite
+F1
+Ferrari
+Flatout
+Ford
+Formula One
+Forza
+Gas
+GP
+Grand Prix
+Grid
+Highway
+Indianapolis
+Indy
+IndyCar
+Juiced
+Lamborghini
+Laser
+Maserati
+Midnight
+Midtown
+ModNation
+Monaco
+Moto
+Motocross
+Motorhead
+Motorstorm
+NASCAR
+Nissan
+Pitstop
+Porsche
+Pure
+Quantum
+RC
+Race
+Real
+Redline
+Rollcage
+San Francisco
+Shift
+Slipstream
+Superbike
+Toyota
+Tracki
+WRC
+Wreckfest
+-middle(base2)
+ All-Night
+ Championship
+ Illegal
+ Legal
+ Nitro
+ Off-Road
+ Stock
+ Street
+ Stunt
+ Supercharged
+ Team
+ Trucker
+ Turbocharged
+-base2(stop,stop,stop,ext)
+ 500
+ Armageddon
+ Blaster
+ Carbon
+ Cart
+ Challenge
+ Corsa
+ Cup
+ Derby
+ Domination
+ Drift
+ Drifter
+ Drive
+ Driver
+ Driving
+ Frenzy
+ Fury
+ Guzzler
+ Horizon
+ Kart
+ Legends
+ Mania
+ Modellista
+ Motorsport
+ Paradise
+ Payback
+ Pursuit
+ Race
+ Race Stars
+ Racer
+ Racing
+ Rally
+ Rampage
+ Rash
+ Speed
+ Sport
+ Taxi
+ Thunder
+ Trophy
+ Wheels
+-ext(stop)
+ 2000
  Arena
- Rebirth
+: Burning Rubber
+ Downforce
+: Edge of Control
+ Evolution
  Evolved
- Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+ Extreme
+ GP
+ GTi
+ GTX
+: High Veolcity
+ Raw
+: Showdown
+ Takedown
+ Unlimited
+ USA
+ World
