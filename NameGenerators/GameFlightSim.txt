@@ -1,39 +1,101 @@
--start(base,base,base,pre)
+-start(base,base,base,base,base,pre)
 -pre(base)
-The 
--base(baseSimple2,baseLong2)
-Gun
-Zombie
-Thief
-Monster
-Space
-Army
-Hell
-Team
-Battle
-Target
-War
--baseSimple2(stop,baseLong2,baseLong3)
-Attack
+Advanced 
+Infinite 
+Lock On: 
+Mega 
+Modern 
+Rise of the 
+Super 
+Virtual 
+X-
+Z-
+-base(base2)
+Ace
+Aero
+After
+Air
+Flight
+Fly
+Freedom
+Global
+Harrier
+International
+Nuclear
+Silent
+Solo
+Stealth
+Tail
 World
-Shock
-field
-Strike
-fall
-Trigger
-Ghost
-Death
--baseLong2(baseLong3,stop)
- Fortress
- Arms
- Arena
- Rebirth
- Evolved
+-base2(stop,stop,stop,stop,over1,over1,ext)
+ Academy
+ Airline
+ Attack
+ Aviator
+ Bomber
+ Burner
+ Cavalry
+ Combat
+ Conflict
+ Control
+ Diver
+ Dogfighter
+ Fighter
+ Gear
+ Gunner
+ Helicopter
+ High
+ Inferno
+ Jet
  Killer
--baseLong3(stop)
- in Space
- at Night
- of Death
- Lite
- Deluxe
- Advanced
+ Patrol
+ Pilot
+ Plane
+ Ranger
+ Simulator
+ Squadron
+ Trainer
+ Thunder
+-over1(overMid)
+: Aces
+: Bombs
+: Dogfight
+: Flight
+: Guns
+: Mission
+: Sortie
+: Wings
+-overMid(over2)
+ Over 
+-over2(stop)
+Beijing
+Berlin
+Copenhagen
+Dresden
+London
+Moscow
+Helsinki
+Paris
+Philidelphia
+Rome
+Stockholm
+Texas
+Tokyo
+Washington
+-ext(stop)
+ 1939
+ 1942
+ 1951
+ 1972
+ 22
+ 64
+ Climax
+: Japan
+: Pacific
+: USA
+: Vietnam
+: World War I
+: World War II
+ Wings
+ X
+ Z
