@@ -185,9 +185,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Peripherals</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1996</SoftwareCategory>
+            <SoftwareCategory Category="Console">2000</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2002</SoftwareCategory>
 		</Feature>
         <Feature From="USB 1">
 			<Name>USB 2</Name>
@@ -200,9 +200,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">USB 1</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">2000</SoftwareCategory>
+            <SoftwareCategory Category="Console">2001</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2003</SoftwareCategory>
 		</Feature>
         <Feature From="USB 2">
 			<Name>USB 3</Name>
@@ -215,9 +215,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">USB 2</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">2008</SoftwareCategory>
+            <SoftwareCategory Category="Console">2009</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2010</SoftwareCategory>
 		</Feature>
         <Feature From="USB 3" Vital="TRUE">
 			<Name>USB Type-C</Name>
@@ -230,9 +230,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">USB 3</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">2014</SoftwareCategory>
+            <SoftwareCategory Category="Console">2015</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2016</SoftwareCategory>
 		</Feature>
         <Feature Forced="TRUE">
 			<Name>Watch bluetooth</Name>
@@ -243,7 +243,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Watch">0</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
 		</Feature>
         <Feature>
 			<Name>Bluetooth</Name>
@@ -255,9 +255,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Peripherals</Dependency>
-			<SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+			<SoftwareCategory Category="Console">2002</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2002</SoftwareCategory>
+            <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Printing</Name>
@@ -268,9 +268,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Peripherals</Dependency>
             <Dependency Software="Operating System">File management</Dependency>
-			<SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+			<SoftwareCategory Category="Computer">1982</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1998</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>USB printing</Name>
@@ -281,6 +282,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">USB 1</Dependency>
             <Dependency Software="Operating System">Printing</Dependency>
 			<SoftwareCategory Category="Computer">0</SoftwareCategory>
             <SoftwareCategory Category="Phone">0</SoftwareCategory>
@@ -913,6 +915,56 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Operating System">Accessibility</Dependency>
             <SoftwareCategory Category="Computer">0</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Notifications</Name>
+			<Category>2D</Category>
+			<Unlock>2001</Unlock>
+			<Description>A special notification area holds alerts and messages relevant to the current user.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">GUI</Dependency>
+            <SoftwareCategory Category="Computer">2001</SoftwareCategory>
+			<SoftwareCategory Category="Console">2008</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2001</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Location detection</Name>
+			<Category>Network</Category>
+			<Unlock>2007</Unlock>
+			<Description>The operating system uses network address, cell signal, or GPS, to find the user's location.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+            <SoftwareCategory Category="Computer">2007</SoftwareCategory>
+			<SoftwareCategory Category="Console">2008</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2007</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
+			<SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Weather support</Name>
+			<Category>2D</Category>
+			<Unlock>2008</Unlock>
+			<Description>The operating system can determine the weather for the user's current location.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">Location detection</Dependency>
+            <SoftwareCategory Category="Computer">2008</SoftwareCategory>
+			<SoftwareCategory Category="Console">2008</SoftwareCategory>
+			<SoftwareCategory Category="Phone">2008</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
+			<SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
 		</Feature>
 		<!-- START SMART HOME SPECIFIC -->
 		<Feature>

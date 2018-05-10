@@ -10,10 +10,11 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Iterative>1</Iterative>
-	<IdealPrice>50</IdealPrice>
+	<IdealPrice>80</IdealPrice>
 	<NameGenerator>Office</NameGenerator>
     <Categories>
         <Category Name="Word processor">
+			<Unlock>1980</Unlock>
 			<Description>Write documents.</Description>
 			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
@@ -22,6 +23,7 @@
 			<NameGenerator>OfficeWordProcessor</NameGenerator>
 		</Category>
         <Category Name="Spreadsheets">
+			<Unlock>1980</Unlock>
 			<Description>Store data in tabular formats and draw graphs.</Description>
 			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
@@ -30,6 +32,7 @@
 			<NameGenerator>OfficeSpreadsheets</NameGenerator>
 		</Category>
         <Category Name="Presentations">
+			<Unlock>1986</Unlock>
 			<Description>Create slideshows and other presentations.</Description>
 			<Popularity>0.6</Popularity>
 			<Retention>0.9</Retention>
@@ -38,12 +41,13 @@
 			<NameGenerator>OfficePresentations</NameGenerator>
 		</Category>
 		<Category Name="Calendar">
+			<Unlock>1984</Unlock>
 			<Description>Set up meetings and events.</Description>
 			<Popularity>0.75</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.5</TimeScale>
 			<Iterative>0.8</Iterative>
-			<NameGenerator>OfficePresentations</NameGenerator>
+			<NameGenerator>OfficeCalendar</NameGenerator>
 		</Category>
     </Categories>
 	<Features>
@@ -112,6 +116,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="2D Editor">Vector manipulation</Dependency>
 			<Dependency Software="Office Software">GUI</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
@@ -188,6 +193,20 @@
             <Dependency Software="Office Software">GUI</Dependency>
             <Dependency Software="Operating System">Font management</Dependency>
 		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Printing</Name>
+			<Category>System</Category>
+			<Description>For when you really want to waste the office paper supply.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.4</CodeArt>
+			<Dependency Software="Operating System">Printing</Dependency>
+			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
+			<SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+			<SoftwareCategory Category="Presentations">0</SoftwareCategory>
+		</Feature>
 		<!-- START WORD PROCESSOR -->
 		<Feature Forced="TRUE">
             <Name>Word processing</Name>
@@ -239,7 +258,20 @@
 			<CodeArt>0.75</CodeArt>
 			<Dependency Software="Office Software">GUI</Dependency>
             <Dependency Software="Office Software">Data tabulation</Dependency>
-            <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+            <SoftwareCategory Category="Spreadsheets">1986</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE" From="Charts">
+			<Name>3D charts</Name>
+			<Category>3D</Category>
+			<Unlock>1986</Unlock>
+			<Description>Amaze colleagues with charts that appear to pop out of the screen!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="3D Editor">3D rendering</Dependency>
+            <SoftwareCategory Category="Spreadsheets">1995</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Export to CSV</Name>
@@ -299,7 +331,7 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.75</CodeArt>
-			<Dependency Software="Operating System">GUI</Dependency>
+			<Dependency Software="Office Software">GUI</Dependency>
             <SoftwareCategory Category="Presentations">0</SoftwareCategory>
 		</Feature>
         <Feature>
@@ -326,7 +358,7 @@
             <Dependency Software="2D Editor">PNG format</Dependency>
 			<SoftwareCategory Category="Presentations">0</SoftwareCategory>
 		</Feature>
-		<Feature Vital="TRUE">
+		<Feature>
 			<Name>Sound effects</Name>
 			<Category>Audio</Category>
 			<Description>Add audio to a presentation.</Description>
@@ -338,6 +370,198 @@
 			<Dependency Software="Operating System">8-bit audio</Dependency>
             <SoftwareCategory Category="Presentations">0</SoftwareCategory>
 		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Projector support</Name>
+			<Category>System</Category>
+			<Description>Connect your computer to a projector to "impress" the whole room with slides.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Peripherals</Dependency>
+			<Dependency Software="Office Software">Presentations</Dependency>
+            <SoftwareCategory Category="Presentations">1990</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Presentation mode</Name>
+			<Category>2D</Category>
+			<Description>Use your computer to display slide notes while the projector is displaying the slides themselves.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Office Software">Projector support</Dependency>
+            <SoftwareCategory Category="Presentations">2000</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Shape drawing</Name>
+			<Category>2D</Category>
+			<Description>Draw simple shapes like boxes or circles and add shading or colors.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependency Software="Office Software">Vector graphics</Dependency>
+			<Dependency Software="Office Software">Presentations</Dependency>
+            <SoftwareCategory Category="Presentations">1991</SoftwareCategory>
+		</Feature>
 		<!-- END PRESENTATIONS -->
+		<!-- START CALENDAR -->
+		<Feature Forced="TRUE">
+            <Name>Calendar</Name>
+            <Category>Algorithm</Category>
+            <Description>The basic functionality of a calendar.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Month view</Name>
+            <Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>View an entire month at a time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Week view</Name>
+            <Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>View one week at a time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Day view</Name>
+            <Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>View one day at a time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Reminders</Name>
+            <Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>View one day at a time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Notifications</Dependency>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Event setup</Name>
+            <Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>Add new events to a calendar.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <SoftwareCategory Category="Calendar">0</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Recurring events</Name>
+            <Category>Algorithm</Category>
+            <Description>Events can repeat automatically at set intervals such as once a week or once a month.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Event setup</Dependency>
+            <SoftwareCategory Category="Calendar">1991</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Event categories</Name>
+            <Category>2D</Category>
+            <Description>Events can be placed in user-defined categories with different colors or appearance.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+			<Dependency Software="Office Software">Event setup</Dependency>
+            <SoftwareCategory Category="Calendar">1989</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Attendee list</Name>
+            <Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>Events have a list of attendees who all receive invites and event updates.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+			<Dependency Software="Office Software">Event setup</Dependency>
+            <SoftwareCategory Category="Calendar">1992</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Colleague directory</Name>
+            <Category>Network</Category>
+            <Description>Look up collegues from a network directory to invite them to events more easily.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Database">Remote connections</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<Dependency Software="Office Software">Attendee list</Dependency>
+            <SoftwareCategory Category="Calendar">1996</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Work hours</Name>
+            <Category>Algorithm</Category>
+            <Description>Define your working hours so colleagues don't invite you to midnight meetings.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Calendar</Dependency>
+            <SoftwareCategory Category="Calendar">1998</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Weather integration</Name>
+            <Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>The weather forecast appears alongside days in the calendar.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.6</CodeArt>
+			<Dependency Software="Operating System">Weather support</Dependency>
+            <SoftwareCategory Category="Calendar">2008</SoftwareCategory>
+        </Feature>
+		<!-- END CALENDAR -->
 	</Features>
 </SoftwareType>
