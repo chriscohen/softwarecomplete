@@ -1,0 +1,77 @@
+<SoftwareType>
+	<Name>Game Mod</Name>
+	<Category>Gaming</Category>
+	<Description></Description>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<Retention>1</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>True</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>None</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>2D art</Name>
+			<Category>2D</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Scripting</Name>
+			<Category>System</Category>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Sound effects</Name>
+			<Category>Audio</Category>
+			<Unlock>1985</Unlock>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Music</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Written Dialogue</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>3D models</Name>
+			<Category>3D</Category>
+			<Unlock>1990</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>
