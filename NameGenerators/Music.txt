@@ -1,26 +1,72 @@
--start(base,base,base,pre)
+-start(base,base,base,base,base,pre)
 -pre(base)
-The 
--base(base2,base2,ext)
+Best 
+Cool 
+Mega 
+Notable 
+Power 
+Ultimate 
+-base(base2,base2,base2,ext)
+Able
+Acid
 Audio
-Wave
-Sound
-Amplitude
-Sine
-Audible
-Record
-Amp
--base2(ext,stop,stop)
-Edit
+Bass
+Beat
+Brass
+Capella
+Cue
+Digital
+Disco
+Encore
+Forte
+Garage
+Guitar
+Liquid
+Magic
+Muse
+Notation
+Note
+Overture
+Platinum
+Reaper
+Reason
+Sample
+Spice
+Star
+Tab
+Tone
+Track
+Woodwind
+-base2(ext,stop,stop,stop,stop)
+Band
+base
+ Broadcaster
+cast
+Cloud
+ Composer
+craft
+ Design
+ Designer
+Ease
+ Edit
+line
 Maker
-Play
-Scape
-Pause
-Tune
-Stop
-Take
-Tools
+ Rig
+Score
+smith
+ Sound
+ Tools
+writer
+ Writer
 -ext(stop)
++
+ Bb
+ C#
+ F#
+ Live
+ Next
+ Plus
  Pro
+ Professional
  Studio
  Shop
