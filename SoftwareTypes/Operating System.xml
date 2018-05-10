@@ -1080,5 +1080,70 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
 		</Feature>
 		<!-- END SMART HOME SPECIFIC -->
+		<!-- START CELL DATA SPECIFIC -->
+		<Feature Vital="TRUE">
+			<Name>GPRS radio</Name>
+			<Category>Network</Category>
+			<Description>Use a 2G signal over General Packet Radio Service.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>EDGE radio</Name>
+			<Category>Network</Category>
+			<Description>Use a 2G signal over Enhanced Data Rate for GSM Evolution (Enhanced GRPS).</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">GPRS radio</Dependency>
+			<SoftwareCategory Category="Phone">2003</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>3G radio</Name>
+			<Category>Network</Category>
+			<Description>Use a 3G signal to improve mobile data transfer rates.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Phone">2007</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>4G radio</Name>
+			<Category>Network</Category>
+			<Description>Use a 4G signal to greatly improve mobile data transfer rates.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">3G radio</Dependency>
+			<SoftwareCategory Category="Phone">2012</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>5G radio</Name>
+			<Category>Network</Category>
+			<Description>Use a 5G signal to vastly improve mobile data transfer rates.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">4G radio</Dependency>
+			<SoftwareCategory Category="Phone">2018</SoftwareCategory>
+			<SoftwareCategory Category="Watch">2018</SoftwareCategory>
+		</Feature>
+		<!-- END CELL DATA SPECIFIC -->
 	</Features>
 </SoftwareType>
