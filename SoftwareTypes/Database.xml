@@ -142,5 +142,17 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<Feature>
+			<Name>Personnel directory</Name>
+            <Unlock>1986</Unlock>
+			<Category>Algorithm</Category>
+			<Description>The database can be used to store access credentials and employee sign in details.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Database">Secure connections</Dependency>
+		</Feature>
 	</Features>
 </SoftwareType>

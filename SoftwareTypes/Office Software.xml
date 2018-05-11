@@ -93,11 +93,48 @@
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>3</Usability>
-			<Stability>0</Stability>
+			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Vital="TRUE">
+			<Name>Multilingual spellcheck</Name>
+			<Category>Algorithm</Category>
+			<Unlock>1995</Unlock>
+			<Description>Check spelling in multiple languages.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Spellcheck</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Custom dictionary</Name>
+			<Category>Algorithm</Category>
+			<Unlock>1994</Unlock>
+			<Description>Allows users to customize the spellcheck dictionary and add new words.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Spellcheck</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Grammar check</Name>
+			<Category>Algorithm</Category>
+			<Unlock>2001</Unlock>
+			<Description>Receive suggestions on improving grammar as well as spelling.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Spellcheck</Dependency>
+		</Feature>
+		<Feature Vital="TRUE">
 			<Name>Templates</Name>
+			<Unlock>1988</Unlock>
 			<Category>2D</Category>
 			<Description></Description>
 			<DevTime>2</DevTime>
@@ -109,6 +146,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Vector graphics</Name>
+			<Unlock>1985</Unlock>
 			<Category>2D</Category>
 			<Description>Lines, boxes and circles.</Description>
 			<DevTime>4</DevTime>
@@ -121,19 +159,36 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Clipart</Name>
+			<Unlock>1990</Unlock>
 			<Category>2D</Category>
 			<Description>Allow the insertion of stock imagery.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0</CodeArt>
 			<Dependency Software="Operating System">GUI</Dependency>
-            <SoftwareCategory Category="Word processor">0</SoftwareCategory>
-            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+            <SoftwareCategory Category="Word processor">1990</SoftwareCategory>
+            <SoftwareCategory Category="Presentations">1990</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Online clipart</Name>
+			<Unlock>2005</Unlock>
+			<Category>2D</Category>
+			<Description>Allow the insertion of stock imagery.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependency Software="Office Software">Clipart</Dependency>
+			<Dependency Software="Website">File uploads</Dependency>
+            <SoftwareCategory Category="Word processor">2005</SoftwareCategory>
+            <SoftwareCategory Category="Presentations">2005</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online backup</Name>
+			<Unlock>2005</Unlock>
 			<Category>Network</Category>
 			<Description>Save files online instead of locally.</Description>
 			<DevTime>4</DevTime>
@@ -182,6 +237,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Font styles</Name>
+			<Unlock>1981</Unlock>
 			<Category>System</Category>
             <ArtCategory>2D</ArtCategory>
 			<Description>Choose from a selection of fonts, styles, and colors.</Description>
@@ -195,6 +251,7 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Printing</Name>
+			<Unlock>1982</Unlock>
 			<Category>System</Category>
 			<Description>For when you really want to waste the office paper supply.</Description>
 			<DevTime>2</DevTime>
@@ -203,9 +260,37 @@
 			<Stability>0</Stability>
 			<CodeArt>0.4</CodeArt>
 			<Dependency Software="Operating System">Printing</Dependency>
-			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
-			<SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
-			<SoftwareCategory Category="Presentations">0</SoftwareCategory>
+			<SoftwareCategory Category="Word processor">1982</SoftwareCategory>
+			<SoftwareCategory Category="Spreadsheets">1982</SoftwareCategory>
+			<SoftwareCategory Category="Presentations">1982</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Document sharing</Name>
+			<Unlock>2006</Unlock>
+			<Category>Network</Category>
+			<Description>Share documents online with colleagues.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Online backup</Dependency>
+			<Dependency Software="Database">Personnel directory</Dependency>
+			<SoftwareCategory Category="Word processor">2006</SoftwareCategory>
+			<SoftwareCategory Category="Spreadsheets">2006</SoftwareCategory>
+			<SoftwareCategory Category="Presentations">2006</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Virtual pen</Name>
+			<Unlock>2008</Unlock>
+			<Category>2D</Category>
+			<Description>Use a touch screen to write with a piece of plastic and pretend it's a pen.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Operating System">Touch</Dependency>
 		</Feature>
 		<!-- START WORD PROCESSOR -->
 		<Feature Forced="TRUE">
@@ -231,6 +316,72 @@
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">PDF support</Dependency>
 			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Style manager</Name>
+			<Unlock>1985</Unlock>
+			<Category>2D</Category>
+			<Description>Create and save useful font and color styles for headings, subtitles, and other page elements.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Office Software">Font styles</Dependency>
+			<SoftwareCategory Category="Word processor">1985</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Mail merge</Name>
+			<Unlock>1993</Unlock>
+			<Category>System</Category>
+			<Description>Create a mail to many people by using placeholders for their details in a single document.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.9</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+			<SoftwareCategory Category="Word processor">1993</SoftwareCategory>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Tables</Name>
+			<Unlock>1990</Unlock>
+			<Category>2D</Category>
+			<Description>Insert tabular data into a document.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.4</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+			<SoftwareCategory Category="Word processor">1990</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Comments</Name>
+			<Unlock>1996</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Allow other users to insert comments and suggestions into a document.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">GUI</Dependency>
+			<SoftwareCategory Category="Word processor">1996</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Track changes</Name>
+			<Unlock>1997</Unlock>
+			<Category>Algorithm</Category>
+			<Description>All revisions and changes to a document are kept, making it easy to see what's different.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Office Software">Comments</Dependency>
+			<SoftwareCategory Category="Word processor">1997</SoftwareCategory>
 		</Feature>
 		<!-- END WORD PROCESSOR -->
 		<!-- START SPREADSHEETS -->
@@ -288,7 +439,7 @@
 			<Name>Math functions</Name>
 			<Category>Algorithm</Category>
 			<Description>Calculate spreadsheet data using math functions.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -300,7 +451,7 @@
 			<Name>Scripting</Name>
 			<Category>System</Category>
 			<Description>Because you can never satisfy everyone</Description>
-			<DevTime>4</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -532,7 +683,7 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
-			<Dependency Software="Database">Remote connections</Dependency>
+			<Dependency Software="Database">Personnel directory</Dependency>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Office Software">Attendee list</Dependency>
             <SoftwareCategory Category="Calendar">1996</SoftwareCategory>

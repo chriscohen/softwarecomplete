@@ -675,6 +675,7 @@
         <!-- FILE STORAGE START -->
         <Feature Forced="TRUE">
             <Name>File uploads</Name>
+            <Unlock>2005</Unlock>
             <Category>Network</Category>
             <Description>Files can be uploaded to the service.</Description>
             <DevTime>2</DevTime>
@@ -683,7 +684,7 @@
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
             <Server>0.002</Server>
-            <SoftwareCategory Category="File Storage">0</SoftwareCategory>
+            <SoftwareCategory Category="File Storage">2005</SoftwareCategory>
         </Feature>
         <Feature>
             <Name>Folder support</Name>
