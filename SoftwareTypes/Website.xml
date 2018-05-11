@@ -686,6 +686,34 @@
             <Server>0.002</Server>
             <SoftwareCategory Category="File Storage">2005</SoftwareCategory>
         </Feature>
+        <Feature From="File uploads">
+            <Name>Compressed storage</Name>
+            <Unlock>2005</Unlock>
+            <Category>Network</Category>
+            <Description>Files are stored in a compressed format.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.001</Server>
+            <Dependency Software="Compression">ZIP format</Dependency>
+            <SoftwareCategory Category="File Storage">2005</SoftwareCategory>
+        </Feature>
+        <Feature From="Compressed storage">
+            <Name>High compression</Name>
+            <Unlock>2009</Unlock>
+            <Category>Network</Category>
+            <Description>Files are stored in a highly compressed format.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.0005</Server>
+            <Dependency Software="Compression">ZPAQ format</Dependency>
+            <SoftwareCategory Category="File Storage">2009</SoftwareCategory>
+        </Feature>
         <Feature>
             <Name>Folder support</Name>
             <Category>Web</Category>

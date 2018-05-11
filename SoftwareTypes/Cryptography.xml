@@ -24,6 +24,72 @@
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Cryptography support</Dependency>
 		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Command line</Name>
+			<Category>System</Category>
+			<Description>Command line interface for encrypting and decrypting information.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+		</Feature>
+		<Feature Forced="TRUE">
+			<Name>Millisecond RNG</Name>
+			<Category>Algorithm</Category>
+			<Description>Numbers are generated randomly based on the time, measured in milliseconds.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Cryptography">Cryptography library</Dependency>
+		</Feature>
+		<Feature From="Millisecond RNG" Vital="TRUE">
+			<Name>Nanosecond RNG</Name>
+			<Unlock>1991</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Numbers are generated randomly based on the time, measured in nanoseconds.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Nanosecond RNG" Vital="TRUE">
+			<Name>Thermal RNG</Name>
+			<Unlock>2000</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Numbers are generated randomly based on the thermal profile of the computer.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Thermal RNG" Vital="TRUE">
+			<Name>Quantum RNG</Name>
+			<Unlock>2016</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Numbers are generated randomly by measuring quantum fluctuations in the CPU.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>GUI</Name>
+			<Category>2D</Category>
+			<Description>A graphical user interface to use while encrypting or decrypting.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+            <Dependency Software="Cryptography">Command line</Dependency>
+		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD2</Name>
 			<Category>Algorithm</Category>

@@ -1,0 +1,171 @@
+<SoftwareType>
+	<Name>Compression</Name>
+	<Category>Compression</Category>
+	<Description>A compression tool takes a file and makes it smaller.</Description>
+    <Unlock>1985</Unlock>
+	<Random>0.4</Random>
+	<Popularity>0.74</Popularity>
+	<Retention>0.7</Retention>
+	<IdealPrice>50</IdealPrice>
+	<OSSpecific>True</OSSpecific>
+	<OSLimit>Computer</OSLimit>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Iterative>0.85</Iterative>
+	<NameGenerator>Compression</NameGenerator>
+	<Features>
+        <Feature Forced="TRUE">
+            <Name>Command line</Name>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files via the command line.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+            <Dependency Software="Operating System">File management</Dependency>
+        </Feature>
+		<Feature Forced="TRUE">
+            <Name>ARC format</Name>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the ARC format.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Operating System">Terminal</Dependency>
+            <Dependency Software="Operating System">File management</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Password protection</Name>
+            <Category>Algorithm</Category>
+            <Description>Allow files to be protected by a password before they can be decompressed.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Encryption</Name>
+            <Category>Algorithm</Category>
+            <Description>Allow files to be encrypted while compressing, for extra security.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">Password protection</Dependency>
+            <Dependency Software="Cryptography">Command line</Dependency>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>GUI</Name>
+            <Category>2D</Category>
+            <Description>Use a graphical interface to compress and decompress files.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.4</CodeArt>
+            <Dependency Software="Operating System">GUI</Dependency>
+        </Feature>
+        <Feature>
+            <Name>Plugin support</Name>
+            <Category>System</Category>
+            <Description>Allow the software to be used in other tools as a plugin, instead of a separate program.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">Command line</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>ZIP format</Name>
+            <Unlock>1989</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the ZIP format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>bzip2 format</Name>
+            <Unlock>1996</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the bzip2 format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>gzip format</Name>
+            <Unlock>1992</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the gzip format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>7z format</Name>
+            <Unlock>1999</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the 7-zip format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>RAR format</Name>
+            <Unlock>1993</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the RAR format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>LHA format</Name>
+            <Unlock>1988</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the LHA format.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+        <Feature Research="ARC format" Vital="TRUE">
+            <Name>ZPAQ format</Name>
+            <Unlock>2009</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Compress and decompress files using the ZPAQ format.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+            <Dependency Software="Compression">ARC format</Dependency>
+        </Feature>
+	</Features>
+</SoftwareType>

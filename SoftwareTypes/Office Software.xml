@@ -292,6 +292,21 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Operating System">Touch</Dependency>
 		</Feature>
+		<Feature>
+			<Name>Compressed files</Name>
+			<Unlock>1996</Unlock>
+			<Category>Algorithm</Category>
+			<Description>Automatically save files in a compressed format to save disk space.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependency Software="Compression">ZIP format</Dependency>
+			<SoftwareCategory Category="Word processor">1996</SoftwareCategory>
+			<SoftwareCategory Category="Spreadsheets">1996</SoftwareCategory>
+			<SoftwareCategory Category="Presentations">1996</SoftwareCategory>
+		</Feature>
 		<!-- START WORD PROCESSOR -->
 		<Feature Forced="TRUE">
             <Name>Word processing</Name>

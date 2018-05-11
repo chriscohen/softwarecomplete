@@ -4,6 +4,7 @@
 	<Min>3</Min>
 	<Max>6</Max>
 	<Types>
+		<Type Software="Compression">1</Type>
         <Type Software="Cryptography">1</Type>
         <Type Software="Database">1</Type>
 		<Type Software="IDE">1</Type>

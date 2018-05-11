@@ -1,0 +1,62 @@
+-start(base)
+-base(base2)
+7-
+B1 
+Better
+Bulk
+Disc
+Disk
+File
+Free
+i
+Info-
+lha
+lib
+Mega
+Power
+Star
+Super
+Ultra
+win
+Win
+x
+-base2(stop,stop,ext)
+Ace
+Arc
+Archive
+Archiver
+Archival
+Ark
+Commander
+Compress
+Compressor
+Dir
+Expand
+Expander
+Extract
+Extractor
+Genius
+Pack
+Packer
+Pak
+RAR
+Shrink
+Shinker
+Stuffer
+Tight
+Zip
+Zip
+Zip
+ZIP
+Zipper
+-ext(stop)
++
+ Instant
+ Manager
+ One
+ Plus
+ Pro
+ Professional
+ Secure
+ Tool
+ Utility
