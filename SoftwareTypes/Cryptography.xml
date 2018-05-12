@@ -170,6 +170,18 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
+		<Feature Vital="TRUE" Research="Symmetric-key encryption">
+			<Name>PGP</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1991</Unlock>
+			<Description>Pretty Good Privacy is a symmetric-key encryption used to authenticate and sign data.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+		</Feature>
         <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>MD5</Name>
 			<Category>Algorithm</Category>
@@ -307,6 +319,18 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE" Research="Symmetric-key encryption">
+			<Name>OpenPGP</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2009</Unlock>
+			<Description>Open Pretty Good Privacy is an advanced form of PGP including more standards.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
 		<Feature Vital="TRUE" Research="Asymmetric-key encryption">
 			<Name>YAK</Name>

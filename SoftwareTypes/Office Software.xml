@@ -49,6 +49,15 @@
 			<Iterative>0.8</Iterative>
 			<NameGenerator>OfficeCalendar</NameGenerator>
 		</Category>
+		<Category Name="Email">
+			<Unlock>1989</Unlock>
+			<Description>Send and receive emails. Forward them to people who don't care.</Description>
+			<Popularity>0.8</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.75</TimeScale>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>OfficeEmail</NameGenerator>
+		</Category>
     </Categories>
 	<Features>
         <Feature Vital="TRUE">
@@ -170,6 +179,7 @@
 			<Dependency Software="Operating System">GUI</Dependency>
             <SoftwareCategory Category="Word processor">1990</SoftwareCategory>
             <SoftwareCategory Category="Presentations">1990</SoftwareCategory>
+			<SoftwareCategory Category="Email">1994</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online clipart</Name>
@@ -185,6 +195,7 @@
 			<Dependency Software="Website">File uploads</Dependency>
             <SoftwareCategory Category="Word processor">2005</SoftwareCategory>
             <SoftwareCategory Category="Presentations">2005</SoftwareCategory>
+			<SoftwareCategory Category="Email">2005</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online backup</Name>
@@ -220,8 +231,10 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Video playback</Dependency>
-			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
-            <SoftwareCategory Category="Presentations">0</SoftwareCategory>
+			<Dependency Software="Video Editor">Rendering</Dependency>
+			<SoftwareCategory Category="Word processor">1987</SoftwareCategory>
+            <SoftwareCategory Category="Presentations">1987</SoftwareCategory>
+			<SoftwareCategory Category="Email">1989</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Voice dictation</Name>
@@ -263,6 +276,7 @@
 			<SoftwareCategory Category="Word processor">1982</SoftwareCategory>
 			<SoftwareCategory Category="Spreadsheets">1982</SoftwareCategory>
 			<SoftwareCategory Category="Presentations">1982</SoftwareCategory>
+			<SoftwareCategory Category="Email">1989</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Document sharing</Name>
@@ -296,7 +310,7 @@
 			<Name>Compressed files</Name>
 			<Unlock>1996</Unlock>
 			<Category>Algorithm</Category>
-			<Description>Automatically save files in a compressed format to save disk space.</Description>
+			<Description>Automatically save or attach files in a compressed format to save disk space.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
@@ -306,7 +320,22 @@
 			<SoftwareCategory Category="Word processor">1996</SoftwareCategory>
 			<SoftwareCategory Category="Spreadsheets">1996</SoftwareCategory>
 			<SoftwareCategory Category="Presentations">1996</SoftwareCategory>
+			<SoftwareCategory Category="Email">1996</SoftwareCategory>
 		</Feature>
+		<Feature>
+            <Name>Colleague directory</Name>
+            <Category>Network</Category>
+            <Description>Look up collegues from a network directory to send emails or invite them to events more easily.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Database">Personnel directory</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+            <SoftwareCategory Category="Calendar">1996</SoftwareCategory>
+			<SoftwareCategory Category="Email">1996</SoftwareCategory>
+        </Feature>
 		<!-- START WORD PROCESSOR -->
 		<Feature Forced="TRUE">
             <Name>Word processing</Name>
@@ -322,6 +351,7 @@
         </Feature>
 		<Feature Vital="TRUE">
 			<Name>Export to PDF</Name>
+			<Unlock>1993</Unlock>
 			<Category>System</Category>
 			<Description>Save files in PDF format.</Description>
 			<DevTime>1</DevTime>
@@ -330,7 +360,8 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">PDF support</Dependency>
-			<SoftwareCategory Category="Word processor">0</SoftwareCategory>
+			<SoftwareCategory Category="Word processor">1993</SoftwareCategory>
+			<SoftwareCategory Category="Email">1993</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Style manager</Name>
@@ -344,6 +375,7 @@
 			<CodeArt>0.5</CodeArt>
             <Dependency Software="Office Software">Font styles</Dependency>
 			<SoftwareCategory Category="Word processor">1985</SoftwareCategory>
+			<SoftwareCategory Category="Email">1991</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Mail merge</Name>
@@ -371,6 +403,7 @@
 			<CodeArt>0.4</CodeArt>
             <Dependency Software="Office Software">GUI</Dependency>
 			<SoftwareCategory Category="Word processor">1990</SoftwareCategory>
+			<SoftwareCategory Category="Email">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Comments</Name>
@@ -690,20 +723,6 @@
             <SoftwareCategory Category="Calendar">1992</SoftwareCategory>
         </Feature>
 		<Feature>
-            <Name>Colleague directory</Name>
-            <Category>Network</Category>
-            <Description>Look up collegues from a network directory to invite them to events more easily.</Description>
-            <DevTime>2</DevTime>
-            <Innovation>1</Innovation>
-            <Usability>1</Usability>
-            <Stability>1</Stability>
-            <CodeArt>1</CodeArt>
-			<Dependency Software="Database">Personnel directory</Dependency>
-			<Dependency Software="Operating System">Networking</Dependency>
-			<Dependency Software="Office Software">Attendee list</Dependency>
-            <SoftwareCategory Category="Calendar">1996</SoftwareCategory>
-        </Feature>
-		<Feature>
             <Name>Work hours</Name>
             <Category>Algorithm</Category>
             <Description>Define your working hours so colleagues don't invite you to midnight meetings.</Description>
@@ -729,5 +748,167 @@
             <SoftwareCategory Category="Calendar">2008</SoftwareCategory>
         </Feature>
 		<!-- END CALENDAR -->
+		<!-- START EMAIL -->
+		<Feature Forced="TRUE">
+            <Name>Send and receive</Name>
+            <Category>Network</Category>
+            <Description>Send and receive emails.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+            <SoftwareCategory Category="Email">1989</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>File attachments</Name>
+			<Unlock>1991</Unlock>
+            <Category>Network</Category>
+            <Description>Attach a file to an email.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+			<Dependency Software="Operating System">File management</Dependency>
+            <SoftwareCategory Category="Email">1991</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>HTML emails</Name>
+			<Unlock>1992</Unlock>
+            <Category>Web</Category>
+            <Description>Use HTML formatting in emails instead of just plain text.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+			<Dependency Software="IDE">HTML</Dependency>
+            <SoftwareCategory Category="Email">1992</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Emojis</Name>
+			<Unlock>1999</Unlock>
+            <Category>2D</Category>
+            <Description>Insert annoying smiley faces into emails.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0</CodeArt>
+			<Dependency Software="Office Software">HTML emails</Dependency>
+			<Dependency Software="2D Editor">Emoji design</Dependency>
+            <SoftwareCategory Category="Email">1999</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Encryption</Name>
+			<Unlock>1992</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Send emails securely.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+			<Dependency Software="Cryptography">PGP</Dependency>
+            <SoftwareCategory Category="Email">1992</SoftwareCategory>
+        </Feature>
+		<Feature From="Encryption" Vital="TRUE">
+            <Name>Advanced encryption</Name>
+			<Unlock>2009</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Send emails securely using improved encryption techniques.</Description>
+            <DevTime>4</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">OpenPGP</Dependency>
+            <SoftwareCategory Category="Email">2009</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Spam filter</Name>
+			<Unlock>1995</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Detect which messages are likely to be spam and filter them out automatically.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">1995</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Spam rules</Name>
+			<Unlock>1998</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Allow users to customise spam filter rules.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Spam filter</Dependency>
+            <SoftwareCategory Category="Email">1998</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Signature</Name>
+			<Unlock>1993</Unlock>
+            <Category>2D</Category>
+            <Description>Insert the same signature into every email at the bottom.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">1993</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Scheduled delivery</Name>
+			<Unlock>2001</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Finish writing an email and have it delivered at a specific time in the future.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">2001</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Event invites</Name>
+			<Unlock>1997</Unlock>
+            <Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
+            <Description>Invite colleagues to boring meetings using your email.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+			<Dependency Software="Office Software">Colleague directory</Dependency>
+            <SoftwareCategory Category="Email">1997</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Email search</Name>
+			<Unlock>1994</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Search through all existing emails for specific text.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">1994</SoftwareCategory>
+        </Feature>
+		<!-- END EMAIL -->
 	</Features>
 </SoftwareType>

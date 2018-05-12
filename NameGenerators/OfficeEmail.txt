@@ -1,0 +1,75 @@
+-start(pre,base,base,base,base,base)
+-pre(base)
+e
+i
+Internet 
+K
+x
+-base(base2,ext,ext,ext,stop,stop,stop)
+Alpine
+Blitz
+Citadel
+Cone
+Courier
+Easy
+Elm
+Email
+eM
+Eureka
+eZ
+Forté
+Fortress
+Fresh
+Godzilla
+Group
+Lookout
+Lotus
+Mail
+Mulberry
+Mutt
+Nutscrape
+Outview
+Pegasus
+Pine
+Round
+Sea
+Spice
+Squirrel
+Thunder
+-base2(ext,stop)
+Agent
+bird
+Bird
+Box
+Client
+Cube
+Entourage
+Envelope
+horse
+Merge
+Messenger
+monkey
+Notes
+Pile
+Scribe
+Send
+Sender
+Wise
+Write
+Writer
+-ext(stop)
++
+.com
+ ABC
+ Corporate
+ Express
+ Free
+ Lite
+ Now!
+ Open
+ Pro
+ Professional
+ Suite
+ Studio
+ Plus
+ Premium
