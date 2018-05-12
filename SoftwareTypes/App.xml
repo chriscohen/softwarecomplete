@@ -343,6 +343,19 @@
             <Dependency Software="Website">3rd party sharing</Dependency>
             <SoftwareCategory Category="Social Network">0</SoftwareCategory>
         </Feature>
+        <Feature>
+            <Name>Share via email</Name>
+            <Unlock>2010</Unlock>
+            <Category>Network</Category>
+            <Description>Users can share social posts via email, to users who don't yet have a profile.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Social Network">2010</SoftwareCategory>
+        </Feature>
         <!-- SOCIAL NETWORK END -->
         <!-- FITNESS START -->
         <Feature Forced="TRUE">
