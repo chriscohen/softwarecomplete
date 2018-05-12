@@ -166,7 +166,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1991</Unlock>
 			<Description>The International Data Encryption Algorithm is a symmetric-key block cipher based on DES.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -179,7 +179,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1992</Unlock>
 			<Description>A hashing function producing a 128-bit hash value, based on MD4.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -191,7 +191,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1993</Unlock>
 			<Description>A symmetric-key block cipher.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -204,7 +204,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1995</Unlock>
 			<Description>Secure Hash Algorithm 1 is a cryptographic hash function.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>4</Usability>
 			<Stability>2</Stability>
@@ -216,7 +216,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1996</Unlock>
 			<Description>A cryptographic hashing function extending upon RIPEMD, with a 320-bit digest.</Description>
-			<DevTime>3</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -228,7 +228,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1997</Unlock>
 			<Description>An asymmetric key exchange.</Description>
-			<DevTime>4</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -241,7 +241,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
 			<Description>3DES (Triple DES) is a symmertric-key block cipher.</Description>
-			<DevTime>6</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -254,7 +254,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
 			<Description>Advanced Encryption Standard is a substitution-permutation network cipher.</Description>
-			<DevTime>7</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -267,7 +267,7 @@
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
 			<Description>A symmetric-key block cipher based on Blowfish.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -280,7 +280,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2000</Unlock>
 			<Description>An asymmetric key exchange.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -293,7 +293,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2001</Unlock>
 			<Description>Secure Hash Algorithm 2 is a cryptographic hash library based on SHA-1.</Description>
-			<DevTime>9</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>2</Stability>
@@ -305,7 +305,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2008</Unlock>
 			<Description>A cryptographic hashing function, based on MD5.</Description>
-			<DevTime>7</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -317,7 +317,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2008</Unlock>
 			<Description>A fast cryptographic hashing function, based on the ChaCha cipher.</Description>
-			<DevTime>8</DevTime>
+			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
@@ -329,7 +329,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2010</Unlock>
 			<Description>An asymmetric key exchange protocol.</Description>
-			<DevTime>5</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
@@ -342,7 +342,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2012</Unlock>
 			<Description>A cryptographic hashing function improving upon BLAKE.</Description>
-			<DevTime>10</DevTime>
+			<DevTime>5</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>4</Usability>
 			<Stability>1</Stability>
@@ -354,7 +354,7 @@
 			<Category>Algorithm</Category>
             <Unlock>2015</Unlock>
 			<Description>Secure Hash Algorithm 3 is a cryptographic hash library based on SHA-2.</Description>
-			<DevTime>13</DevTime>
+			<DevTime>7</DevTime>
 			<Innovation>5</Innovation>
 			<Usability>5</Usability>
 			<Stability>3</Stability>
