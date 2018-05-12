@@ -34,7 +34,7 @@
 			<Name>Text-based</Name>
 			<Category>System</Category>
 			<Description>Edit game files via the command line only.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
@@ -46,7 +46,7 @@
 			<Name>Editor GUI</Name>
 			<Category>2D</Category>
 			<Description>Edit game files using a 2D interface.</Description>
-			<DevTime>2</DevTime>
+			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
