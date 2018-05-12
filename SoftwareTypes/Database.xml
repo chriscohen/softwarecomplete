@@ -54,7 +54,7 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptography library</Dependency>
+			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Master/slave</Name>

@@ -177,7 +177,7 @@
 			<Usability>0</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-            <Dependency Software="Cryptography">Cryptography library</Dependency>
+            <Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
             <Dependency Software="Database">Secure connections</Dependency>
 		</Feature>
         <!-- BLOG START -->
