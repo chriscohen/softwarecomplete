@@ -125,7 +125,7 @@
 			<Dependency Software="Cryptography">Cryptography library</Dependency>
 		</Feature>
 		<!-- START RESEARCH -->
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>MD2</Name>
 			<Category>Algorithm</Category>
             <Unlock>1989</Unlock>
@@ -135,9 +135,8 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>MD4</Name>
 			<Category>Algorithm</Category>
             <Unlock>1990</Unlock>
@@ -147,9 +146,8 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>RIPEMD</Name>
 			<Category>Algorithm</Category>
             <Unlock>1990</Unlock>
@@ -159,9 +157,8 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Symmetric-key encryption">
 			<Name>IDEA</Name>
 			<Category>Algorithm</Category>
             <Unlock>1991</Unlock>
@@ -172,9 +169,8 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
-			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>MD5</Name>
 			<Category>Algorithm</Category>
             <Unlock>1992</Unlock>
@@ -184,9 +180,8 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Symmetric-key encryption">
 			<Name>Blowfish</Name>
 			<Category>Algorithm</Category>
             <Unlock>1993</Unlock>
@@ -197,9 +192,8 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
-			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>SHA-1</Name>
 			<Category>Algorithm</Category>
             <Unlock>1995</Unlock>
@@ -209,9 +203,8 @@
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>RIPEMD-320</Name>
 			<Category>Algorithm</Category>
             <Unlock>1996</Unlock>
@@ -221,9 +214,8 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-		<Feature Vital="TRUE" Research="Cryptography library">
+		<Feature Vital="TRUE" Research="Asymmetric-key encryption">
 			<Name>Diffie-Hellman</Name>
 			<Category>Algorithm</Category>
             <Unlock>1997</Unlock>
@@ -234,9 +226,8 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
-			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 		</Feature>
-		<Feature Vital="TRUE" Research="Cryptography library">
+		<Feature Vital="TRUE" Research="Symmetric-key encryption">
 			<Name>3DES</Name>
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
@@ -246,10 +237,9 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Symmetric-key encryption">
 			<Name>AES</Name>
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
@@ -259,10 +249,9 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Symmetric-key encryption">
 			<Name>Twofish</Name>
 			<Category>Algorithm</Category>
             <Unlock>1998</Unlock>
@@ -272,10 +261,9 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-		<Feature Vital="TRUE" Research="Cryptography library">
+		<Feature Vital="TRUE" Research="Asymmetric-key encryption">
 			<Name>RSA</Name>
 			<Category>Algorithm</Category>
             <Unlock>2000</Unlock>
@@ -286,9 +274,8 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
-			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>SHA-2</Name>
 			<Category>Algorithm</Category>
             <Unlock>2001</Unlock>
@@ -298,9 +285,8 @@
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>MD6</Name>
 			<Category>Algorithm</Category>
             <Unlock>2008</Unlock>
@@ -310,9 +296,8 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>BLAKE</Name>
 			<Category>Algorithm</Category>
             <Unlock>2008</Unlock>
@@ -322,9 +307,8 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-		<Feature Vital="TRUE" Research="Cryptography library">
+		<Feature Vital="TRUE" Research="Asymmetric-key encryption">
 			<Name>YAK</Name>
 			<Category>Algorithm</Category>
             <Unlock>2010</Unlock>
@@ -334,10 +318,9 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>BLAKE2</Name>
 			<Category>Algorithm</Category>
             <Unlock>2012</Unlock>
@@ -347,9 +330,8 @@
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
+        <Feature Vital="TRUE" Research="Cryptographic hash">
 			<Name>SHA-3</Name>
 			<Category>Algorithm</Category>
             <Unlock>2015</Unlock>
@@ -359,7 +341,6 @@
 			<Usability>5</Usability>
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
 		<!-- END RESEARCH -->
 	</Features>
