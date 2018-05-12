@@ -233,6 +233,7 @@
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
             <Dependency Software="IDE">File management</Dependency>
+            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
         <!-- LANGUAGES START -->
         <Feature Research="Language support">
