@@ -100,7 +100,7 @@
         <Feature>
 			<Name>Encryption</Name>
 			<Category>Network</Category>
-            <Unlock>2002</Unlock>
+            <Unlock>1997</Unlock>
 			<Description>Allows various parts of the communications to be encrypted for security.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -111,8 +111,8 @@
 		</Feature>
         <Feature>
 			<Name>Secure chat</Name>
+			<Unlock>1997</Unlock>
 			<Category>Algorithm</Category>
-            <Unlock>1990</Unlock>
 			<Description>Encrypt data to prevent others from intercepting or viewing it.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>3</Innovation>

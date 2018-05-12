@@ -103,6 +103,7 @@
 		</Feature>
 		<Feature>
 			<Name>Asymmetric-key encryption</Name>
+			<Unlock>1997</Unlock>
 			<Category>Algorithm</Category>
 			<Description>A personal private key and another public key are used to encrypt data, so it can only be decrypted by those with the inverse keys.</Description>
 			<DevTime>4</DevTime>

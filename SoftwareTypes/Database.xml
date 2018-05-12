@@ -47,6 +47,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Secure connections</Name>
+			<Unlock>1997</Unlock>
 			<Category>Algorithm</Category>
 			<Description>Make remote connections securely, by encrypting traffic.</Description>
 			<DevTime>3</DevTime>

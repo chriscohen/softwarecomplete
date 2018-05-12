@@ -170,6 +170,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Secure connection</Name>
+            <Unlock>1997</Unlock>
 			<Category>Algorithm</Category>
 			<Description>Allow secure connections to this website.</Description>
 			<DevTime>1</DevTime>
