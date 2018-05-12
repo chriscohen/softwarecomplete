@@ -90,6 +90,39 @@
 			<CodeArt>0.5</CodeArt>
             <Dependency Software="Cryptography">Command line</Dependency>
 		</Feature>
+		<Feature>
+			<Name>Symmetric-key encryption</Name>
+			<Category>Algorithm</Category>
+			<Description>A single key is used to encrypt and decrypt data.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptography library</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Asymmetric-key encryption</Name>
+			<Category>Algorithm</Category>
+			<Description>A personal private key and another public key are used to encrypt data, so it can only be decrypted by those with the inverse keys.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptography library</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Cryptographic hash</Name>
+			<Category>Algorithm</Category>
+			<Description>Create a fixed-length string that validates and checks data have been encrypted correctly.</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptography library</Dependency>
+		</Feature>
 		<!-- START RESEARCH -->
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD2</Name>
@@ -101,6 +134,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD4</Name>
@@ -112,6 +146,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>RIPEMD</Name>
@@ -123,6 +158,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>IDEA</Name>
@@ -134,6 +170,8 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD5</Name>
@@ -145,6 +183,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>Blowfish</Name>
@@ -156,6 +195,8 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>SHA-1</Name>
@@ -167,6 +208,7 @@
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>RIPEMD-320</Name>
@@ -178,6 +220,20 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+		</Feature>
+		<Feature Vital="TRUE" Research="Cryptography library">
+			<Name>Diffie-Hellman</Name>
+			<Category>Algorithm</Category>
+            <Unlock>1997</Unlock>
+			<Description>An asymmetric key exchange.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 		</Feature>
 		<Feature Vital="TRUE" Research="Cryptography library">
 			<Name>3DES</Name>
@@ -189,6 +245,8 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>AES</Name>
@@ -200,6 +258,8 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>Twofish</Name>
@@ -211,6 +271,21 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Symmetric-key encryption</Dependency>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+		</Feature>
+		<Feature Vital="TRUE" Research="Cryptography library">
+			<Name>RSA</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2000</Unlock>
+			<Description>An asymmetric key exchange.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>SHA-2</Name>
@@ -222,17 +297,7 @@
 			<Usability>4</Usability>
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
-		</Feature>
-        <Feature Vital="TRUE" Research="Cryptography library">
-			<Name>Whirlpool</Name>
-			<Category>Algorithm</Category>
-            <Unlock>2003</Unlock>
-			<Description>A cryptographic hash function with a digest size of 512 bits.</Description>
-			<DevTime>6</DevTime>
-			<Innovation>2</Innovation>
-			<Usability>2</Usability>
-			<Stability>1</Stability>
-			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD6</Name>
@@ -244,17 +309,32 @@
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>BLAKE</Name>
 			<Category>Algorithm</Category>
             <Unlock>2008</Unlock>
-			<Description>A cryptographic hashing function, based on the ChaCha cipher.</Description>
+			<Description>A fast cryptographic hashing function, based on the ChaCha cipher.</Description>
 			<DevTime>8</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
+		</Feature>
+		<Feature Vital="TRUE" Research="Cryptography library">
+			<Name>YAK</Name>
+			<Category>Algorithm</Category>
+            <Unlock>2010</Unlock>
+			<Description>An asymmetric key exchange protocol.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Asymmetric-key cryptography</Dependency>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>BLAKE2</Name>
@@ -266,6 +346,7 @@
 			<Usability>4</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>SHA-3</Name>
@@ -277,6 +358,7 @@
 			<Usability>5</Usability>
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
 		<!-- END RESEARCH -->
 	</Features>
