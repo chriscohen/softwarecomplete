@@ -334,7 +334,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Cryptography">Asymmetric-key cryptography</Dependency>
+			<Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
 			<Dependency Software="Cryptography">Cryptographic hash</Dependency>
 		</Feature>
         <Feature Vital="TRUE" Research="Cryptography library">
