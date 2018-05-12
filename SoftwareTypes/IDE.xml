@@ -222,6 +222,18 @@
             <Dependency Software="SCM">Revision history</Dependency>
             <Dependency Software="IDE">File management</Dependency>
         </Feature>
+        <Feature Vital="TRUE">
+            <Name>Single-page apps</Name>
+            <Unlock>2010</Unlock>
+            <Description>Integrate with a single-page app framework to develop websites that do not require entire page reloads.</Description>
+            <Category>System</Category>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>2</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependency Software="IDE">File management</Dependency>
+        </Feature>
         <!-- LANGUAGES START -->
         <Feature Research="Language support">
             <Name>C</Name>
@@ -477,5 +489,59 @@
             <CodeArt>1</CodeArt>
         </Feature>
         <!-- LANGUAGES END -->
+        <!-- SINGLE-PAGE APP START -->
+        <Feature Research="Single-page app">
+            <Name>Angular</Name>
+            <Unlock>2010</Unlock>
+            <Description>Add support for the Angular framework.</Description>
+            <Category>System</Category>
+            <ArtCategory>Web</ArtCategory>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="IDE">JavaScript</Dependency>
+        </Feature>
+        <Feature Research="Single-page app">
+            <Name>Ember</Name>
+            <Unlock>2011</Unlock>
+            <Description>Add support for the Ember framework.</Description>
+            <Category>System</Category>
+            <ArtCategory>Web</ArtCategory>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="IDE">JavaScript</Dependency>
+        </Feature>
+        <Feature Research="Single-page app">
+            <Name>Meteor</Name>
+            <Unlock>2012</Unlock>
+            <Description>Add support for the Meteor framework.</Description>
+            <Category>System</Category>
+            <ArtCategory>Web</ArtCategory>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="IDE">JavaScript</Dependency>
+        </Feature>
+        <Feature Research="Single-page app">
+            <Name>React</Name>
+            <Unlock>2013</Unlock>
+            <Description>Add support for the React framework.</Description>
+            <Category>System</Category>
+            <ArtCategory>Web</ArtCategory>
+            <DevTime>2</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="IDE">JavaScript</Dependency>
+        </Feature>
+        <!-- SINGLE-PAGE APP END -->
     </Features>
 </SoftwareType>
