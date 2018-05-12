@@ -233,7 +233,6 @@
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
             <Dependency Software="IDE">File management</Dependency>
-            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
         <!-- LANGUAGES START -->
         <Feature Research="Language support">
@@ -491,7 +490,7 @@
         </Feature>
         <!-- LANGUAGES END -->
         <!-- SINGLE-PAGE APP START -->
-        <Feature Research="Single-page app">
+        <Feature Research="Single-page apps">
             <Name>Angular</Name>
             <Unlock>2010</Unlock>
             <Description>Add support for the Angular framework.</Description>
@@ -502,9 +501,8 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>0.8</CodeArt>
-            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
-        <Feature Research="Single-page app">
+        <Feature Research="Single-page apps">
             <Name>Ember</Name>
             <Unlock>2011</Unlock>
             <Description>Add support for the Ember framework.</Description>
@@ -515,9 +513,8 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>0.8</CodeArt>
-            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
-        <Feature Research="Single-page app">
+        <Feature Research="Single-page apps">
             <Name>Meteor</Name>
             <Unlock>2012</Unlock>
             <Description>Add support for the Meteor framework.</Description>
@@ -528,9 +525,8 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>0.8</CodeArt>
-            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
-        <Feature Research="Single-page app">
+        <Feature Research="Single-page apps">
             <Name>React</Name>
             <Unlock>2013</Unlock>
             <Description>Add support for the React framework.</Description>
@@ -541,7 +537,6 @@
             <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>0.8</CodeArt>
-            <Dependency Software="IDE">JavaScript</Dependency>
         </Feature>
         <!-- SINGLE-PAGE APP END -->
     </Features>

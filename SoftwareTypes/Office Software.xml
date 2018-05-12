@@ -909,6 +909,45 @@
 			<Dependency Software="Office Software">Send and receive</Dependency>
             <SoftwareCategory Category="Email">1994</SoftwareCategory>
         </Feature>
+		<Feature Vital="TRUE">
+            <Name>Categorization</Name>
+			<Unlock>1993</Unlock>
+            <Category>Algorithm</Category>
+            <ArtCategory>2D</ArtCategory>
+            <Description>Users can specify categories or folders and place emails within them for sorting.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0.75</CodeArt>
+			<Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">1993</SoftwareCategory>
+        </Feature>
+        <Feature From="Categorization" Vital="TRUE">
+            <Name>Automatic categorization</Name>
+			<Unlock>2012</Unlock>
+            <Category>Algorithm</Category>
+            <Description>New emails will be placed into categories automatically based on their content or sender.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Email">2012</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Remind me later</Name>
+			<Unlock>1996</Unlock>
+            <Category>2D</Category>
+            <Description>Put away or flag an email to be dealt with at a later time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="Office Software">Send and receive</Dependency>
+            <SoftwareCategory Category="Email">1996</SoftwareCategory>
+        </Feature>
 		<!-- END EMAIL -->
 	</Features>
 </SoftwareType>

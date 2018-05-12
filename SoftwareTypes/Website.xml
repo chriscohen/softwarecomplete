@@ -71,6 +71,15 @@
 			<Iterative>0.05</Iterative>
 			<NameGenerator>AppFileStorage</NameGenerator>
 		</Category>
+        <Category Name="Email">
+			<Description>Web-based email.</Description>
+            <Unlock>1999</Unlock>
+			<Popularity>0.8</Popularity>
+			<Retention>0.8</Retention>
+			<TimeScale>0.85</TimeScale>
+			<Iterative>0.05</Iterative>
+			<NameGenerator>OfficeEmail</NameGenerator>
+		</Category>
 	</Categories>
 	<Features>
 		<Feature Forced="TRUE">
@@ -180,6 +189,22 @@
 			<CodeArt>1</CodeArt>
             <Dependency Software="Cryptography">Asymmetric-key encryption</Dependency>
             <Dependency Software="Database">Secure connections</Dependency>
+		</Feature>
+        <Feature Vital="TRUE">
+			<Name>Single-page app</Name>
+            <Unlock>2010</Unlock>
+			<Category>Web</Category>
+			<Description>The website can display most information without reloading pages, for a better browsing experience.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+            <Dependency Software="IDE">Single-page apps</Dependency>
+            <SoftwareCategory Category="Blog">2010</SoftwareCategory>
+            <SoftwareCategory Category="Music">2010</SoftwareCategory>
+            <SoftwareCategory Category="Social Network">2010</SoftwareCategory>
+            <SoftwareCategory Category="Email">2010</SoftwareCategory>
 		</Feature>
         <!-- BLOG START -->
         <Feature Forced="TRUE">
@@ -811,6 +836,196 @@
             <Dependency Software="Website">File revisions</Dependency>
             <SoftwareCategory Category="File Storage">0</SoftwareCategory>
         </Feature>
-        <!-- FILE STORAGE END -->
+        <!-- END FILE STORAGE -->
+        <!-- START EMAIL -->
+        <Feature Forced="TRUE">
+            <Name>Inbox</Name>
+            <Unlock>1999</Unlock>
+            <Category>Network</Category>
+            <ArtCategory>Web</ArtCategory>
+            <Description>Send and receive emails using a web page.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Server>0.0002</Server>
+            <SoftwareCategory Category="Email">1999</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>File attachments</Name>
+			<Unlock>2000</Unlock>
+            <Category>Network</Category>
+            <ArtCategory>Web</ArtCategory>
+            <Description>Attach a file to an email.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.001</Server>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2000</SoftwareCategory>
+        </Feature>
+        <Feature From="File attachments">
+            <Name>Compressed attachments</Name>
+			<Unlock>2004</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Attachments are stored and transmitted compressed to save space and bandwidth.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <Server>0.0005</Server>
+            <Dependency Software="Compression">Plugin support</Dependency>
+            <Dependency Software="Compression">gzip format</Dependency>
+            <SoftwareCategory Category="Email">2004</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>HTML emails</Name>
+			<Unlock>2001</Unlock>
+            <Category>Web</Category>
+            <Description>Use HTML formatting in emails instead of just plain text.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2001</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Emojis</Name>
+			<Unlock>2002</Unlock>
+            <Category>2D</Category>
+            <Description>Insert annoying smiley faces into emails.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0</CodeArt>
+			<Dependency Software="Website">HTML emails</Dependency>
+            <SoftwareCategory Category="Email">2002</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Spam filter</Name>
+			<Unlock>2002</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Detect which messages are likely to be spam and filter them out automatically.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2002</SoftwareCategory>
+        </Feature>
+		<Feature Vital="TRUE">
+            <Name>Spam rules</Name>
+			<Unlock>2003</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Allow users to customise spam filter rules.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Website">Spam filter</Dependency>
+            <SoftwareCategory Category="Email">2003</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Signature</Name>
+			<Unlock>2001</Unlock>
+            <Category>Web</Category>
+            <Description>Insert the same signature into every email at the bottom.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2001</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Scheduled delivery</Name>
+			<Unlock>2004</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Finish writing an email and have it delivered at a specific time in the future.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2001</SoftwareCategory>
+        </Feature>
+		<Feature>
+            <Name>Email search</Name>
+			<Unlock>2000</Unlock>
+            <Category>Algorithm</Category>
+            <Description>Search through all existing emails for specific text.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2000</SoftwareCategory>
+        </Feature>
+        <Feature Vital="TRUE">
+            <Name>Categorization</Name>
+			<Unlock>2005</Unlock>
+            <Category>Algorithm</Category>
+            <ArtCategory>Web</ArtCategory>
+            <Description>Users can specify categories or folders and place emails within them for sorting.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>0</Stability>
+            <CodeArt>0.75</CodeArt>
+			<Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2005</SoftwareCategory>
+        </Feature>
+        <Feature From="Categorization" Vital="TRUE">
+            <Name>Automatic categorization</Name>
+			<Unlock>2012</Unlock>
+            <Category>Algorithm</Category>
+            <Description>New emails will be placed into categories automatically based on their content or sender.</Description>
+            <DevTime>3</DevTime>
+            <Innovation>2</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+            <SoftwareCategory Category="Email">2012</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Report as spam</Name>
+			<Unlock>2008</Unlock>
+            <Category>Network</Category>
+            <ArtCategory>Web</ArtCategory>
+            <Description>Tell the website that your email is spam, and help the website improve its spam filtering.</Description>
+            <DevTime>2</DevTime>
+            <Innovation>1</Innovation>
+            <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.8</CodeArt>
+            <Dependency Software="Website">Spam filter</Dependency>
+            <SoftwareCategory Category="Email">2012</SoftwareCategory>
+        </Feature>
+        <Feature>
+            <Name>Remind me later</Name>
+			<Unlock>2006</Unlock>
+            <Category>Web</Category>
+            <Description>Put away or flag an email to be dealt with at a later time.</Description>
+            <DevTime>1</DevTime>
+            <Innovation>0</Innovation>
+            <Usability>1</Usability>
+            <Stability>1</Stability>
+            <CodeArt>0.5</CodeArt>
+            <Dependency Software="Website">Inbox</Dependency>
+            <SoftwareCategory Category="Email">2006</SoftwareCategory>
+        </Feature>
+        <!-- END EMAIL -->
 	</Features>
 </SoftwareType>
