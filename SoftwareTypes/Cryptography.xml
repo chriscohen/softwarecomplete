@@ -90,6 +90,7 @@
 			<CodeArt>0.5</CodeArt>
             <Dependency Software="Cryptography">Command line</Dependency>
 		</Feature>
+		<!-- START RESEARCH -->
         <Feature Vital="TRUE" Research="Cryptography library">
 			<Name>MD2</Name>
 			<Category>Algorithm</Category>
@@ -277,5 +278,6 @@
 			<Stability>3</Stability>
 			<CodeArt>1</CodeArt>
 		</Feature>
+		<!-- END RESEARCH -->
 	</Features>
 </SoftwareType>

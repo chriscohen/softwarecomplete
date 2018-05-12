@@ -83,6 +83,7 @@
 			<CodeArt>1</CodeArt>
             <Dependency Software="Compression">Command line</Dependency>
         </Feature>
+        <!-- START RESEARCH -->
         <Feature Research="ARC format" Vital="TRUE">
             <Name>ZIP format</Name>
             <Unlock>1989</Unlock>
@@ -167,5 +168,6 @@
 			<CodeArt>1</CodeArt>
             <Dependency Software="Compression">ARC format</Dependency>
         </Feature>
+        <!-- END RESEARCH -->
 	</Features>
 </SoftwareType>
