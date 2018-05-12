@@ -280,12 +280,23 @@
         </Feature>
         <Feature Research="Language support">
             <Name>HTML</Name>
-            <Unlock>1990</Unlock>
+            <Unlock>1992</Unlock>
             <Description>Add HTML support to the IDE.</Description>
             <Category>Web</Category>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
             <Usability>0</Usability>
+            <Stability>1</Stability>
+            <CodeArt>1</CodeArt>
+        </Feature>
+        <Feature Research="Language support">
+            <Name>HTML5</Name>
+            <Unlock>2014</Unlock>
+            <Description>An improved form of HTML with more advanced features.</Description>
+            <Category>Web</Category>
+            <DevTime>4</DevTime>
+            <Innovation>3</Innovation>
+            <Usability>1</Usability>
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
         </Feature>
