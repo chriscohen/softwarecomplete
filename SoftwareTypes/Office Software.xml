@@ -14,7 +14,7 @@
 	<NameGenerator>Office</NameGenerator>
     <Categories>
         <Category Name="Word processor">
-			<Unlock>1980</Unlock>
+			<Unlock>1978</Unlock>
 			<Description>Write documents.</Description>
 			<Popularity>0.8</Popularity>
 			<Retention>0.9</Retention>
@@ -23,7 +23,7 @@
 			<NameGenerator>OfficeWordProcessor</NameGenerator>
 		</Category>
         <Category Name="Spreadsheets">
-			<Unlock>1980</Unlock>
+			<Unlock>1982</Unlock>
 			<Description>Store data in tabular formats and draw graphs.</Description>
 			<Popularity>0.7</Popularity>
 			<Retention>0.9</Retention>
@@ -271,7 +271,7 @@
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
-			<CodeArt>0.4</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">Printing</Dependency>
 			<SoftwareCategory Category="Word processor">1982</SoftwareCategory>
 			<SoftwareCategory Category="Spreadsheets">1982</SoftwareCategory>
@@ -315,7 +315,7 @@
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>0</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Compression">ZIP format</Dependency>
 			<SoftwareCategory Category="Word processor">1996</SoftwareCategory>
 			<SoftwareCategory Category="Spreadsheets">1996</SoftwareCategory>
@@ -386,7 +386,7 @@
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependency Software="Office Software">GUI</Dependency>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<SoftwareCategory Category="Word processor">1993</SoftwareCategory>
@@ -443,7 +443,8 @@
             <Stability>1</Stability>
             <CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Terminal</Dependency>
-            <SoftwareCategory Category="Spreadsheets">0</SoftwareCategory>
+			<Dependency Software="Operating System">Hard disk support</Dependency>
+            <SoftwareCategory Category="Spreadsheets">1982</SoftwareCategory>
         </Feature>
 		<Feature Vital="TRUE">
 			<Name>Charts</Name>
@@ -669,7 +670,7 @@
             <Innovation>0</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>1</CodeArt>
+            <CodeArt>0.9</CodeArt>
             <Dependency Software="Operating System">Notifications</Dependency>
             <SoftwareCategory Category="Calendar">0</SoftwareCategory>
         </Feature>
@@ -778,13 +779,13 @@
 		<Feature>
             <Name>HTML emails</Name>
 			<Unlock>1992</Unlock>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Use HTML formatting in emails instead of just plain text.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.5</CodeArt>
+            <CodeArt>1</CodeArt>
 			<Dependency Software="Office Software">Send and receive</Dependency>
 			<Dependency Software="IDE">HTML</Dependency>
             <SoftwareCategory Category="Email">1992</SoftwareCategory>

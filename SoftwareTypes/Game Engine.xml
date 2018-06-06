@@ -2,14 +2,15 @@
 	<Name>Game Engine</Name>
 	<Category>Gaming</Category>
 	<Description>The game engine is what powers a game. It contains everything needed for a game, except for the creativity.</Description>
-	<Random>0.4</Random>
-	<Popularity>0.25</Popularity>
-	<Retention>0.5</Retention>
+	<Random>0.1</Random>
+	<Popularity>0.1</Popularity>
+	<Retention>0.75</Retention>
 	<IdealPrice>90</IdealPrice>
 	<OSSpecific>True</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<Iterative>0.9</Iterative>
+	<Unlock>1979</Unlock>
 	<NameGenerator>Engine</NameGenerator>
 	<Features>
 		<Feature Forced="TRUE">
@@ -378,6 +379,7 @@
 		</Feature>
         <Feature>
 			<Name>Mod support</Name>
+			<Unlock>1982</Unlock>
 			<Category>System</Category>
 			<Description>Allows modification of game engine files to create altered game mechanics or graphics.</Description>
 			<DevTime>1</DevTime>

@@ -294,7 +294,7 @@
             <Name>HTML</Name>
             <Unlock>1992</Unlock>
             <Description>Add HTML support to the IDE.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
             <Usability>0</Usability>
@@ -305,7 +305,7 @@
             <Name>HTML5</Name>
             <Unlock>2014</Unlock>
             <Description>An improved form of HTML with more advanced features.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>4</DevTime>
             <Innovation>3</Innovation>
             <Usability>1</Usability>
@@ -360,7 +360,7 @@
             <Name>PHP</Name>
             <Unlock>1995</Unlock>
             <Description>Add PHP support to the IDE.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
             <Usability>0</Usability>
@@ -371,7 +371,7 @@
             <Name>JavaScript</Name>
             <Unlock>1995</Unlock>
             <Description>Add JavaScript support to the IDE.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
             <Usability>0</Usability>
@@ -382,7 +382,7 @@
             <Name>CSS</Name>
             <Unlock>1996</Unlock>
             <Description>Cascading Style Sheets allow visual styles to be separated from HTML code.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>3</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
@@ -393,7 +393,7 @@
             <Name>ActionScript</Name>
             <Unlock>1998</Unlock>
             <Description>Add ActionScript support to the IDE.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
             <Usability>0</Usability>
@@ -448,7 +448,7 @@
             <Name>SCSS</Name>
             <Unlock>2006</Unlock>
             <Description>Syntactically Awesome Style Sheets is an improvement upon CSS and allows for variables, nested structures and other features.</Description>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <DevTime>3</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
@@ -495,7 +495,7 @@
             <Unlock>2010</Unlock>
             <Description>Add support for the Angular framework.</Description>
             <Category>System</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <DevTime>2</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
@@ -507,7 +507,7 @@
             <Unlock>2011</Unlock>
             <Description>Add support for the Ember framework.</Description>
             <Category>System</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <DevTime>2</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
@@ -519,7 +519,7 @@
             <Unlock>2012</Unlock>
             <Description>Add support for the Meteor framework.</Description>
             <Category>System</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <DevTime>2</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
@@ -531,7 +531,7 @@
             <Unlock>2013</Unlock>
             <Description>Add support for the React framework.</Description>
             <Category>System</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <DevTime>2</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>

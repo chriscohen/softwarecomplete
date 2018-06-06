@@ -38,7 +38,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Category>
         <Category Name="Watch">
 			<Description>For the wrist.</Description>
-			<Popularity>0.7</Popularity>
+			<Popularity>0.3</Popularity>
 			<Retention>0.8</Retention>
 			<TimeScale>0.2</TimeScale>
 			<Iterative>1</Iterative>
@@ -47,7 +47,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 		</Category>
         <Category Name="Smart Home">
 			<Description>For the modern home.</Description>
-			<Popularity>0.75</Popularity>
+			<Popularity>0.2</Popularity>
 			<Retention>0.9</Retention>
 			<TimeScale>0.3</TimeScale>
 			<Iterative>1</Iterative>
@@ -86,10 +86,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.75</CodeArt>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1979</SoftwareCategory>
+            <SoftwareCategory Category="Console">1985</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Font management</Name>
@@ -104,10 +104,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>0.4</CodeArt>
 			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
             <Dependency Software="Operating System">GUI</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Watch">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1979</SoftwareCategory>
+            <SoftwareCategory Category="Console">2006</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE" Research="GUI">
 			<Name>PDF support</Name>
@@ -121,12 +121,13 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
             <Dependency Software="Operating System">File management</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1993</SoftwareCategory>
+            <SoftwareCategory Category="Phone">1995</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>3D rendering</Name>
 			<Category>3D</Category>
+			<Unlock>1983</Unlock>
 			<Description></Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -135,7 +136,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Operating System">GUI</Dependency>
 			<SoftwareCategory Category="Computer">1983</SoftwareCategory>
-			<SoftwareCategory Category="Console">1983</SoftwareCategory>
+			<SoftwareCategory Category="Console">1994</SoftwareCategory>
 			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE">
@@ -170,7 +171,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Peripherals</Name>
@@ -371,7 +372,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Computer">1985</SoftwareCategory>
-			<SoftwareCategory Category="Console">1985</SoftwareCategory>
+			<SoftwareCategory Category="Console">1994</SoftwareCategory>
 			<SoftwareCategory Category="Phone">1997</SoftwareCategory>
             <SoftwareCategory Category="Watch">2013</SoftwareCategory>
             <SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
@@ -470,10 +471,10 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">File management</Dependency>
-            <Dependency Software="Operating System">8-bit audio</Dependency>
+            <Dependency Software="Operating System">16-bit audio</Dependency>
             <Dependency Software="Operating System">GUI</Dependency>
             <SoftwareCategory Category="Computer">1987</SoftwareCategory>
-            <SoftwareCategory Category="Console">1987</SoftwareCategory>
+            <SoftwareCategory Category="Console">1991</SoftwareCategory>
             <SoftwareCategory Category="Phone">1995</SoftwareCategory>
             <SoftwareCategory Category="Watch">2013</SoftwareCategory>
 		</Feature>
@@ -488,8 +489,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">8-bit audio</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-			<SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1984</SoftwareCategory>
+			<SoftwareCategory Category="Console">1989</SoftwareCategory>
 			<SoftwareCategory Category="Phone">1995</SoftwareCategory>
 			<SoftwareCategory Category="Watch">2013</SoftwareCategory>
 			<SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
@@ -505,7 +506,7 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Peripherals</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1984</SoftwareCategory>
 		</Feature>
         <Feature>
 			<Name>Controller input</Name>
@@ -545,8 +546,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
             <Dependency Software="Operating System">Peripherals</Dependency>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1985</SoftwareCategory>
+            <SoftwareCategory Category="Console">1990</SoftwareCategory>
 		</Feature>
 		<Feature Research="Steering wheel input">
 			<Name>Force feedback</Name>
@@ -558,8 +559,8 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-            <SoftwareCategory Category="Computer">0</SoftwareCategory>
-            <SoftwareCategory Category="Console">0</SoftwareCategory>
+            <SoftwareCategory Category="Computer">1990</SoftwareCategory>
+            <SoftwareCategory Category="Console">1990</SoftwareCategory>
 		</Feature>
         <Feature>
 			<Name>App store support</Name>
@@ -806,9 +807,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Watch">0</SoftwareCategory>
-			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2006</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+			<SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
 		</Feature>
 		<Feature From="Camera support" Vital="TRUE">
 			<Name>HD camera support</Name>
@@ -820,9 +821,9 @@ Most software needs an Operating System to run on. When people stop buying a lin
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-            <SoftwareCategory Category="Phone">0</SoftwareCategory>
-            <SoftwareCategory Category="Watch">0</SoftwareCategory>
-			<SoftwareCategory Category="Smart Home">0</SoftwareCategory>
+            <SoftwareCategory Category="Phone">2012</SoftwareCategory>
+            <SoftwareCategory Category="Watch">2013</SoftwareCategory>
+			<SoftwareCategory Category="Smart Home">2015</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Voice recognition</Name>

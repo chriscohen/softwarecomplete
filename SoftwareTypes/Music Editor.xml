@@ -166,7 +166,7 @@
             <CodeArt>0.75</CodeArt>
             <Dependency Software="Music Editor">MIDI recording</Dependency>
         </Feature>
-        <Feature Vital="TRUE">
+        <Feature Research="VST instruments">
             <Name>Auto-Tune</Name>
             <Category>Audio</Category>
             <Description>Automatically ensure that voice pitch is correct.</Description>

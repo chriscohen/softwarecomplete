@@ -2,6 +2,7 @@
 	<Name>Database</Name>
 	<Category>Database</Category>
 	<Description>Storage of large amounts of data with indexing and fast retrieval.</Description>
+	<Unlock>1981</Unlock>
 	<Random>0.8</Random>
     <Popularity>0.75</Popularity>
     <Retention>0.88</Retention>
@@ -16,6 +17,7 @@
 		<Feature Forced="TRUE">
 			<Name>Data engine</Name>
 			<Category>Algorithm</Category>
+			<Unlock>1981</Unlock>
 			<Description>Basic data storage and retrieval engine.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>

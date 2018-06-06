@@ -7,9 +7,7 @@
 		<Type Software="2D Editor">1</Type>
 		<Type Software="3D Editor">1</Type>
 		<Type Software="Audio Tool">1</Type>
-		<Type Software="Game Engine">1</Type>
 		<Type Software="Music Editor">1</Type>
-		<Type Software="IDE">1</Type>
 		<Type Software="Video Editor">1</Type>
 	</Types>
 </CompanyType>

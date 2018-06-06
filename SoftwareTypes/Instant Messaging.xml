@@ -15,7 +15,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Terminal</Name>
-			<Category>Networking</Category>
+			<Category>Network</Category>
 			<Description>Text-based chat only via a terminal.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>0</Innovation>
@@ -26,7 +26,7 @@
 		</Feature>
 		<Feature>
 			<Name>IRC</Name>
-			<Category>Networking</Category>
+			<Category>Network</Category>
 			<Description>Chat via the Internet Relay Chat protocol.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
@@ -38,7 +38,7 @@
 		</Feature>
         <Feature>
 			<Name>Chat rooms</Name>
-			<Category>Networking</Category>
+			<Category>Network</Category>
 			<Description>Users can create chat rooms to group together.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>

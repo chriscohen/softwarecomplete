@@ -1,6 +1,6 @@
 <CompanyType>
 	<Specialization>Database</Specialization>
-	<PerYear>0.2</PerYear>
+	<PerYear>0.1</PerYear>
 	<Min>3</Min>
 	<Max>6</Max>
 	<Types>
