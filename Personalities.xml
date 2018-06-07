@@ -1,0 +1,225 @@
+<PersonalityGraph>
+	<Personalities>
+		<Personality>
+			<Name>Generous</Name>
+			<WorkLearn>-0.5</WorkLearn>
+			<Social>0.5</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Optimistic">1.75</Relation>
+				<Relation Name = "Flirt">1.5</Relation>
+				<Relation Name = "Naive">1.25</Relation>
+				<Relation Name = "Stubborn">0.25</Relation>
+				<Relation Name = "Introvert">1.5</Relation>
+				<Relation Name = "Extrovert">1.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Optimistic</Name>
+			<WorkLearn>0.5</WorkLearn>
+			<Social>1</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name = "Pessimistic">0.1</Relation>
+				<Relation Name = "Goofy">0.5</Relation>
+				<Relation Name = "Flirt">1.5</Relation>
+				<Relation Name = "Dramatic">0.5</Relation>
+				<Relation Name = "Short-tempered">0.25</Relation>
+				<Relation Name = "Stubborn">0.5</Relation>
+				<Relation Name = "Extrovert">1.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Misanthropist</Name>
+			<WorkLearn>0.5</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+				<Relation Name = "Cocky">0</Relation>
+				<Relation Name = "Snob">0</Relation>
+				<Relation Name = "Mean">0</Relation>
+				<Relation Name = "Generous">0</Relation>
+				<Relation Name = "Optimistic">0</Relation>
+				<Relation Name = "Pessimistic">0</Relation>
+				<Relation Name = "Goofy">0</Relation>
+				<Relation Name = "Flirt">0</Relation>
+				<Relation Name = "Naive">0</Relation>
+				<Relation Name = "Dramatic">0</Relation>
+				<Relation Name = "Short-tempered">0</Relation>
+				<Relation Name = "Stubborn">0</Relation>
+				<Relation Name = "Introvert">0</Relation>
+				<Relation Name = "Extrovert">0</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Cocky</Name>
+			<WorkLearn>0.5</WorkLearn>
+			<Social>-0.5</Social>
+			<LazyStress>-1</LazyStress>
+			<Relationships>
+				<Relation Name = "Snob">0.25</Relation>
+				<Relation Name = "Optimistic">1.25</Relation>
+				<Relation Name = "Pessimistic">0.1</Relation>
+				<Relation Name = "Goofy">0.5</Relation>
+				<Relation Name = "Flirt">1.5</Relation>
+				<Relation Name = "Short-tempered">0.1</Relation>
+				<Relation Name = "Introvert">0.5</Relation>
+				<Relation Name = "Extrovert">1.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Snob</Name>
+			<WorkLearn>0.5</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Mean">1.5</Relation>
+				<Relation Name = "Optimistic">0.5</Relation>
+				<Relation Name = "Goofy">0.1</Relation>
+				<Relation Name = "Naive">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Mean</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>-0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Generous">0.1</Relation>
+				<Relation Name = "Optimistic">0.1</Relation>
+				<Relation Name = "Goofy">0.1</Relation>
+				<Relation Name = "Flirt">0.5</Relation>
+				<Relation Name = "Naive">0.25</Relation>
+				<Relation Name = "Dramatic">1.25</Relation>
+				<Relation Name = "Short-tempered">0.1</Relation>
+				<Relation Name = "Introvert">0.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Pessimistic</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>-0.5</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Naive">0.1</Relation>
+				<Relation Name = "Stubborn">1.25</Relation>
+				<Relation Name = "Introvert">1.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Goofy</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>0.5</Social>
+			<LazyStress>-0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Naive">1.25</Relation>
+				<Relation Name = "Short-tempered">0.1</Relation>
+				<Relation Name = "Introvert">1.75</Relation>
+				<Relation Name = "Extrovert">1.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Flirt</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>1</Social>
+			<LazyStress>-0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Naive">0.75</Relation>
+				<Relation Name = "Dramatic">1.25</Relation>
+				<Relation Name = "Extrovert">1.75</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Naive</Name>
+			<WorkLearn>-1</WorkLearn>
+			<Social>0</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Dramatic">1.25</Relation>
+				<Relation Name = "Stubborn">0.75</Relation>
+				<Relation Name = "Introvert">0.75</Relation>
+				<Relation Name = "Extrovert">1.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Dramatic</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>0.5</Social>
+			<LazyStress>1</LazyStress>
+			<Relationships>
+				<Relation Name = "Stubborn">0.5</Relation>
+				<Relation Name = "Introvert">0.25</Relation>
+				<Relation Name = "Extrovert">1.25</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Short-tempered</Name>
+			<WorkLearn>-0.5</WorkLearn>
+			<Social>-0.5</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Stubborn">0.1</Relation>
+				<Relation Name = "Extrovert">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Stubborn</Name>
+			<WorkLearn>-1</WorkLearn>
+			<Social>-0.5</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Introvert</Name>
+			<WorkLearn>1</WorkLearn>
+			<Social>-1</Social>
+			<LazyStress>0.5</LazyStress>
+			<Relationships>
+				<Relation Name = "Extrovert">0.75</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Extrovert</Name>
+			<WorkLearn>0</WorkLearn>
+			<Social>1</Social>
+			<LazyStress>0</LazyStress>
+			<Relationships>
+			</Relationships>
+		</Personality>
+	</Personalities>
+	<Incompatibilities>
+		<Incompatible>
+			<Personality>Misanthropist</Personality>
+			<Personality>Optimistic</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Misanthropist</Personality>
+			<Personality>Flirt</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Misanthropist</Personality>
+			<Personality>Extrovert</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Optimistic</Personality>
+			<Personality>Pessimistic</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Mean</Personality>
+			<Personality>Generous</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Mean</Personality>
+			<Personality>Flirt</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Flirt</Personality>
+			<Personality>Introvert</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Introvert</Personality>
+			<Personality>Extrovert</Personality>
+		</Incompatible>
+	</Incompatibilities>
+</PersonalityGraph>

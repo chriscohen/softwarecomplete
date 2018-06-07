@@ -5,13 +5,12 @@
 	<Random>0.7</Random>
 	<IdealPrice>80</IdealPrice>
     <OSSpecific>True</OSSpecific>
-	<OSNeed>Game Engine</OSNeed>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<Categories>
 		<Category Name="RPG">
 			<Description>Role Playing Game</Description>
-            <Unlock>1980</Unlock>
+            <Unlock>1975</Unlock>
 			<Popularity>0.6</Popularity>
 			<Retention>0.7</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -20,7 +19,7 @@
 		</Category>
 		<Category Name="Adventure">
 			<Description></Description>
-            <Unlock>1980</Unlock>
+            <Unlock>1976</Unlock>
 			<Popularity>0.6</Popularity>
 			<Retention>0.3</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -83,7 +82,7 @@
 		</Category>
         <Category Name="Puzzle">
 			<Description></Description>
-            <Unlock>1978</Unlock>
+            <Unlock>1971</Unlock>
 			<Popularity>0.4</Popularity>
 			<Retention>0.6</Retention>
 			<TimeScale>0.5</TimeScale>
@@ -146,6 +145,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Terminal</Dependency>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Keyboard input</Name>
@@ -193,6 +193,7 @@
 			<CodeArt>0.3</CodeArt>
 			<Dependency Software="Game Engine">3D rendering</Dependency>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
+			<Dependency Software="Operating System">3D rendering</Dependency>
 		</Feature>
 		<Feature From="3D graphics">
 			<Name>HD graphics</Name>
@@ -311,7 +312,7 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<Dependency Software="Game Engine">PC speaker</Dependency>
+			<Dependency Software="Operating System">PC speaker</Dependency>
 		</Feature>
         <Feature From="PC speaker" Vital="TRUE">
 			<Name>8-bit audio</Name>
@@ -382,11 +383,11 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
-            <SoftwareCategory Category="RPG">0</SoftwareCategory>
-            <SoftwareCategory Category="Adventure">0</SoftwareCategory>
-            <SoftwareCategory Category="Space">0</SoftwareCategory>
-            <SoftwareCategory Category="Horror">0</SoftwareCategory>
-            <SoftwareCategory Category="FPS">0</SoftwareCategory>
+            <SoftwareCategory Category="RPG">1997</SoftwareCategory>
+            <SoftwareCategory Category="Adventure">1997</SoftwareCategory>
+            <SoftwareCategory Category="Space">1997</SoftwareCategory>
+            <SoftwareCategory Category="Horror">1997</SoftwareCategory>
+            <SoftwareCategory Category="FPS">1997</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>AI</Name>
@@ -421,7 +422,7 @@
 			<Server>0.0003</Server>
 			<Dependency Software="Game Engine">Networking</Dependency>
 		</Feature>
-		<Feature Research="Game modes">
+		<Feature>
 			<Name>Deathmatch</Name>
 			<Category>System</Category>
 			<Unlock>1990</Unlock>
@@ -432,10 +433,10 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Online multiplayer</Dependency>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1990</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1990</SoftwareCategory>
 		</Feature>
-		<Feature Research="Game modes">
+		<Feature>
 			<Name>Capture the flag</Name>
 			<Category>System</Category>
 			<Unlock>1994</Unlock>
@@ -446,11 +447,11 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Online multiplayer</Dependency>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1994</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1994</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1994</SoftwareCategory>
 		</Feature>
-		<Feature Research="Game modes">
+		<Feature>
 			<Name>Control points</Name>
 			<Category>System</Category>
 			<Unlock>1997</Unlock>
@@ -461,9 +462,9 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Online multiplayer</Dependency>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1997</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1997</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1997</SoftwareCategory>
 		</Feature>
 		<Feature From="Online multiplayer">
 			<Name>Dedicated servers</Name>
@@ -490,14 +491,15 @@
 			<Dependency Software="Operating System">Touch</Dependency>
 		</Feature>
 		<Feature>
-			<Name>Cutscenes</Name>
+			<Name>FMV cutscenes</Name>
 			<Category>2D</Category>
-			<Description></Description>
+			<Description>A full motion video (FMV) is a video game narration technique that relies upon pre-recorded video files</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0</CodeArt>
+			<Dependency Software="Operating System">Video playback</Dependency>
 			<Dependency Software="Video Editor">Rendering</Dependency>
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
 			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
@@ -510,7 +512,7 @@
 			<SoftwareCategory Category="FPS">0</SoftwareCategory>
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
-		<Feature From="Cutscenes">
+		<Feature From="FMV cutscenes">
 			<Name>3D cutscenes</Name>
 			<Category>3D</Category>
 			<Description>Reflect player choices in the story by rendering cutscenes in realtime</Description>
@@ -673,13 +675,13 @@
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>0.3</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Sports">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1984</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1984</SoftwareCategory>
+			<SoftwareCategory Category="Sports">1984</SoftwareCategory>
+			<SoftwareCategory Category="Space">1984</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1984</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1984</SoftwareCategory>
+			<SoftwareCategory Category="MMO">1984</SoftwareCategory>
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Save game</Name>
@@ -775,44 +777,15 @@
 			<Usability>0</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
-			<SoftwareCategory Category="Sports">0</SoftwareCategory>
-			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
-		</Feature>
-		<Feature Vital="TRUE" Research="3D graphics">
-			<Name>Real weapons license</Name>
-			<Category>3D</Category>
-			<Description>Licenses with weapons manufacturers to put their weapons in the game.</Description>
-			<DevTime>3</DevTime>
-			<Innovation>4</Innovation>
-			<Usability>4</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
-            <SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
-			<SoftwareCategory Category="MMO">0</SoftwareCategory>
-		</Feature>
-		<Feature Vital="TRUE" Research="3D graphics">
-			<Name>Real military license</Name>
-			<Category>3D</Category>
-			<Description>Licenses with military manufacturers to put their military units in the game.</Description>
-			<DevTime>2</DevTime>
-			<Innovation>3</Innovation>
-			<Usability>3</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
-            <SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1988</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1988</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">1988</SoftwareCategory>
+			<SoftwareCategory Category="Sports">1988</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">1988</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1988</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1988</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1988</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">1988</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Replay system</Name>
@@ -862,13 +835,13 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Game">Map</Dependency>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2001</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2001</SoftwareCategory>
+			<SoftwareCategory Category="Space">2001</SoftwareCategory>
+			<SoftwareCategory Category="Horror">2001</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2001</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2001</SoftwareCategory>
+			<SoftwareCategory Category="MMO">2001</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Procedural generation</Name>
@@ -880,16 +853,16 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
-			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
-			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2007</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2007</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">2007</SoftwareCategory>
+			<SoftwareCategory Category="Space">2007</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">2007</SoftwareCategory>
+			<SoftwareCategory Category="Horror">2007</SoftwareCategory>
+			<SoftwareCategory Category="RTS">2007</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2007</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">2007</SoftwareCategory>
+			<SoftwareCategory Category="MMO">2007</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Party system</Name>
@@ -934,7 +907,7 @@
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
+			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Game">8-bit audio</Dependency>
 			<Dependency Software="Game">Dialog</Dependency>
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
@@ -969,7 +942,7 @@
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>2</Stability>
-			<CodeArt>0.2</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Quest system</Dependency>
 			<SoftwareCategory Category="RPG">0</SoftwareCategory>
 			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
@@ -1062,10 +1035,10 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">2009</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">2009</SoftwareCategory>
+			<SoftwareCategory Category="Horror">2009</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2009</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Character classes</Name>
@@ -1093,7 +1066,7 @@
 			<Usability>0</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="FPS">2017</SoftwareCategory>
 		</Feature>
 		<!-- START SSAO FEATURES -->
 		<Feature Vital="TRUE">
@@ -1245,17 +1218,6 @@
             <Dependency Software="Game Engine">Flight physics</Dependency>
 			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
 		</Feature>
-		<Feature Vital="TRUE" Research="3D graphics">
-			<Name>Real aircraft license</Name>
-			<Category>3D</Category>
-			<Description>Licences with real-world companies to put their aircraft in the game.</Description>
-			<DevTime>4</DevTime>
-			<Innovation>4</Innovation>
-			<Usability>4</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
-			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
-		</Feature>
 		<Feature>
 			<Name>World map</Name>
 			<Category>3D</Category>
@@ -1372,39 +1334,6 @@
 		</Feature>
 		<!-- END FLIGHT SIMULATOR SPECIFIC -->
 		<!-- START RACING SPECIFIC -->
-		<Feature Vital="TRUE" Research="3D graphics">
-			<Name>Real vehicle license</Name>
-			<Category>3D</Category>
-			<Description>Licenses with real vehicle manufacturers to put their vehicles in the game.</Description>
-			<DevTime>5</DevTime>
-			<Innovation>4</Innovation>
-			<Usability>4</Usability>
-			<Stability>0</Stability>
-			<CodeArt>0.5</CodeArt>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
-		</Feature>
-		<Feature Research="3D graphics">
-			<Name>Real tire license</Name>
-			<Category>3D</Category>
-			<Description>Licenses with real tire manufacturers to put their tires in the game.</Description>
-			<DevTime>2</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>0</Usability>
-			<Stability>0</Stability>
-			<CodeArt>0</CodeArt>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
-		</Feature>
-		<Feature Vital="TRUE" Research="3D graphics">
-			<Name>Real circuit license</Name>
-			<Category>3D</Category>
-			<Description>Licenses with real circuits to put their racing tracks in the game.</Description>
-			<DevTime>5</DevTime>
-			<Innovation>4</Innovation>
-			<Usability>1</Usability>
-			<Stability>1</Stability>
-			<CodeArt>0</CodeArt>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
-		</Feature>
 		<Feature>
 			<Name>Damage simulation</Name>
 			<Category>Algorithm</Category>
@@ -1445,6 +1374,7 @@
 		<Feature>
 			<Name>Pit stop</Name>
 			<Category>Algorithm</Category>
+			<ArtCategory>2D</ArtCategory>
 			<Description>Players can stop a vehicle in the pits and change tires or refuel.</Description>
 			<DevTime>1</DevTime>
 			<Innovation>1</Innovation>
@@ -1603,7 +1533,7 @@
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.3</CodeArt>
+			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Space">0</SoftwareCategory>
 		</Feature>
 		<Feature>
@@ -1617,6 +1547,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Game">Physics</Dependency>
+			<Dependency Software="Game">3D graphics</Dependency>
 			<SoftwareCategory Category="Space">0</SoftwareCategory>
 		</Feature>
 		<!-- END SPACE SPECIFIC -->
@@ -1651,13 +1582,13 @@
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Raid system</Name>
-			<Category>System</Category>
+			<Category>Network</Category>
 			<Description>Players can attack a specific objective in a large group (a raid).</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Party system</Dependency>
 			<SoftwareCategory Category="MMO">0</SoftwareCategory>
 		</Feature>
@@ -1867,7 +1798,7 @@
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">2D graphics</Dependency>
 			<SoftwareCategory Category="Puzzle">1984</SoftwareCategory>
 		</Feature>
@@ -1906,19 +1837,19 @@
 			<Usability>2</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
-			<SoftwareCategory Category="Sports">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
-			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
-			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
-			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1985</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1985</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">1985</SoftwareCategory>
+			<SoftwareCategory Category="Sports">1985</SoftwareCategory>
+			<SoftwareCategory Category="Space">1985</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">1985</SoftwareCategory>
+			<SoftwareCategory Category="Racing">1985</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">1985</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">1985</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1985</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1985</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1985</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">1985</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>UI editing</Name>
@@ -1930,15 +1861,15 @@
 			<Usability>1</Usability>
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
-			<SoftwareCategory Category="Space">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
-			<SoftwareCategory Category="MMO">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1992</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1992</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">1992</SoftwareCategory>
+			<SoftwareCategory Category="Space">1992</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1992</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1992</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1992</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">1992</SoftwareCategory>
+			<SoftwareCategory Category="MMO">1992</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Level editing</Name>
@@ -1952,11 +1883,11 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1985</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1985</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1985</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1985</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1985</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Scenario editing</Name>
@@ -1970,15 +1901,15 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">Game modes</Dependency>
-			<SoftwareCategory Category="RPG">0</SoftwareCategory>
-			<SoftwareCategory Category="Adventure">0</SoftwareCategory>
-			<SoftwareCategory Category="Simulation">0</SoftwareCategory>
-			<SoftwareCategory Category="Sports">0</SoftwareCategory>
-			<SoftwareCategory Category="Fighting">0</SoftwareCategory>
-			<SoftwareCategory Category="Horror">0</SoftwareCategory>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="FPS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="RPG">1990</SoftwareCategory>
+			<SoftwareCategory Category="Adventure">1990</SoftwareCategory>
+			<SoftwareCategory Category="Simulation">1990</SoftwareCategory>
+			<SoftwareCategory Category="Sports">1990</SoftwareCategory>
+			<SoftwareCategory Category="Fighting">1990</SoftwareCategory>
+			<SoftwareCategory Category="Horror">1990</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1990</SoftwareCategory>
+			<SoftwareCategory Category="FPS">1990</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">1990</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Vehicle editing</Name>
@@ -1992,7 +1923,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">3D graphics</Dependency>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">1989</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Circuit editing</Name>
@@ -2006,7 +1937,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="Racing">0</SoftwareCategory>
+			<SoftwareCategory Category="Racing">1988</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Aircraft editing</Name>
@@ -2020,7 +1951,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">3D graphics</Dependency>
-			<SoftwareCategory Category="Flight Simulator">0</SoftwareCategory>
+			<SoftwareCategory Category="Flight Simulator">1993</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Unit editing</Name>
@@ -2034,8 +1965,8 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="RTS">0</SoftwareCategory>
-			<SoftwareCategory Category="Grand Strategy">0</SoftwareCategory>
+			<SoftwareCategory Category="RTS">1987</SoftwareCategory>
+			<SoftwareCategory Category="Grand Strategy">1987</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Puzzle editing</Name>
@@ -2049,7 +1980,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="Puzzle">0</SoftwareCategory>
+			<SoftwareCategory Category="Puzzle">1986</SoftwareCategory>
 		</Feature>
 		<!-- END MODDING FEATURES -->
 	</Features>

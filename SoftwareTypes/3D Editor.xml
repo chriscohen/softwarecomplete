@@ -3,7 +3,7 @@
 	<Category>Graphics</Category>
 	<Description>Edit 3D file formats and create 3D models</Description>
 	<Random>0.2</Random>
-	<Popularity>0.6</Popularity>
+	<Popularity>0.3</Popularity>
 	<Retention>0.5</Retention>
 	<OSSpecific>True</OSSpecific>
 	<OSLimit>Computer</OSLimit>
@@ -280,6 +280,7 @@
         <Feature>
 			<Name>Stock library</Name>
 			<Category>3D</Category>
+			<Unlock>1993</Unlock>
 			<Description>A library of models that can be used as a base for new work, or to embellish existing work.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>

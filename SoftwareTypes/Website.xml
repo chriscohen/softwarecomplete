@@ -84,7 +84,7 @@
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Website</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
             <ArtCategory>2D</ArtCategory>
 			<Description>The website itself.</Description>
 			<DevTime>5</DevTime>
@@ -98,7 +98,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>CSS</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>The website uses CSS to enhance it visually.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>0</Innovation>
@@ -109,7 +109,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>SCSS</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>The website uses SCSS to enable more efficient CSS development.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
@@ -120,7 +120,7 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>JavaScript</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>Allow the website to use JavaScript to enhance its functionality.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -131,7 +131,7 @@
 		</Feature>
         <Feature From="JavaScript">
 			<Name>TypeScript</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>Allow the website to use TypeScript to further enhance its functionality.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
@@ -193,13 +193,13 @@
         <Feature Vital="TRUE">
 			<Name>Single-page app</Name>
             <Unlock>2010</Unlock>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>The website can display most information without reloading pages, for a better browsing experience.</Description>
 			<DevTime>4</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.2</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependency Software="IDE">Single-page apps</Dependency>
             <SoftwareCategory Category="Blog">2010</SoftwareCategory>
             <SoftwareCategory Category="Music">2010</SoftwareCategory>
@@ -209,7 +209,8 @@
         <!-- BLOG START -->
         <Feature Forced="TRUE">
             <Name>Blog posting</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
             <Description>Users can write and save their own blog posts.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
@@ -222,33 +223,34 @@
         </Feature>
         <Feature Vital="TRUE">
             <Name>Draft mode</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Users can save but not yet publish a blog post, and return later.</Description>
             <DevTime>2</DevTime>
             <Innovation>0</Innovation>
             <Usability>2</Usability>
 			<Stability>0</Stability>
-			<CodeArt>0.75</CodeArt>
+			<CodeArt>1</CodeArt>
             <Server>0.0001</Server>
             <Dependency Software="Website">Blog posting</Dependency>
             <SoftwareCategory Category="Blog">0</SoftwareCategory>
         </Feature>
         <Feature>
             <Name>Blog comments</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Users can comment on others' blog posts.</Description>
             <DevTime>3</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.85</CodeArt>
+			<CodeArt>1</CodeArt>
             <Server>0.0001</Server>
             <Dependency Software="Website">Blog posting</Dependency>
             <SoftwareCategory Category="Blog">0</SoftwareCategory>
         </Feature>
         <Feature>
             <Name>WYSIWYG editor</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
+			<ArtCategory>2D</ArtCategory>
             <Description>Adds a "what you see is what you get" editor for text formatting on-screen while writing.</Description>
             <DevTime>4</DevTime>
             <Innovation>2</Innovation>
@@ -261,13 +263,13 @@
         </Feature>
         <Feature>
             <Name>Embed audio clips</Name>
-            <Category>Web</Category>
+            <Category>Audio</Category>
             <Description>Allows audio clips to be embedded into blog posts.</Description>
             <DevTime>3</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>1</CodeArt>
             <Dependency Software="Website">Blog posting</Dependency>
             <Dependency Software="Audio Tool">Cloud save</Dependency>
             <Dependency Software="Audio Tool">Audio compression</Dependency>
@@ -275,7 +277,7 @@
         </Feature>
         <Feature>
             <Name>Embed video clips</Name>
-            <Category>Web</Category>
+            <Category>2D</Category>
             <Description>Allows video clips to be embedded into blog posts.</Description>
             <DevTime>4</DevTime>
             <Innovation>1</Innovation>
@@ -297,7 +299,7 @@
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>0.9</CodeArt>
             <Server>0.09</Server>
             <Dependency Software="Video Editor">Video compression</Dependency>
             <SoftwareCategory Category="Video">0</SoftwareCategory>
@@ -374,13 +376,12 @@
         <Feature Forced="TRUE">
 			<Name>Music playback</Name>
 			<Category>Audio</Category>
-            <ArtCategory>Web</ArtCategory>
-			<Description>Users can play back music from the site.</Description>
+            <Description>Users can play back music from the site.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>0.9</CodeArt>
             <Server>0.009</Server>
             <Dependency Software="Music Editor">Music playback</Dependency>
             <SoftwareCategory Category="Music">0</SoftwareCategory>
@@ -414,26 +415,26 @@
 		</Feature>
         <Feature Vital="TRUE">
 			<Name>Music ratings</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>Users can add ratings for music.</Description>
 			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>1</CodeArt>
             <Server>0.0001</Server>
             <Dependency Software="Website">Music playback</Dependency>
             <SoftwareCategory Category="Music">0</SoftwareCategory>
 		</Feature>
         <Feature From="Music ratings" Vital="TRUE">
 			<Name>Music reviews</Name>
-			<Category>Web</Category>
+			<Category>Network</Category>
 			<Description>Users can add reviews and ratings for music.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>1</CodeArt>
             <Server>0.0003</Server>
 			<SoftwareCategory Category="Music">0</SoftwareCategory>
 		</Feature>
@@ -441,13 +442,13 @@
         <!-- DATING START -->
         <Feature Forced="TRUE">
             <Name>Dating profiles</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Allow users to create and share profiles.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.5</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.0001</Server>
             <Dependency Software="2D Editor">Graphic design</Dependency>
             <SoftwareCategory Category="Dating">0</SoftwareCategory>
@@ -511,7 +512,7 @@
         <!-- SOCIAL NETWORK START -->
         <Feature Forced="TRUE">
             <Name>Social profiles</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <ArtCategory>2D</ArtCategory>
             <Description>Users can create and share profile information.</Description>
             <DevTime>2</DevTime>
@@ -525,7 +526,7 @@
         </Feature>
         <Feature Vital="TRUE">
             <Name>Friend requests</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Users can befriend others.</Description>
             <DevTime>1</DevTime>
             <Innovation>1</Innovation>
@@ -598,7 +599,7 @@
         <!-- SCM START -->
         <Feature Forced="TRUE">
             <Name>Code viewer</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>Source code can be viewed via a web page.</Description>
             <DevTime>2</DevTime>
@@ -612,42 +613,42 @@
         </Feature>
         <Feature Vital="TRUE">
             <Name>Diff</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>Two pieces of code can be "diffed" via a web page, to show their differences.</Description>
             <DevTime>2</DevTime>
             <Innovation>0</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.9</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.001</Server>
             <Dependency Software="SCM">Diff</Dependency>
             <SoftwareCategory Category="SCM">0</SoftwareCategory>
         </Feature>
         <Feature Vital="TRUE">
             <Name>Cloning</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>An online repository can be "cloned" to produce a working copy locally.</Description>
             <DevTime>2</DevTime>
             <Innovation>0</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.9</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.001</Server>
             <Dependency Software="SCM">Revision history</Dependency>
             <SoftwareCategory Category="SCM">0</SoftwareCategory>
         </Feature>
         <Feature Vital="TRUE">
             <Name>Branching</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>Code branches can be created instantly using the website.</Description>
             <DevTime>1</DevTime>
             <Innovation>0</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.95</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.001</Server>
             <Dependency Software="SCM">Branching</Dependency>
             <Dependency Software="Website">Code viewer</Dependency>
@@ -655,14 +656,14 @@
         </Feature>
         <Feature>
             <Name>Forking</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>Users can "fork" repositories to create their own, distinct versions.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.95</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.002</Server>
             <Dependency Software="SCM">Forking</Dependency>
             <Dependency Software="Website">Branching</Dependency>
@@ -670,14 +671,14 @@
         </Feature>
         <Feature Vital="TRUE">
             <Name>Pull requests</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2008</Unlock>
             <Description>Developers can submit a pull request to allow others to check work and merge branches.</Description>
             <DevTime>3</DevTime>
             <Innovation>1</Innovation>
             <Usability>2</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.8</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.001</Server>
             <Dependency Software="Website">Branching</Dependency>
             <Dependency Software="SCM">Pull requests</Dependency>
@@ -685,14 +686,14 @@
         </Feature>
         <Feature>
             <Name>Code comments</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Unlock>2010</Unlock>
             <Description>Developers can leave comments on pull requests, suggesting code changes.</Description>
             <DevTime>2</DevTime>
             <Innovation>2</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.6</CodeArt>
+            <CodeArt>1</CodeArt>
             <Server>0.001</Server>
             <Dependency Software="Website">Pull requests</Dependency>
             <SoftwareCategory Category="SCM">0</SoftwareCategory>
@@ -742,7 +743,7 @@
         </Feature>
         <Feature>
             <Name>Folder support</Name>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Files can be organised into folders.</Description>
             <DevTime>1</DevTime>
             <Innovation>0</Innovation>
@@ -767,14 +768,14 @@
         <Feature Vital="TRUE">
             <Name>File previews</Name>
             <Category>Algorithm</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <Unlock>2014</Unlock>
             <Description>The contents of a file can be previewed without downloading it.</Description>
             <DevTime>3</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>0</Stability>
-            <CodeArt>0.5</CodeArt>
+            <CodeArt>0.7</CodeArt>
             <Dependency Software="Website">File uploads</Dependency>
             <Dependency Software="IDE">JavaScript</Dependency>
             <SoftwareCategory Category="File Storage">0</SoftwareCategory>
@@ -782,14 +783,13 @@
         <Feature>
             <Name>File sharing</Name>
             <Category>Network</Category>
-            <ArtCategory>Web</ArtCategory>
             <Unlock>2014</Unlock>
             <Description>Users can give access to their files, to other users.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>0</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.9</CodeArt>
+            <CodeArt>1</CodeArt>
             <Dependency Software="Website">File uploads</Dependency>
             <SoftwareCategory Category="File Storage">0</SoftwareCategory>
         </Feature>
@@ -842,13 +842,13 @@
             <Name>Inbox</Name>
             <Unlock>1999</Unlock>
             <Category>Network</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <Description>Send and receive emails using a web page.</Description>
             <DevTime>3</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.5</CodeArt>
+            <CodeArt>0.8</CodeArt>
             <Server>0.0002</Server>
             <SoftwareCategory Category="Email">1999</SoftwareCategory>
         </Feature>
@@ -856,7 +856,6 @@
             <Name>File attachments</Name>
 			<Unlock>2000</Unlock>
             <Category>Network</Category>
-            <ArtCategory>Web</ArtCategory>
             <Description>Attach a file to an email.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
@@ -885,13 +884,13 @@
 		<Feature>
             <Name>HTML emails</Name>
 			<Unlock>2001</Unlock>
-            <Category>Web</Category>
+            <Category>Network</Category>
             <Description>Use HTML formatting in emails instead of just plain text.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>0</CodeArt>
+            <CodeArt>1</CodeArt>
 			<Dependency Software="Website">Inbox</Dependency>
             <SoftwareCategory Category="Email">2001</SoftwareCategory>
         </Feature>
@@ -937,13 +936,13 @@
 		<Feature>
             <Name>Signature</Name>
 			<Unlock>2001</Unlock>
-            <Category>Web</Category>
+            <Category>System</Category>
             <Description>Insert the same signature into every email at the bottom.</Description>
             <DevTime>1</DevTime>
             <Innovation>1</Innovation>
             <Usability>0</Usability>
             <Stability>0</Stability>
-            <CodeArt>0</CodeArt>
+            <CodeArt>1</CodeArt>
 			<Dependency Software="Website">Inbox</Dependency>
             <SoftwareCategory Category="Email">2001</SoftwareCategory>
         </Feature>
@@ -977,7 +976,7 @@
             <Name>Categorization</Name>
 			<Unlock>2005</Unlock>
             <Category>Algorithm</Category>
-            <ArtCategory>Web</ArtCategory>
+            <ArtCategory>2D</ArtCategory>
             <Description>Users can specify categories or folders and place emails within them for sorting.</Description>
             <DevTime>1</DevTime>
             <Innovation>0</Innovation>
@@ -1002,27 +1001,27 @@
         <Feature>
             <Name>Report as spam</Name>
 			<Unlock>2008</Unlock>
-            <Category>Network</Category>
-            <ArtCategory>Web</ArtCategory>
+            <Category>Algorithm</Category>
             <Description>Tell the website that your email is spam, and help the website improve its spam filtering.</Description>
             <DevTime>2</DevTime>
             <Innovation>1</Innovation>
             <Usability>0</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.8</CodeArt>
+            <CodeArt>1</CodeArt>
             <Dependency Software="Website">Spam filter</Dependency>
             <SoftwareCategory Category="Email">2012</SoftwareCategory>
         </Feature>
         <Feature>
             <Name>Remind me later</Name>
 			<Unlock>2006</Unlock>
-            <Category>Web</Category>
+            <Category>System</Category>
+			<ArtCategory>2D</ArtCategory>
             <Description>Put away or flag an email to be dealt with at a later time.</Description>
             <DevTime>1</DevTime>
             <Innovation>0</Innovation>
             <Usability>1</Usability>
             <Stability>1</Stability>
-            <CodeArt>0.5</CodeArt>
+            <CodeArt>0.9</CodeArt>
             <Dependency Software="Website">Inbox</Dependency>
             <SoftwareCategory Category="Email">2006</SoftwareCategory>
         </Feature>

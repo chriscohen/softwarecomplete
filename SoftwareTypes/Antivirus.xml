@@ -1,0 +1,86 @@
+<SoftwareType>
+	<Name>Antivirus</Name>
+	<Category>Security</Category>
+	<Description>Protecting computers from digital troublemakers since it became profitable to do so.</Description>
+	<Random>0.3</Random>
+	<Popularity>0.5</Popularity>
+	<Retention>0.5</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Unlock>1985</Unlock>
+	<Iterative>1</Iterative>
+	<IdealPrice>70</IdealPrice>
+	<NameGenerator>Antivirus</NameGenerator>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>File scan</Name>
+			<Category>Algorithm</Category>
+			<Description></Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>User interface</Name>
+			<Category>2D</Category>
+			<Description>Make it easy for the user to manage their virus handling</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0</CodeArt>
+			<Dependency Software="2D Editor">Pixel manipulation</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Firewall</Name>
+			<Unlock>1992</Unlock>
+			<Category>Network</Category>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature  Vital="TRUE">
+			<Name>Background scan</Name>
+			<Description>Scan for viruses in the background causing hilarious file locks randomly</Description>
+			<Category>System</Category>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Antivirus">File scan</Dependency>
+			<Dependency Software="Operating System">Multithreading</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Mail scan</Name>
+			<Category>Algorithm</Category>
+			<Description>There's always room for enlargement</Description>
+			<DevTime>4</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+		<Feature  Vital="TRUE">
+			<Name>Virus database</Name>
+			<Unlock>1991</Unlock>
+			<Category>Network</Category>
+			<Description>Automagically keep your user's virus definitions up to date</Description>
+			<DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.001</Server>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Feature>
+	</Features>
+</SoftwareType>

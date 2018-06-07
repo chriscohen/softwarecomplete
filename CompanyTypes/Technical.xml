@@ -7,7 +7,6 @@
 		<Type Software="Compression">1</Type>
         <Type Software="Cryptography">1</Type>
         <Type Software="Database">1</Type>
-		<Type Software="IDE">1</Type>
-        <Type Software="SCM">1</Type>
+		<Type Software="SCM">1</Type>
 	</Types>
 </CompanyType>

@@ -1,0 +1,9 @@
+<CompanyType>
+	<Specialization>Productivity</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>6</Max>
+	<Types>
+		<Type Software="Office Software">1</Type>
+    </Types>
+</CompanyType>

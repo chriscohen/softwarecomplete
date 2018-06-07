@@ -2,6 +2,7 @@
 	<Name>Modding Tool</Name>
 	<Category>Gaming</Category>
 	<Description>A tool to allow games or game engines to be modified.</Description>
+	<Unlock>1982</Unlock>
 	<Random>0.6</Random>
 	<IdealPrice>20</IdealPrice>
 	<OSSpecific>True</OSSpecific>
@@ -11,7 +12,7 @@
 	<Categories>
 		<Category Name="Game">
 			<Description>Modding tool for games.</Description>
-            <Unlock>1980</Unlock>
+            <Unlock>1985</Unlock>
 			<Popularity>0.4</Popularity>
 			<Retention>0.4</Retention>
 			<TimeScale>0.7</TimeScale>
@@ -40,7 +41,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game Engine">Mod support</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Editor GUI</Name>
@@ -53,7 +54,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">Text-based</Dependency>
 			<Dependency Software="Game Engine">2D rendering</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Sprite editor</Name>
@@ -66,7 +67,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">Editor GUI</Dependency>
 			<Dependency Software="Game Engine">2D rendering</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>3D editor</Name>
@@ -79,7 +80,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">Editor GUI</Dependency>
 			<Dependency Software="Game Engine">3D rendering</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1983</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Audio editor</Name>
@@ -92,7 +93,7 @@
 			<CodeArt>0.8</CodeArt>
 			<Dependency Software="Modding Tool">Editor GUI</Dependency>
 			<Dependency Software="Game Engine">8-bit audio</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Lighting editor</Name>
@@ -106,7 +107,7 @@
 			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Modding Tool">3D editor</Dependency>
 			<Dependency Software="Game Engine">Lighting</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Texture editor</Name>
@@ -119,7 +120,7 @@
 			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Modding Tool">3D editor</Dependency>
 			<Dependency Software="Game Engine">Textures</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Shader editor</Name>
@@ -132,7 +133,7 @@
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Modding Tool">Texture editor</Dependency>
 			<Dependency Software="Game Engine">Advanced shaders</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Script modding</Name>
@@ -144,7 +145,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game Engine">Scripting</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>2D asset library</Name>
@@ -156,7 +157,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.1</CodeArt>
 			<Dependency Software="Game Engine">2D rendering</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1982</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>3D asset library</Name>
@@ -169,7 +170,7 @@
 			<CodeArt>0.1</CodeArt>
 			<Dependency Software="Modding Tool">2D asset library</Dependency>
 			<Dependency Software="Game Engine">3D rendering</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1983</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Audio asset library</Name>
@@ -181,7 +182,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.1</CodeArt>
 			<Dependency Software="Game Engine">8-bit audio</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1984</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online asset library</Name>
@@ -200,7 +201,7 @@
 			<Dependency Software="Modding Tool">Audio asset library</Dependency>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Website">File uploads</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1998</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online mod library</Name>
@@ -215,7 +216,7 @@
 			<Server>0.002</Server>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Website">File uploads</Dependency>
-			<SoftwareCategory Category="Game engine">0</SoftwareCategory>
+			<SoftwareCategory Category="Game engine">1998</SoftwareCategory>
 		</Feature>
 		<!-- GAME ENGINE END -->
 		<!-- GAME START -->
@@ -229,7 +230,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Mod support</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1980</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>GUI</Name>
@@ -242,7 +243,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">Text based</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1980</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Sprite editing</Name>
@@ -255,7 +256,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">GUI</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1980</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>3D editing</Name>
@@ -268,7 +269,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Modding Tool">GUI</Dependency>
 			<Dependency Software="Game">3D graphics</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1985</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Audio editing</Name>
@@ -281,7 +282,7 @@
 			<CodeArt>0.8</CodeArt>
 			<Dependency Software="Modding Tool">GUI</Dependency>
 			<Dependency Software="Game">8-bit audio</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1984</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Lighting editing</Name>
@@ -295,7 +296,7 @@
 			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
 			<Dependency Software="Game">Lighting</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1989</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Texture editing</Name>
@@ -308,7 +309,7 @@
 			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
 			<Dependency Software="Game">Textures</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1985</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Script mods</Name>
@@ -320,7 +321,7 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependency Software="Game">Scripting</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1984</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>2D level editor</Name>
@@ -334,7 +335,7 @@
 			<Dependency Software="Game">Level editing</Dependency>
 			<Dependency Software="Game">2D graphics</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1984</SoftwareCategory>
 		</Feature>
 		<Feature From="2D level editor" Vital="TRUE">
 			<Name>3D level editor</Name>
@@ -347,7 +348,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Game">Level editing</Dependency>
 			<Dependency Software="Game">3D graphics</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1985</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Online mods library</Name>
@@ -362,7 +363,7 @@
 			<Server>0.002</Server>
 			<Dependency Software="Operating System">Networking</Dependency>
 			<Dependency Software="Website">File uploads</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1998</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>UI editor</Name>
@@ -376,7 +377,7 @@
 			<CodeArt>0.2</CodeArt>
 			<Dependency Software="Game">UI editing</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1992</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Scenario editor</Name>
@@ -390,7 +391,7 @@
 			<CodeArt>0.7</CodeArt>
 			<Dependency Software="Game">Scenario editing</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1990</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Vehicle editor</Name>
@@ -404,7 +405,7 @@
 			<Dependency Software="Game">Vehicle editing</Dependency>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1989</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>2D circuit editor</Name>
@@ -418,7 +419,7 @@
 			<Dependency Software="Game">Circuit editing</Dependency>
 			<Dependency Software="Modding Tool">GUI</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1988</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE" From="2D circuit editor">
 			<Name>3D circuit editor</Name>
@@ -431,7 +432,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="Game">Circuit editing</Dependency>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1989</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Aircraft editor</Name>
@@ -445,7 +446,7 @@
 			<Dependency Software="Game">Aircraft editing</Dependency>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1993</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Unit editor</Name>
@@ -459,7 +460,7 @@
 			<Dependency Software="Game">Unit editing</Dependency>
 			<Dependency Software="Modding Tool">3D editing</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1987</SoftwareCategory>
 		</Feature>
 		<Feature Vital="TRUE">
 			<Name>Puzzle editor</Name>
@@ -473,7 +474,7 @@
 			<Dependency Software="Game">Puzzle editing</Dependency>
 			<Dependency Software="Modding Tool">GUI</Dependency>
 			<Dependency Software="Modding Tool">Script mods</Dependency>
-			<SoftwareCategory Category="Game">0</SoftwareCategory>
+			<SoftwareCategory Category="Game">1986</SoftwareCategory>
 		</Feature>
 		<!-- GAME END -->
 	</Features>

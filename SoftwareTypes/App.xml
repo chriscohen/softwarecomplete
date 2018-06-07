@@ -158,7 +158,7 @@
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>0</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>0.9</CodeArt>
             <Dependency Software="Website">Music playback</Dependency>
             <Dependency Software="Music Editor">Music playback</Dependency>
             <SoftwareCategory Category="Music">0</SoftwareCategory>
@@ -172,7 +172,7 @@
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>0.8</CodeArt>
             <Dependency Software="App">Music playback</Dependency>
             <Dependency Software="Website">Music ratings</Dependency>
             <SoftwareCategory Category="Music">0</SoftwareCategory>
@@ -186,7 +186,7 @@
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
 			<Stability>1</Stability>
-			<CodeArt>0.9</CodeArt>
+			<CodeArt>0.7</CodeArt>
             <Dependency Software="Website">Music reviews</Dependency>
 			<SoftwareCategory Category="Music">0</SoftwareCategory>
 		</Feature>
